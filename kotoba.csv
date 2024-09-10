@@ -1,0 +1,952 @@
+Question,Answers,Comment,Instructions,Render as
+一,"いち,いっ,ひと","(L3) one, one radical (no.1)
+kunyomi: ひと-, ひと.つ
+onyomi: イチ, イツ",Type the reading!,Image
+二,"に,ふた","(L3) two, two radical (no. 7)
+kunyomi: ふた, ふた.つ, ふたたび
+onyomi: ニ, ジ",Type the reading!,Image
+三,"さん,みっ","(L3) three
+kunyomi: み, み.つ, みっ.つ
+onyomi: サン, ゾウ",Type the reading!,Image
+四,"し,よん,よ,よっ","(L3) four
+kunyomi: よ, よ.つ, よっ.つ, よん
+onyomi: シ",Type the reading!,Image
+五,"ご,いつ","(L3) five
+kunyomi: いつ, いつ.つ
+onyomi: ゴ",Type the reading!,Image
+六,"ろく,ろっ,むっ","(L3) six
+kunyomi: む, む.つ, むっ.つ, むい
+onyomi: ロク, リク",Type the reading!,Image
+七,"しち,なな","(L3) seven
+kunyomi: なな, なな.つ, なの
+onyomi: シチ",Type the reading!,Image
+八,"はち,はっ,やっ","(L3) eight, eight radical (no. 12)
+kunyomi: や, や.つ, やっ.つ, よう
+onyomi: ハチ, ハツ",Type the reading!,Image
+九,"きゅう,く,ここの","(L3) nine
+kunyomi: ここの, ここの.つ
+onyomi: キュウ, ク",Type the reading!,Image
+十,"じゅう,じゅっ,じっ,とお","(L3) ten
+kunyomi: とお, と, そ
+onyomi: ジュウ, ジッ, ジュッ",Type the reading!,Image
+百,"ひゃく,びゃく,ぴゃく","(L3) hundred
+kunyomi: もも
+onyomi: ヒャク, ビャク",Type the reading!,Image
+千,"せん,ぜん","(L3) thousand
+kunyomi: ち
+onyomi: セン",Type the reading!,Image
+万,まん,"(L3) ten thousand, 10,000
+kunyomi: よろず
+onyomi: マン, バン",Type the reading!,Image
+円,"えん,まる","(L3) circle, yen, round
+kunyomi: まる.い, まる, まど, まど.か, まろ.やか
+onyomi: エン",Type the reading!,Image
+時,"じ,とき","(L3) time, hour
+kunyomi: とき, -どき
+onyomi: ジ",Type the reading!,Image
+日,"に,にち,にっ,び,ひ,か","(L4) day, sun, Japan, counter for days
+kunyomi: ひ, -び, -か
+onyomi: ニチ, ジツ",Type the reading!,Image
+本,"ほん,もと","(L4) book, present, main, origin, true, real, counter for long cylindrical things
+kunyomi: もと
+onyomi: ホン",Type the reading!,Image
+人,"じん,にん,ひと","(L4) person
+kunyomi: ひと, -り, -と
+onyomi: ジン, ニン",Type the reading!,Image
+月,"げつ,がつ,つき","(L4) month, moon
+kunyomi: つき
+onyomi: ゲツ, ガツ",Type the reading!,Image
+火,"か,ひ,び","(L4) fire
+kunyomi: ひ, -び, ほ-
+onyomi: カ",Type the reading!,Image
+水,"すい,みず","(L4) water
+kunyomi: みず, みず-
+onyomi: スイ",Type the reading!,Image
+木,"もく,き","(L4) tree, wood
+kunyomi: き, こ-
+onyomi: ボク, モク",Type the reading!,Image
+金,"きん,かね","(L4) gold
+kunyomi: かね, かな-, -がね
+onyomi: キン, コン, ゴン",Type the reading!,Image
+土,"ど,と,つち","(L4) soil, earth, ground, Turkey
+kunyomi: つち
+onyomi: ド, ト",Type the reading!,Image
+曜,よう,"(L4) weekday
+kunyomi: 
+onyomi: ヨウ",Type the reading!,Image
+上,"じょう,うえ,のぼ","(L4) above, up
+kunyomi: うえ, -うえ, うわ-, かみ, あ.げる, -あ.げる, あ.がる, -あ.がる, あ.がり, -あ.がり, のぼ.る, のぼ.り, のぼ.せる, のぼ.す, たてまつ.る
+onyomi: ジョウ, ショウ, シャン",Type the reading!,Image
+下,"か,した,くだ","(L4) below, down, descend, give, low, inferior
+kunyomi: した, しも, もと, さ.げる, さ.がる, くだ.る, くだ.り, くだ.す, -くだ.す, くだ.さる, お.ろす, お.りる
+onyomi: カ, ゲ",Type the reading!,Image
+中,"ちゅう,じゅう,なか","(L4) in, inside, middle, mean, center
+kunyomi: なか, うち, あた.る
+onyomi: チュウ",Type the reading!,Image
+半,はん,"(L4) half, middle, odd number, semi-, part-
+kunyomi: なか.ば
+onyomi: ハン",Type the reading!,Image
+山,"さん,やま","(L5) mountain
+kunyomi: やま
+onyomi: サン, セン",Type the reading!,Image
+川,"かわ,がわ","(L5) stream, river, river or three-stroke river radical (no. 47)
+kunyomi: かわ
+onyomi: セン",Type the reading!,Image
+元,"げん,がん,もと","(L5) beginning, former time, origin
+kunyomi: もと
+onyomi: ゲン, ガン",Type the reading!,Image
+気,き,"(L5) spirit, mind, air, atmosphere, mood
+kunyomi: き
+onyomi: キ, ケ",Type the reading!,Image
+天,てん,"(L5) heavens, sky, imperial
+kunyomi: あまつ, あめ, あま-
+onyomi: テン",Type the reading!,Image
+私,"し,わたし","(L5) private, I, me
+kunyomi: わたくし, わたし
+onyomi: シ",Type the reading!,Image
+今,"こん,いま","(L5) now
+kunyomi: いま
+onyomi: コン, キン",Type the reading!,Image
+田,"た,だ","(L5) rice field, rice paddy
+kunyomi: た
+onyomi: デン",Type the reading!,Image
+女,"じょ,おんな","(L5) woman, female
+kunyomi: おんな, め
+onyomi: ジョ, ニョ, ニョウ",Type the reading!,Image
+男,"だん,おとこ","(L5) male
+kunyomi: おとこ, お
+onyomi: ダン, ナン",Type the reading!,Image
+見,"けん,み","(L5) see, hopes, chances, idea, opinion, look at, visible
+kunyomi: み.る, み.える, み.せる
+onyomi: ケン",Type the reading!,Image
+行,"こう,ぎょう,い","(L5) going, journey, carry out, conduct, act, line, row, bank
+kunyomi: い.く, ゆ.く, -ゆ.き, -ゆき, -い.き, -いき, おこな.う, おこ.なう
+onyomi: コウ, ギョウ, アン",Type the reading!,Image
+食,"しょく,た","(L5) eat, food
+kunyomi: く.う, く.らう, た.べる, は.む
+onyomi: ショク, ジキ",Type the reading!,Image
+飲,"いん,の","(L5) drink, smoke, take
+kunyomi: の.む, -の.み
+onyomi: イン, オン",Type the reading!,Image
+東,"とう,ひがし","(L6) east
+kunyomi: ひがし
+onyomi: トウ",Type the reading!,Image
+西,"せい,さい,にし","(L6) west, Spain
+kunyomi: にし
+onyomi: セイ, サイ, ス",Type the reading!,Image
+南,"なん,みなみ","(L6) south
+kunyomi: みなみ
+onyomi: ナン, ナ",Type the reading!,Image
+北,"ほく,ほっ,きた","(L6) north
+kunyomi: きた
+onyomi: ホク",Type the reading!,Image
+口,"こう,ぐち,くち","(L6) mouth
+kunyomi: くち
+onyomi: コウ, ク",Type the reading!,Image
+出,"しゅっ,しゅつ,で,だ","(L6) exit, leave, go out, come out, put out, protrude
+kunyomi: で.る, -で, だ.す, -だ.す, い.でる, い.だす
+onyomi: シュツ, スイ",Type the reading!,Image
+右,"う,ゆう,みぎ","(L6) right
+kunyomi: みぎ
+onyomi: ウ, ユウ",Type the reading!,Image
+左,"さ,ひだり","(L6) left
+kunyomi: ひだり
+onyomi: サ, シャ",Type the reading!,Image
+分,"ふん,ぷん,ぶん,わ","(L6) part, minute of time, segment, share, degree, one's lot, duty, understand, know, rate, 1%, chances, shaku/100
+kunyomi: わ.ける, わ.け, わ.かれる, わ.かる, わ.かつ
+onyomi: ブン, フン, ブ",Type the reading!,Image
+先,"せん,さき","(L6) before, ahead, previous, future, precedence
+kunyomi: さき, ま.ず
+onyomi: セン",Type the reading!,Image
+生,"せい,しょう,う","(L6) life, genuine, birth
+kunyomi: い.きる, い.かす, い.ける, う.まれる, うま.れる, う.まれ, うまれ, う.む, お.う, は.える, は.やす, き, なま, なま-, な.る, な.す, む.す, -う
+onyomi: セイ, ショウ",Type the reading!,Image
+大,"だい,たい,おお","(L6) large, big
+kunyomi: おお-, おお.きい, -おお.いに
+onyomi: ダイ, タイ",Type the reading!,Image
+学,"がく,がっ,まな","(L6) study, learning, science
+kunyomi: まな.ぶ
+onyomi: ガク",Type the reading!,Image
+外,"がい,そと","(L6) outside
+kunyomi: そと, ほか, はず.す, はず.れる, と-
+onyomi: ガイ, ゲ",Type the reading!,Image
+国,"こく,ごく,こっ,くに","(L6) country
+kunyomi: くに
+onyomi: コク",Type the reading!,Image
+京,きょう,"(L7) capital, 10**16
+kunyomi: みやこ
+onyomi: キョウ, ケイ, キン",Type the reading!,Image
+子,"し,こ","(L7) child, sign of the rat, 11PM-1AM, first sign of Chinese zodiac
+kunyomi: こ, -こ, ね
+onyomi: シ, ス, ツ",Type the reading!,Image
+小,"しょう,ちい","(L7) little, small
+kunyomi: ちい.さい, こ-, お-, さ-
+onyomi: ショウ",Type the reading!,Image
+会,"かい,あ","(L7) meeting, meet, party, association, interview, join
+kunyomi: あ.う, あ.わせる, あつ.まる
+onyomi: カイ, エ",Type the reading!,Image
+社,"しゃ,じゃ","(L7) company, firm, office, association, shrine
+kunyomi: やしろ
+onyomi: シャ",Type the reading!,Image
+父,"ふ,ちち,とう","(L7) father
+kunyomi: ちち
+onyomi: フ",Type the reading!,Image
+母,"ぼ,はは,かあ","(L7) mother
+kunyomi: はは, も
+onyomi: ボ",Type the reading!,Image
+高,"こう,たか","(L7) tall, high, expensive
+kunyomi: たか.い, たか, -だか, たか.まる, たか.める
+onyomi: コウ",Type the reading!,Image
+校,こう,"(L7) exam, school, printing, proof, correction
+kunyomi: 
+onyomi: コウ, キョウ",Type the reading!,Image
+毎,まい,"(L7) every
+kunyomi: ごと, -ごと.に
+onyomi: マイ",Type the reading!,Image
+語,ご,"(L7) word, speech, language
+kunyomi: かた.る, かた.らう
+onyomi: ゴ",Type the reading!,Image
+文,ぶん,"(L7) sentence, literature, style, art, decoration, figures, plan, literary radical (no. 67)
+kunyomi: ふみ, あや
+onyomi: ブン, モン",Type the reading!,Image
+帰,"き,かえ","(L7) homecoming, arrive at, lead to, result in
+kunyomi: かえ.る, かえ.す, おく.る, とつ.ぐ
+onyomi: キ",Type the reading!,Image
+入,"にゅう,はい,い,いり","(L7) enter, insert
+kunyomi: い.る, -い.る, -い.り, い.れる, -い.れ, はい.る
+onyomi: ニュウ, ジュ",Type the reading!,Image
+員,いん,"(L8) employee, member, number, the one in charge
+kunyomi: 
+onyomi: イン",Type the reading!,Image
+新,"しん,あたら","(L8) new
+kunyomi: あたら.しい, あら.た, あら-, にい-
+onyomi: シン",Type the reading!,Image
+聞,"ぶん,き","(L8) hear, ask, listen
+kunyomi: き.く, き.こえる
+onyomi: ブン, モン",Type the reading!,Image
+作,"さく,つく","(L8) make, production, prepare, build
+kunyomi: つく.る, つく.り, -づく.り
+onyomi: サク, サ",Type the reading!,Image
+仕,"し,つか","(L8) attend, doing, official, serve
+kunyomi: つか.える
+onyomi: シ, ジ",Type the reading!,Image
+事,"じ,ごと,こと","(L8) matter, thing, fact, business, reason, possibly
+kunyomi: こと, つか.う, つか.える
+onyomi: ジ, ズ",Type the reading!,Image
+電,でん,"(L8) electricity
+kunyomi: 
+onyomi: デン",Type the reading!,Image
+車,"しゃ,くるま","(L8) car
+kunyomi: くるま
+onyomi: シャ",Type the reading!,Image
+休,"きゅう,やす","(L8) rest, day off, retire, sleep
+kunyomi: やす.む, やす.まる, やす.める
+onyomi: キュウ",Type the reading!,Image
+言,"げん,い,こと","(L8) say, word
+kunyomi: い.う, こと
+onyomi: ゲン, ゴン",Type the reading!,Image
+読,"どく,よ","(L8) read
+kunyomi: よ.む, -よ.み
+onyomi: ドク, トク, トウ",Type the reading!,Image
+思,"し,おも","(L8) think
+kunyomi: おも.う, おもえら.く, おぼ.す
+onyomi: シ",Type the reading!,Image
+次,"じ,つぎ","(L8) next, order, sequence
+kunyomi: つ.ぐ, つぎ
+onyomi: ジ, シ",Type the reading!,Image
+何,"なに,なん","(L8) what
+kunyomi: なに, なん, なに-, なん-
+onyomi: カ",Type the reading!,Image
+午,ご,"(L9) noon, sign of the horse, 11AM-1PM, seventh sign of Chinese zodiac
+kunyomi: うま
+onyomi: ゴ",Type the reading!,Image
+後,"ご,あと,うし","(L9) behind, back, later
+kunyomi: のち, うし.ろ, うしろ, あと, おく.れる
+onyomi: ゴ, コウ",Type the reading!,Image
+前,"ぜん,まえ","(L9) in front, before
+kunyomi: まえ, -まえ
+onyomi: ゼン",Type the reading!,Image
+名,"めい,みょう,な","(L9) name, noted, distinguished, reputation
+kunyomi: な, -な
+onyomi: メイ, ミョウ",Type the reading!,Image
+白,"はく,しろ","(L9) white
+kunyomi: しろ, しら-, しろ.い
+onyomi: ハク, ビャク",Type the reading!,Image
+雨,"う,あめ","(L9) rain
+kunyomi: あめ, あま-, -さめ
+onyomi: ウ",Type the reading!,Image
+書,"しょ,か","(L9) write
+kunyomi: か.く, -が.き, -がき
+onyomi: ショ",Type the reading!,Image
+友,"ゆう,とも","(L9) friend
+kunyomi: とも
+onyomi: ユウ",Type the reading!,Image
+間,"かん,げん,あいだ","(L9) interval, space
+kunyomi: あいだ, ま, あい
+onyomi: カン, ケン",Type the reading!,Image
+家,"か,いえ,や","(L9) house, home, family, professional, expert, performer
+kunyomi: いえ, や, うち
+onyomi: カ, ケ",Type the reading!,Image
+話,"わ,はな,はなし","(L9) tale, talk
+kunyomi: はな.す, はなし
+onyomi: ワ",Type the reading!,Image
+少,"しょう,すこ,すく","(L9) few, little
+kunyomi: すく.ない, すこ.し
+onyomi: ショウ",Type the reading!,Image
+古,"こ,ふる","(L9) old
+kunyomi: ふる.い, ふる-, -ふる.す
+onyomi: コ",Type the reading!,Image
+知,"ち,し","(L9) know, wisdom
+kunyomi: し.る, し.らせる
+onyomi: チ",Type the reading!,Image
+来,"らい,く,き,こ","(L9) come, due, next, cause, become
+kunyomi: く.る, きた.る, きた.す, き.たす, き.たる, き, こ
+onyomi: ライ, タイ",Type the reading!,Image
+住,"じゅう,す","(L10) dwell, reside, live, inhabit
+kunyomi: す.む, す.まう, -ず.まい
+onyomi: ジュウ, ヂュウ, チュウ",Type the reading!,Image
+正,"しょう,せい,ただ","(L10) correct, justice, righteous, 10**40
+kunyomi: ただ.しい, ただ.す, まさ, まさ.に
+onyomi: セイ, ショウ",Type the reading!,Image
+年,"ねん,とし","(L10) year, counter for years
+kunyomi: とし
+onyomi: ネン",Type the reading!,Image
+売,"ばい,う","(L10) sell
+kunyomi: う.る, う.れる
+onyomi: バイ",Type the reading!,Image
+買,"ばい,か","(L10) buy
+kunyomi: か.う
+onyomi: バイ",Type the reading!,Image
+町,"ちょう,まち","(L10) town, village, block, street
+kunyomi: まち
+onyomi: チョウ",Type the reading!,Image
+長,"ちょう,なが","(L10) long, leader, superior, senior
+kunyomi: なが.い, おさ
+onyomi: チョウ",Type the reading!,Image
+道,"どう,みち","(L10) road-way, street, district, journey, course, moral, teachings
+kunyomi: みち, いう
+onyomi: ドウ, トウ",Type the reading!,Image
+雪,"せつ,ゆき","(L10) snow
+kunyomi: ゆき
+onyomi: セツ",Type the reading!,Image
+立,"りつ,た","(L10) stand up, rise, set up, erect
+kunyomi: た.つ, -た.つ, た.ち-, た.てる, -た.てる, た.て-, たて-, -た.て, -だ.て, -だ.てる
+onyomi: リツ, リュウ, リットル",Type the reading!,Image
+自,じ,"(L10) oneself
+kunyomi: みずか.ら, おの.ずから, おの.ずと
+onyomi: ジ, シ",Type the reading!,Image
+夜,"や,よる,よ","(L10) night, evening
+kunyomi: よ, よる
+onyomi: ヤ",Type the reading!,Image
+朝,"ちょう,あさ","(L10) morning, dynasty, regime, epoch, period, (North) Korea
+kunyomi: あさ
+onyomi: チョウ",Type the reading!,Image
+持,"じ,も","(L10) hold, have
+kunyomi: も.つ, -も.ち, も.てる
+onyomi: ジ",Type the reading!,Image
+手,"しゅ,て","(L11) hand
+kunyomi: て, て-, -て, た-
+onyomi: シュ, ズ",Type the reading!,Image
+紙,"し,がみ,かみ","(L11) paper
+kunyomi: かみ
+onyomi: シ",Type the reading!,Image
+好,"こう,す,この","(L11) fond, pleasing, like something
+kunyomi: この.む, す.く, よ.い, い.い
+onyomi: コウ",Type the reading!,Image
+近,"きん,ちか","(L11) near, early, akin, tantamount
+kunyomi: ちか.い
+onyomi: キン, コン",Type the reading!,Image
+明,"めい,あか","(L11) bright, light
+kunyomi: あ.かり, あか.るい, あか.るむ, あか.らむ, あき.らか, あ.ける, -あ.け, あ.く, あ.くる, あ.かす
+onyomi: メイ, ミョウ, ミン",Type the reading!,Image
+病,びょう,"(L11) ill, sick
+kunyomi: や.む, -や.み, やまい
+onyomi: ビョウ, ヘイ",Type the reading!,Image
+院,いん,"(L11) Inst., institution, temple, mansion, school
+kunyomi: 
+onyomi: イン",Type the reading!,Image
+映,"えい,うつ","(L11) reflect, reflection, projection
+kunyomi: うつ.る, うつ.す, は.える, -ば.え
+onyomi: エイ",Type the reading!,Image
+画,"が,かく","(L11) brush-stroke, picture
+kunyomi: えが.く, かく.する, かぎ.る, はかりごと, はか.る
+onyomi: ガ, カク, エ, カイ",Type the reading!,Image
+歌,"か,うた","(L11) song, sing
+kunyomi: うた, うた.う
+onyomi: カ",Type the reading!,Image
+市,"し,いち","(L11) market, city, town
+kunyomi: いち
+onyomi: シ",Type the reading!,Image
+所,"じょ,しょ,ところ,どころ","(L11) place, extent
+kunyomi: ところ, -ところ, どころ, とこ
+onyomi: ショ",Type the reading!,Image
+勉,"べん,つと","(L11) exertion, endeavour, encourage, strive, make effort, diligent
+kunyomi: つと.める
+onyomi: ベン",Type the reading!,Image
+強,"きょう,ごう,つよ","(L11) strong
+kunyomi: つよ.い, つよ.まる, つよ.める, し.いる, こわ.い
+onyomi: キョウ, ゴウ",Type the reading!,Image
+有,"ゆう,あ","(L11) possess, have, exist, happen, occur, approx
+kunyomi: あ.る
+onyomi: ユウ, ウ",Type the reading!,Image
+旅,"りょ,たび","(L11) trip, travel
+kunyomi: たび
+onyomi: リョ",Type the reading!,Image
+昔,むかし,"(L12) once upon a time, antiquity, old times
+kunyomi: むかし
+onyomi: セキ, シャク",Type the reading!,Image
+々,symbol of repetition of a kanji,"(L12) 
+kunyomi: 
+onyomi: ",Type the reading!,Image
+神,"じん,しん,こう,かみ","(L12) gods, mind, soul
+kunyomi: かみ, かん-, こう-
+onyomi: シン, ジン",Type the reading!,Image
+早,"そう,はや","(L12) early, fast
+kunyomi: はや.い, はや, はや-, はや.まる, はや.める, さ-
+onyomi: ソウ, サッ",Type the reading!,Image
+起,"き,お","(L12) rouse, wake up, get up
+kunyomi: お.きる, お.こる, お.こす, おこ.す, た.つ
+onyomi: キ",Type the reading!,Image
+牛,"ぎゅう,うし","(L12) cow
+kunyomi: うし
+onyomi: ギュウ",Type the reading!,Image
+使,"し,つか","(L12) use, send on a mission, order, messenger, envoy, ambassador, cause
+kunyomi: つか.う, つか.い, -つか.い, -づか.い
+onyomi: シ",Type the reading!,Image
+働,"どう,はたら,ばたら","(L12) work, (kokuji)
+kunyomi: はたら.く
+onyomi: ドウ",Type the reading!,Image
+連,"れん,つ","(L12) take along, lead, join, connect, party, gang, clique
+kunyomi: つら.なる, つら.ねる, つ.れる, -づ.れ
+onyomi: レン",Type the reading!,Image
+別,"べつ,わか","(L12) separate, branch off, diverge, fork, another, extra, specially
+kunyomi: わか.れる, わ.ける
+onyomi: ベツ",Type the reading!,Image
+度,ど,"(L12) degrees, occurrence, time, counter for occurrences, consider, attitude
+kunyomi: たび, -た.い
+onyomi: ド, ト, タク",Type the reading!,Image
+赤,"せき,あか","(L12) red
+kunyomi: あか, あか-, あか.い, あか.らむ, あか.らめる
+onyomi: セキ, シャク",Type the reading!,Image
+青,"せい,あお","(L12) blue, green
+kunyomi: あお, あお-, あお.い
+onyomi: セイ, ショウ",Type the reading!,Image
+色,"しき,しょく,いろ","(L12) color
+kunyomi: いろ
+onyomi: ショク, シキ",Type the reading!,Image
+物,"ぶつ,ぶっ,もの","(L13) thing, object, matter
+kunyomi: もの, もの-
+onyomi: ブツ, モツ",Type the reading!,Image
+鳥,"ちょう,とり","(L13) bird, chicken
+kunyomi: とり
+onyomi: チョウ",Type the reading!,Image
+料,りょう,"(L13) fee, materials
+kunyomi: 
+onyomi: リョウ",Type the reading!,Image
+理,り,"(L13) logic, arrangement, reason, justice, truth
+kunyomi: ことわり
+onyomi: リ",Type the reading!,Image
+特,"とく,とっ","(L13) special
+kunyomi: 
+onyomi: トク",Type the reading!,Image
+安,"あん,やす","(L13) relax, cheap, low, quiet, rested, contented, peaceful
+kunyomi: やす.い, やす.まる, やす, やす.らか
+onyomi: アン",Type the reading!,Image
+飯,はん,"(L13) meal, boiled rice
+kunyomi: めし
+onyomi: ハン",Type the reading!,Image
+肉,にく,"(L13) meat
+kunyomi: しし
+onyomi: ニク",Type the reading!,Image
+悪,"あく,わる","(L13) bad, vice, rascal, false, evil, wrong
+kunyomi: わる.い, わる-, あ.し, にく.い, -にく.い, ああ, いずくに, いずくんぞ, にく.む
+onyomi: アク, オ",Type the reading!,Image
+体,"たい,からだ","(L13) body, substance, object, reality, counter for images
+kunyomi: からだ, かたち
+onyomi: タイ, テイ",Type the reading!,Image
+同,"どう,おな","(L13) same, agree, equal
+kunyomi: おな.じ
+onyomi: ドウ",Type the reading!,Image
+着,"ちゃく,つ,き,ぎ","(L13) don, arrive, wear, counter for suits of clothing
+kunyomi: き.る, き.せる, つ.く, つ.ける
+onyomi: チャク, ジャク",Type the reading!,Image
+空,"くう,そら,あ,から","(L13) empty, sky, void, vacant, vacuum
+kunyomi: そら, あ.く, あ.き, あ.ける, から, す.く, す.かす, むな.しい
+onyomi: クウ",Type the reading!,Image
+港,"こう,みなと","(L13) harbor
+kunyomi: みなと
+onyomi: コウ",Type the reading!,Image
+昼,"ちゅう,ひる","(L13) daytime, noon
+kunyomi: ひる
+onyomi: チュウ",Type the reading!,Image
+海,"かい,うみ","(L13) sea, ocean
+kunyomi: うみ
+onyomi: カイ",Type the reading!,Image
+彼,"かれ,かの","(L14) he, that, the
+kunyomi: かれ, かの, か.の
+onyomi: ヒ",Type the reading!,Image
+代,"だい,か","(L14) substitute, change, convert, replace, period, age, counter for decades of ages, eras, etc., generation, charge, rate, fee
+kunyomi: か.わる, かわ.る, かわ.り, か.わり, -がわ.り, -が.わり, か.える, よ, しろ
+onyomi: ダイ, タイ",Type the reading!,Image
+留,"りゅう,る","(L14) detain, fasten, halt, stop
+kunyomi: と.める, と.まる, とど.める, とど.まる, るうぶる
+onyomi: リュウ, ル",Type the reading!,Image
+族,ぞく,"(L14) tribe, family
+kunyomi: 
+onyomi: ゾク",Type the reading!,Image
+親,"しん,おや,した","(L14) parent, intimacy, relative, familiarity, dealer (cards)
+kunyomi: おや, おや-, した.しい, した.しむ
+onyomi: シン",Type the reading!,Image
+切,"せつ,き,きっ","(L14) cut, cutoff, be sharp
+kunyomi: き.る, -き.る, き.り, -き.り, -ぎ.り, き.れる, -き.れる, き.れ, -き.れ, -ぎ.れ
+onyomi: セツ, サイ",Type the reading!,Image
+英,えい,"(L14) England, English, hero, outstanding, calyx
+kunyomi: はなぶさ
+onyomi: エイ",Type the reading!,Image
+店,"てん,みせ","(L14) store, shop
+kunyomi: みせ, たな
+onyomi: テン",Type the reading!,Image
+去,"きょ,こ,さ","(L14) gone, past, quit, leave, elapse, eliminate, divorce
+kunyomi: さ.る, -さ.る
+onyomi: キョ, コ",Type the reading!,Image
+急,"きゅう,いそ","(L14) hurry, emergency, sudden, steep
+kunyomi: いそ.ぐ, いそ.ぎ, せ.く
+onyomi: キュウ",Type the reading!,Image
+乗,"じょう,の","(L14) ride, power, multiplication, record, counter for vehicles, board, mount, join
+kunyomi: の.る, -の.り, の.せる
+onyomi: ジョウ, ショウ",Type the reading!,Image
+当,"とう,あ","(L14) hit, right, appropriate, himself
+kunyomi: あ.たる, あ.たり, あ.てる, あ.て, まさ.に, まさ.にべし
+onyomi: トウ",Type the reading!,Image
+音,"おん,おと,ね","(L14) sound, noise
+kunyomi: おと, ね
+onyomi: オン, イン, -ノン",Type the reading!,Image
+楽,"がく,がっ,らく,たの","(L14) music, comfort, ease
+kunyomi: たの.しい, たの.しむ, この.む
+onyomi: ガク, ラク, ゴウ",Type the reading!,Image
+医,い,"(L14) doctor, medicine
+kunyomi: い.やす, い.する, くすし
+onyomi: イ",Type the reading!,Image
+者,"しゃ,じゃ,もの","(L14) someone, person
+kunyomi: もの
+onyomi: シャ",Type the reading!,Image
+死,"し,し","(L15) death, die
+kunyomi: し.ぬ, し.に-
+onyomi: シ",Type the reading!,Image
+意,い,"(L15) idea, mind, heart, taste, thought, desire, care, liking
+kunyomi: 
+onyomi: イ",Type the reading!,Image
+味,"み,あじ","(L15) flavor, taste
+kunyomi: あじ, あじ.わう
+onyomi: ミ",Type the reading!,Image
+注,"ちゅう,そそ","(L15) pour, irrigate, shed (tears), flow into, concentrate on, notes, comment, annotate
+kunyomi: そそ.ぐ, さ.す, つ.ぐ
+onyomi: チュウ",Type the reading!,Image
+夏,"か,なつ","(L15) summer
+kunyomi: なつ
+onyomi: カ, ガ, ゲ",Type the reading!,Image
+魚,"ぎょ,さかな,うお","(L15) fish
+kunyomi: うお, さかな, -ざかな
+onyomi: ギョ",Type the reading!,Image
+寺,"じ,てら,でら","(L15) Buddhist temple
+kunyomi: てら
+onyomi: ジ",Type the reading!,Image
+広,"こう,ひろ","(L15) wide, broad, spacious
+kunyomi: ひろ.い, ひろ.まる, ひろ.める, ひろ.がる, ひろ.げる
+onyomi: コウ",Type the reading!,Image
+足,"そく,あし,た","(L15) leg, foot, be sufficient, counter for pairs of footwear
+kunyomi: あし, た.りる, た.る, た.す
+onyomi: ソク",Type the reading!,Image
+転,"てん,ころ","(L15) revolve, turn around, change
+kunyomi: ころ.がる, ころ.げる, ころ.がす, ころ.ぶ, まろ.ぶ, うたた, うつ.る, くる.めく
+onyomi: テン",Type the reading!,Image
+借,"しゃく,しゃっ,か","(L15) borrow, rent
+kunyomi: か.りる
+onyomi: シャク",Type the reading!,Image
+走,"そう,はし","(L15) run
+kunyomi: はし.る
+onyomi: ソウ",Type the reading!,Image
+場,"じょう,ば","(L15) location, place
+kunyomi: ば
+onyomi: ジョウ, チョウ",Type the reading!,Image
+建,"けん,たて,た","(L15) build
+kunyomi: た.てる, た.て, -だ.て, た.つ
+onyomi: ケン, コン",Type the reading!,Image
+地,"ち,じ","(L15) ground, earth
+kunyomi: 
+onyomi: チ, ジ",Type the reading!,Image
+通,"つう,とお,かよ","(L15) traffic, pass through, avenue, commute, counter for letters, notes, documents, etc.
+kunyomi: とお.る, とお.り, -とお.り, -どお.り, とお.す, とお.し, -どお.し, かよ.う
+onyomi: ツウ, ツ",Type the reading!,Image
+供,"きょう,ども,そな","(L16) submit, offer, present, serve (meal), accompany
+kunyomi: そな.える, とも, -ども
+onyomi: キョウ, ク, クウ, グ",Type the reading!,Image
+世,"せ,せい,よ","(L16) generation, world, society, public
+kunyomi: よ
+onyomi: セイ, セ, ソウ",Type the reading!,Image
+界,かい,"(L16) world, boundary
+kunyomi: 
+onyomi: カイ",Type the reading!,Image
+全,"ぜん,まった,すべ","(L16) whole, entire, all, complete, fulfill
+kunyomi: まった.く, すべ.て
+onyomi: ゼン",Type the reading!,Image
+部,"ぶ,へ","(L16) section, bureau, dept, class, copy, part, portion, counter for copies of a newspaper or magazine
+kunyomi: -べ
+onyomi: ブ",Type the reading!,Image
+始,"し,はじ","(L16) commence, begin
+kunyomi: はじ.める, -はじ.める, はじ.まる
+onyomi: シ",Type the reading!,Image
+週,しゅう,"(L16) week
+kunyomi: 
+onyomi: シュウ",Type the reading!,Image
+考,"こう,かんが","(L16) consider, think over
+kunyomi: かんが.える, かんが.え
+onyomi: コウ",Type the reading!,Image
+開,"かい,あ,ひら","(L16) open, unfold, unseal
+kunyomi: ひら.く, ひら.き, -びら.き, ひら.ける, あ.く, あ.ける
+onyomi: カイ",Type the reading!,Image
+屋,"おく,や","(L16) roof, house, shop, dealer, seller
+kunyomi: や
+onyomi: オク",Type the reading!,Image
+方,"ほう,かた,がた","(L16) direction, person, alternative
+kunyomi: かた, -かた, -がた
+onyomi: ホウ",Type the reading!,Image
+運,"うん,はこ","(L16) carry, luck, destiny, fate, lot, transport, progress, advance
+kunyomi: はこ.ぶ
+onyomi: ウン",Type the reading!,Image
+動,"どう,うご","(L16) move, motion, change, confusion, shift, shake
+kunyomi: うご.く, うご.かす
+onyomi: ドウ",Type the reading!,Image
+教,"きょう,おし","(L16) teach, faith, doctrine
+kunyomi: おし.える, おそ.わる
+onyomi: キョウ",Type the reading!,Image
+室,しつ,"(L16) room, apartment, chamber, greenhouse, cellar
+kunyomi: むろ
+onyomi: シツ",Type the reading!,Image
+以,い,"(L16) by means of, because, in view of, compared with
+kunyomi: もっ.て
+onyomi: イ",Type the reading!,Image
+野,"や,の","(L17) plains, field, rustic, civilian life
+kunyomi: の, の-
+onyomi: ヤ, ショ",Type the reading!,Image
+習,"しゅう,なら","(L17) learn
+kunyomi: なら.う, なら.い
+onyomi: シュウ, ジュ",Type the reading!,Image
+主,"しゅ,おも,ぬし","(L17) lord, chief, master, main thing, principal
+kunyomi: ぬし, おも, あるじ
+onyomi: シュ, ス, シュウ",Type the reading!,Image
+歳,"さい,せい","(L17) year-end, age, occasion, opportunity
+kunyomi: とし, とせ, よわい
+onyomi: サイ, セイ",Type the reading!,Image
+集,"しゅう,あつ","(L17) gather, meet, congregate, swarm, flock
+kunyomi: あつ.まる, あつ.める, つど.う
+onyomi: シュウ",Type the reading!,Image
+発,"はっ,はつ,ぱつ","(L17) departure, discharge, publish, emit, start from, disclose, counter for gunshots
+kunyomi: た.つ, あば.く, おこ.る, つか.わす, はな.つ
+onyomi: ハツ, ホツ",Type the reading!,Image
+表,"ぴょう,ひょう,あらわ,おもて","(L17) surface, table, chart, diagram
+kunyomi: おもて, -おもて, あらわ.す, あらわ.れる, あら.わす
+onyomi: ヒョウ",Type the reading!,Image
+品,"ひん,じな,しな","(L17) goods, refinement, dignity, article, counter for meal courses
+kunyomi: しな
+onyomi: ヒン, ホン",Type the reading!,Image
+写,"しゃ,うつ","(L17) copy, be photographed, describe
+kunyomi: うつ.す, うつ.る, うつ-, うつ.し
+onyomi: シャ, ジャ",Type the reading!,Image
+真,"しん,ま","(L17) true, reality, Buddhist sect
+kunyomi: ま, ま-, まこと
+onyomi: シン",Type the reading!,Image
+字,じ,"(L17) character, letter, word, section of village
+kunyomi: あざ, あざな, -な
+onyomi: ジ",Type the reading!,Image
+活,"かつ,かっ","(L17) lively, resuscitation, being helped, living
+kunyomi: い.きる, い.かす, い.ける
+onyomi: カツ",Type the reading!,Image
+結,"けっ,けつ,むす","(L17) tie, bind, contract, join, organize, do up hair, fasten
+kunyomi: むす.ぶ, ゆ.う, ゆ.わえる
+onyomi: ケツ, ケチ",Type the reading!,Image
+婚,こん,"(L17) marriage
+kunyomi: 
+onyomi: コン",Type the reading!,Image
+歩,"ほ,ぽ,ある","(L17) walk, counter for steps
+kunyomi: ある.く, あゆ.む
+onyomi: ホ, ブ, フ",Type the reading!,Image
+目,"もく,め","(L18) eye, class, look, insight, experience, care, favor
+kunyomi: め, -め, ま-
+onyomi: モク, ボク",Type the reading!,Image
+的,"てき,まと","(L18) bull's eye, mark, target, object, adjective ending
+kunyomi: まと
+onyomi: テキ",Type the reading!,Image
+洋,よう,"(L18) ocean, sea, foreign, Western style
+kunyomi: 
+onyomi: ヨウ",Type the reading!,Image
+服,ふく,"(L18) clothing, admit, obey, discharge
+kunyomi: 
+onyomi: フク",Type the reading!,Image
+堂,どう,"(L18) public chamber, hall
+kunyomi: 
+onyomi: ドウ",Type the reading!,Image
+力,"りょく,りき,ちから","(L18) power, strength, strong, strain, bear up, exert
+kunyomi: ちから
+onyomi: リョク, リキ, リイ",Type the reading!,Image
+授,"じゅ,さず","(L18) impart, instruct, grant, confer
+kunyomi: さず.ける, さず.かる
+onyomi: ジュ",Type the reading!,Image
+業,ぎょう,"(L18) business, vocation, arts, performance
+kunyomi: わざ
+onyomi: ギョウ, ゴウ",Type the reading!,Image
+試,"し,こころ","(L18) test, try, attempt, experiment, ordeal
+kunyomi: こころ.みる, ため.す
+onyomi: シ",Type the reading!,Image
+験,けん,"(L18) verification, effect, testing
+kunyomi: あかし, しるし, ため.す, ためし
+onyomi: ケン, ゲン",Type the reading!,Image
+貸,"たい,か","(L18) lend
+kunyomi: か.す, か.し-, かし-
+onyomi: タイ",Type the reading!,Image
+図,"と,ず,はか","(L18) map, drawing, plan, extraordinary, audacious
+kunyomi: え, はか.る
+onyomi: ズ, ト",Type the reading!,Image
+館,かん,"(L18) building, mansion, large building, palace
+kunyomi: やかた, たて
+onyomi: カン",Type the reading!,Image
+終,"しゅう,お","(L18) end, finish
+kunyomi: お.わる, -お.わる, おわ.る, お.える, つい, つい.に
+onyomi: シュウ",Type the reading!,Image
+宿,"しゅく,やど","(L18) inn, lodging, relay station, dwell, lodge, be pregnant, home, dwelling
+kunyomi: やど, やど.る, やど.す
+onyomi: シュク",Type the reading!,Image
+題,だい,"(L18) topic, subject
+kunyomi: 
+onyomi: ダイ",Type the reading!,Image
+春,"しゅん,はる","(L19) springtime, spring (season)
+kunyomi: はる
+onyomi: シュン",Type the reading!,Image
+秋,"しゅう,あき","(L19) autumn
+kunyomi: あき, とき
+onyomi: シュウ",Type the reading!,Image
+冬,"とう,ふゆ","(L19) winter
+kunyomi: ふゆ
+onyomi: トウ",Type the reading!,Image
+花,"か,はな,ばな","(L19) flower
+kunyomi: はな
+onyomi: カ, ケ",Type the reading!,Image
+様,"よう,さま","(L19) Esq., way, manner, situation, polite suffix
+kunyomi: さま, さん
+onyomi: ヨウ, ショウ",Type the reading!,Image
+不,"ふ,ぶ","(L19) negative, non-, bad, ugly, clumsy
+kunyomi: 
+onyomi: フ, ブ",Type the reading!,Image
+姉,"し,あね,ねえ","(L19) elder sister
+kunyomi: あね, はは
+onyomi: シ",Type the reading!,Image
+兄,"きょう,あに,にい","(L19) elder brother, big brother
+kunyomi: あに
+onyomi: ケイ, キョウ",Type the reading!,Image
+漢,かん,"(L19) Sino-, China
+kunyomi: 
+onyomi: カン",Type the reading!,Image
+卒,そつ,"(L19) graduate, soldier, private, die
+kunyomi: そっ.する, お.える, お.わる, ついに, にわか
+onyomi: ソツ, シュツ",Type the reading!,Image
+工,"こう,く","(L19) craft, construction, katakana e radical (no. 48)
+kunyomi: 
+onyomi: コウ, ク, グ",Type the reading!,Image
+研,"けん,と","(L19) polish, study of, sharpen
+kunyomi: と.ぐ
+onyomi: ケン",Type the reading!,Image
+究,"きゅう,きわ","(L19) research, study
+kunyomi: きわ.める
+onyomi: キュウ, ク",Type the reading!,Image
+質,"しつ,しち","(L19) substance, quality, matter, temperament
+kunyomi: たち, ただ.す, もと, わりふ
+onyomi: シツ, シチ, チ",Type the reading!,Image
+問,"もん,と","(L19) question, ask, problem
+kunyomi: と.う, と.い, とん
+onyomi: モン",Type the reading!,Image
+多,"た,おお","(L19) many, frequent, much
+kunyomi: おお.い, まさ.に, まさ.る
+onyomi: タ",Type the reading!,Image
+皿,"さら,ざら","(L20) dish, a helping, plate
+kunyomi: さら
+onyomi: ベイ",Type the reading!,Image
+声,"せい,こえ","(L20) voice
+kunyomi: こえ, こわ-
+onyomi: セイ, ショウ",Type the reading!,Image
+茶,"ちゃ,さ","(L20) tea
+kunyomi: 
+onyomi: チャ, サ",Type the reading!,Image
+止,"し,と","(L20) stop, halt
+kunyomi: と.まる, -ど.まり, と.める, -と.める, -ど.め, とど.める, とど.め, とど.まる, や.める, や.む, -や.む, よ.す, -さ.す, -さ.し
+onyomi: シ",Type the reading!,Image
+枚,まい,"(L20) sheet of..., counter for flat thin objects or sheets
+kunyomi: 
+onyomi: マイ, バイ",Type the reading!,Image
+両,りょう,"(L20) both, old Japanese coin, counter for carriages (e.g., in a train), two
+kunyomi: てる, ふたつ
+onyomi: リョウ",Type the reading!,Image
+無,"む,ぶ,な","(L20) nothingness, none, ain't, nothing, nil, not
+kunyomi: な.い
+onyomi: ム, ブ",Type the reading!,Image
+払,"はら,ばら","(L20) pay, clear out, prune, banish, dispose of
+kunyomi: はら.う, -はら.い, -ばら.い
+onyomi: フツ, ヒツ, ホツ",Type the reading!,Image
+心,"しん,こころ","(L20) heart, mind, spirit, heart radical (no. 61)
+kunyomi: こころ, -ごころ
+onyomi: シン",Type the reading!,Image
+笑,"しょう,わら,え","(L20) laugh
+kunyomi: わら.う, え.む
+onyomi: ショウ",Type the reading!,Image
+絶,"ぜっ,ぜつ,た","(L20) discontinue, sever, cut off, abstain, interrupt, suppress, be beyond, without match, peerless, unparalleled
+kunyomi: た.える, た.やす, た.つ
+onyomi: ゼツ",Type the reading!,Image
+対,"たい,つい","(L20) vis-a-vis, opposite, even, equal, versus, anti-, compare
+kunyomi: あいて, こた.える, そろ.い, つれあ.い, なら.ぶ, むか.う
+onyomi: タイ, ツイ",Type the reading!,Image
+痛,"つう,いた","(L20) pain, hurt, damage, bruise
+kunyomi: いた.い, いた.む, いた.ましい, いた.める
+onyomi: ツウ",Type the reading!,Image
+最,"さい,もっと","(L20) utmost, most, extreme
+kunyomi: もっと.も, つま
+onyomi: サイ, シュ",Type the reading!,Image
+続,"ぞく,つづ","(L20) continue, series, sequel
+kunyomi: つづ.く, つづ.ける, つぐ.ない
+onyomi: ゾク, ショク, コウ, キョウ",Type the reading!,Image
+信,しん,"(L21) faith, truth, fidelity, trust
+kunyomi: 
+onyomi: シン",Type the reading!,Image
+経,けい,"(L21) sutra, longitude, pass thru, expire, warp
+kunyomi: へ.る, た.つ, たていと, はか.る, のり
+onyomi: ケイ, キョウ, キン",Type the reading!,Image
+台,"たい,だい","(L21) pedestal, a stand, counter for machines and vehicles
+kunyomi: うてな, われ, つかさ
+onyomi: ダイ, タイ",Type the reading!,Image
+風,"ふう,ふ,かぜ","(L21) wind, air, style, manner
+kunyomi: かぜ, かざ-
+onyomi: フウ, フ",Type the reading!,Image
+犬,"けん,いぬ","(L21) dog
+kunyomi: いぬ, いぬ-
+onyomi: ケン",Type the reading!,Image
+重,"じゅう,ちょう,おも,かさ","(L21) heavy, important, esteem, respect, heap up, pile up, nest of boxes, -fold
+kunyomi: え, おも.い, おも.り, おも.なう, かさ.ねる, かさ.なる, おも
+onyomi: ジュウ, チョウ",Type the reading!,Image
+初,"しょ,はじ,はつ","(L21) first time, beginning
+kunyomi: はじ.め, はじ.めて, はつ, はつ-, うい-, -そ.める, -ぞ.め
+onyomi: ショ",Type the reading!,Image
+若,わか,"(L21) young, if, perhaps, possibly, low number, immature
+kunyomi: わか.い, わか-, も.しくわ, も.し, も.しくは, ごと.し
+onyomi: ジャク, ニャク, ニャ",Type the reading!,Image
+送,"そう,おく","(L21) escort, send
+kunyomi: おく.る
+onyomi: ソウ",Type the reading!,Image
+幸,"こう,しあわ,さいわ","(L21) happiness, blessing, fortune
+kunyomi: さいわ.い, さち, しあわ.せ
+onyomi: コウ",Type the reading!,Image
+計,"けい,はか","(L21) plot, plan, scheme, measure
+kunyomi: はか.る, はか.らう
+onyomi: ケイ",Type the reading!,Image
+遅,"ち,おく,おそ","(L21) slow, late, back, later
+kunyomi: おく.れる, おく.らす, おそ.い
+onyomi: チ",Type the reading!,Image
+配,"ぱい,はい,くば","(L21) distribute, spouse, exile, rationing
+kunyomi: くば.る
+onyomi: ハイ",Type the reading!,Image
+弟,"だい,で,おとうと","(L21) younger brother, faithful service to elders
+kunyomi: おとうと
+onyomi: テイ, ダイ, デ",Type the reading!,Image
+妹,"まい,いもうと","(L21) younger sister
+kunyomi: いもうと
+onyomi: マイ",Type the reading!,Image
+記,き,"(L22) scribe, account, narrative
+kunyomi: しる.す
+onyomi: キ",Type the reading!,Image
+銀,ぎん,"(L22) silver
+kunyomi: しろがね
+onyomi: ギン",Type the reading!,Image
+回,"かい,まわ","(L22) -times, round, game, revolve, counter for occurrences
+kunyomi: まわ.る, -まわ.る, -まわ.り, まわ.す, -まわ.す, まわ.し-, -まわ.し, もとお.る, か.える
+onyomi: カイ, エ",Type the reading!,Image
+夕,ゆう,"(L22) evening
+kunyomi: ゆう
+onyomi: セキ",Type the reading!,Image
+黒,"こく,くろ","(L22) black
+kunyomi: くろ, くろ.ずむ, くろ.い
+onyomi: コク",Type the reading!,Image
+用,よう,"(L22) utilize, business, service, use, employ
+kunyomi: もち.いる
+onyomi: ヨウ",Type the reading!,Image
+末,"まつ,すえ","(L22) end, close, tip, powder, posterity
+kunyomi: すえ, うら, うれ
+onyomi: マツ, バツ",Type the reading!,Image
+待,"たい,ま,まち","(L22) wait, depend on
+kunyomi: ま.つ, -ま.ち
+onyomi: タイ",Type the reading!,Image
+残,"ざん,のこ","(L22) remainder, leftover, balance
+kunyomi: のこ.る, のこ.す, そこな.う, のこ.り
+onyomi: ザン, サン",Type the reading!,Image
+駅,えき,"(L22) station
+kunyomi: 
+onyomi: エキ",Type the reading!,Image
+番,ばん,"(L22) turn, number in a series
+kunyomi: つが.い
+onyomi: バン",Type the reading!,Image
+説,"せつ,せっ","(L22) opinion, theory, explanation, rumor
+kunyomi: と.く
+onyomi: セツ, ゼイ",Type the reading!,Image
+案,あん,"(L22) plan, suggestion, draft, ponder, fear, proposition, idea, expectation, worry, table, bench
+kunyomi: つくえ
+onyomi: アン",Type the reading!,Image
+内,"ない,うち","(L22) inside, within, between, among, house, home
+kunyomi: うち
+onyomi: ナイ, ダイ",Type the reading!,Image
+忘,"ぼう,わす","(L22) forget
+kunyomi: わす.れる
+onyomi: ボウ",Type the reading!,Image
+守,"す,しゅ,まも","(L22) guard, protect, defend, obey
+kunyomi: まも.る, まも.り, もり, -もり, かみ
+onyomi: シュ, ス",Type the reading!,Image
+顔,"がん,かお,がお","(L23) face, expression
+kunyomi: かお
+onyomi: ガン",Type the reading!,Image
+悲,"ひ,かな","(L23) grieve, sad, deplore, regret
+kunyomi: かな.しい, かな.しむ
+onyomi: ヒ",Type the reading!,Image
+怒,"ど,おこ,いか","(L23) angry, be offended
+kunyomi: いか.る, おこ.る
+onyomi: ド, ヌ",Type the reading!,Image
+違,"い,ちが","(L23) difference, differ
+kunyomi: ちが.う, ちが.い, ちが.える, -ちが.える, たが.う, たが.える
+onyomi: イ",Type the reading!,Image
+変,"へん,か","(L23) unusual, change, strange
+kunyomi: か.わる, か.わり, か.える
+onyomi: ヘン",Type the reading!,Image
+比,"ひ,くら","(L23) compare, race, ratio, Philippines
+kunyomi: くら.べる
+onyomi: ヒ",Type the reading!,Image
+情,"じょう,なさ","(L23) feelings, emotion, passion, sympathy, circumstances, facts
+kunyomi: なさ.け
+onyomi: ジョウ, セイ",Type the reading!,Image
+感,かん,"(L23) emotion, feeling, sensation
+kunyomi: 
+onyomi: カン",Type the reading!,Image
+調,"ちょう,しら","(L23) tune, tone, meter, key (music), writing style, prepare, exorcise, investigate, harmonize, mediate
+kunyomi: しら.べる, しら.べ, ととの.う, ととの.える
+onyomi: チョウ",Type the reading!,Image
+査,さ,"(L23) investigate
+kunyomi: 
+onyomi: サ",Type the reading!,Image
+果,"か,は","(L23) fruit, reward, carry out, achieve, complete, end, finish, succeed
+kunyomi: は.たす, はた.す, -は.たす, は.てる, -は.てる, は.て
+onyomi: カ",Type the reading!,Image
+化,"か,け,ば","(L23) change, take the form of, influence, enchant, delude, -ization
+kunyomi: ば.ける, ば.かす, ふ.ける, け.する
+onyomi: カ, ケ",Type the reading!,Image
+横,"おう,よこ","(L23) sideways, side, horizontal, width, woof, unreasonable, perverse
+kunyomi: よこ
+onyomi: オウ",Type the reading!,Image
+相,"しょう,そう,あい","(L23) inter-, mutual, together, each other, minister of state, councillor, aspect, phase, physiognomy
+kunyomi: あい-
+onyomi: ソウ, ショウ",Type the reading!,Image
+答,"とう,こた,こたえ","(L23) solution, answer
+kunyomi: こた.える, こた.え
+onyomi: トウ",Type the reading!,Image
