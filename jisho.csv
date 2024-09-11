@@ -1,0 +1,318 @@
+kanji,meanings,kunyomi,onyomi
+一,"one, one radical (no.1)","ひと-, ひと.つ","イチ, イツ"
+二,"two, two radical (no. 7)","ふた, ふた.つ, ふたたび","ニ, ジ"
+三,three,"み, み.つ, みっ.つ","サン, ゾウ"
+四,four,"よ, よ.つ, よっ.つ, よん",シ
+五,five,"いつ, いつ.つ",ゴ
+六,six,"む, む.つ, むっ.つ, むい","ロク, リク"
+七,seven,"なな, なな.つ, なの",シチ
+八,"eight, eight radical (no. 12)","や, や.つ, やっ.つ, よう","ハチ, ハツ"
+九,nine,"ここの, ここの.つ","キュウ, ク"
+十,ten,"とお, と, そ","ジュウ, ジッ, ジュッ"
+百,hundred,もも,"ヒャク, ビャク"
+千,thousand,ち,セン
+万,"ten thousand, 10,000",よろず,"マン, バン"
+円,"circle, yen, round","まる.い, まる, まど, まど.か, まろ.やか",エン
+時,"time, hour","とき, -どき",ジ
+日,"day, sun, Japan, counter for days","ひ, -び, -か","ニチ, ジツ"
+本,"book, present, main, origin, true, real, counter for long cylindrical things",もと,ホン
+人,person,"ひと, -り, -と","ジン, ニン"
+月,"month, moon",つき,"ゲツ, ガツ"
+火,fire,"ひ, -び, ほ-",カ
+水,water,"みず, みず-",スイ
+木,"tree, wood","き, こ-","ボク, モク"
+金,gold,"かね, かな-, -がね","キン, コン, ゴン"
+土,"soil, earth, ground, Turkey",つち,"ド, ト"
+曜,weekday,N/A,ヨウ
+上,"above, up","うえ, -うえ, うわ-, かみ, あ.げる, -あ.げる, あ.がる, -あ.がる, あ.がり, -あ.がり, のぼ.る, のぼ.り, のぼ.せる, のぼ.す, たてまつ.る","ジョウ, ショウ, シャン"
+下,"below, down, descend, give, low, inferior","した, しも, もと, さ.げる, さ.がる, くだ.る, くだ.り, くだ.す, -くだ.す, くだ.さる, お.ろす, お.りる","カ, ゲ"
+中,"in, inside, middle, mean, center","なか, うち, あた.る",チュウ
+半,"half, middle, odd number, semi-, part-",なか.ば,ハン
+山,mountain,やま,"サン, セン"
+川,"stream, river, river or three-stroke river radical (no. 47)",かわ,セン
+元,"beginning, former time, origin",もと,"ゲン, ガン"
+気,"spirit, mind, air, atmosphere, mood",き,"キ, ケ"
+天,"heavens, sky, imperial","あまつ, あめ, あま-",テン
+私,"private, I, me","わたくし, わたし",シ
+今,now,いま,"コン, キン"
+田,"rice field, rice paddy",た,デン
+女,"woman, female","おんな, め","ジョ, ニョ, ニョウ"
+男,male,"おとこ, お","ダン, ナン"
+見,"see, hopes, chances, idea, opinion, look at, visible","み.る, み.える, み.せる",ケン
+行,"going, journey, carry out, conduct, act, line, row, bank","い.く, ゆ.く, -ゆ.き, -ゆき, -い.き, -いき, おこな.う, おこ.なう","コウ, ギョウ, アン"
+食,"eat, food","く.う, く.らう, た.べる, は.む","ショク, ジキ"
+飲,"drink, smoke, take","の.む, -の.み","イン, オン"
+東,east,ひがし,トウ
+西,"west, Spain",にし,"セイ, サイ, ス"
+南,south,みなみ,"ナン, ナ"
+北,north,きた,ホク
+口,mouth,くち,"コウ, ク"
+出,"exit, leave, go out, come out, put out, protrude","で.る, -で, だ.す, -だ.す, い.でる, い.だす","シュツ, スイ"
+右,right,みぎ,"ウ, ユウ"
+左,left,ひだり,"サ, シャ"
+分,"part, minute of time, segment, share, degree, one's lot, duty, understand, know, rate, 1%, chances, shaku/100","わ.ける, わ.け, わ.かれる, わ.かる, わ.かつ","ブン, フン, ブ"
+先,"before, ahead, previous, future, precedence","さき, ま.ず",セン
+生,"life, genuine, birth","い.きる, い.かす, い.ける, う.まれる, うま.れる, う.まれ, うまれ, う.む, お.う, は.える, は.やす, き, なま, なま-, な.る, な.す, む.す, -う","セイ, ショウ"
+大,"large, big","おお-, おお.きい, -おお.いに","ダイ, タイ"
+学,"study, learning, science",まな.ぶ,ガク
+外,outside,"そと, ほか, はず.す, はず.れる, と-","ガイ, ゲ"
+国,country,くに,コク
+京,"capital, 10**16",みやこ,"キョウ, ケイ, キン"
+子,"child, sign of the rat, 11PM-1AM, first sign of Chinese zodiac","こ, -こ, ね","シ, ス, ツ"
+小,"little, small","ちい.さい, こ-, お-, さ-",ショウ
+会,"meeting, meet, party, association, interview, join","あ.う, あ.わせる, あつ.まる","カイ, エ"
+社,"company, firm, office, association, shrine",やしろ,シャ
+父,father,ちち,フ
+母,mother,"はは, も",ボ
+高,"tall, high, expensive","たか.い, たか, -だか, たか.まる, たか.める",コウ
+校,"exam, school, printing, proof, correction",N/A,"コウ, キョウ"
+毎,every,"ごと, -ごと.に",マイ
+語,"word, speech, language","かた.る, かた.らう",ゴ
+文,"sentence, literature, style, art, decoration, figures, plan, literary radical (no. 67)","ふみ, あや","ブン, モン"
+帰,"homecoming, arrive at, lead to, result in","かえ.る, かえ.す, おく.る, とつ.ぐ",キ
+入,"enter, insert","い.る, -い.る, -い.り, い.れる, -い.れ, はい.る","ニュウ, ジュ"
+員,"employee, member, number, the one in charge",N/A,イン
+新,new,"あたら.しい, あら.た, あら-, にい-",シン
+聞,"hear, ask, listen","き.く, き.こえる","ブン, モン"
+作,"make, production, prepare, build","つく.る, つく.り, -づく.り","サク, サ"
+仕,"attend, doing, official, serve",つか.える,"シ, ジ"
+事,"matter, thing, fact, business, reason, possibly","こと, つか.う, つか.える","ジ, ズ"
+電,electricity,N/A,デン
+車,car,くるま,シャ
+休,"rest, day off, retire, sleep","やす.む, やす.まる, やす.める",キュウ
+言,"say, word","い.う, こと","ゲン, ゴン"
+読,read,"よ.む, -よ.み","ドク, トク, トウ"
+思,think,"おも.う, おもえら.く, おぼ.す",シ
+次,"next, order, sequence","つ.ぐ, つぎ","ジ, シ"
+何,what,"なに, なん, なに-, なん-",カ
+午,"noon, sign of the horse, 11AM-1PM, seventh sign of Chinese zodiac",うま,ゴ
+後,"behind, back, later","のち, うし.ろ, うしろ, あと, おく.れる","ゴ, コウ"
+前,"in front, before","まえ, -まえ",ゼン
+名,"name, noted, distinguished, reputation","な, -な","メイ, ミョウ"
+白,white,"しろ, しら-, しろ.い","ハク, ビャク"
+雨,rain,"あめ, あま-, -さめ",ウ
+書,write,"か.く, -が.き, -がき",ショ
+友,friend,とも,ユウ
+間,"interval, space","あいだ, ま, あい","カン, ケン"
+家,"house, home, family, professional, expert, performer","いえ, や, うち","カ, ケ"
+話,"tale, talk","はな.す, はなし",ワ
+少,"few, little","すく.ない, すこ.し",ショウ
+古,old,"ふる.い, ふる-, -ふる.す",コ
+知,"know, wisdom","し.る, し.らせる",チ
+来,"come, due, next, cause, become","く.る, きた.る, きた.す, き.たす, き.たる, き, こ","ライ, タイ"
+住,"dwell, reside, live, inhabit","す.む, す.まう, -ず.まい","ジュウ, ヂュウ, チュウ"
+正,"correct, justice, righteous, 10**40","ただ.しい, ただ.す, まさ, まさ.に","セイ, ショウ"
+年,"year, counter for years",とし,ネン
+売,sell,"う.る, う.れる",バイ
+買,buy,か.う,バイ
+町,"town, village, block, street",まち,チョウ
+長,"long, leader, superior, senior","なが.い, おさ",チョウ
+道,"road-way, street, district, journey, course, moral, teachings","みち, いう","ドウ, トウ"
+雪,snow,ゆき,セツ
+立,"stand up, rise, set up, erect","た.つ, -た.つ, た.ち-, た.てる, -た.てる, た.て-, たて-, -た.て, -だ.て, -だ.てる","リツ, リュウ, リットル"
+自,oneself,"みずか.ら, おの.ずから, おの.ずと","ジ, シ"
+夜,"night, evening","よ, よる",ヤ
+朝,"morning, dynasty, regime, epoch, period, (North) Korea",あさ,チョウ
+持,"hold, have","も.つ, -も.ち, も.てる",ジ
+手,hand,"て, て-, -て, た-","シュ, ズ"
+紙,paper,かみ,シ
+好,"fond, pleasing, like something","この.む, す.く, よ.い, い.い",コウ
+近,"near, early, akin, tantamount",ちか.い,"キン, コン"
+明,"bright, light","あ.かり, あか.るい, あか.るむ, あか.らむ, あき.らか, あ.ける, -あ.け, あ.く, あ.くる, あ.かす","メイ, ミョウ, ミン"
+病,"ill, sick","や.む, -や.み, やまい","ビョウ, ヘイ"
+院,"Inst., institution, temple, mansion, school",N/A,イン
+映,"reflect, reflection, projection","うつ.る, うつ.す, は.える, -ば.え",エイ
+画,"brush-stroke, picture","えが.く, かく.する, かぎ.る, はかりごと, はか.る","ガ, カク, エ, カイ"
+歌,"song, sing","うた, うた.う",カ
+市,"market, city, town",いち,シ
+所,"place, extent","ところ, -ところ, どころ, とこ",ショ
+勉,"exertion, endeavour, encourage, strive, make effort, diligent",つと.める,ベン
+強,strong,"つよ.い, つよ.まる, つよ.める, し.いる, こわ.い","キョウ, ゴウ"
+有,"possess, have, exist, happen, occur, approx",あ.る,"ユウ, ウ"
+旅,"trip, travel",たび,リョ
+昔,"once upon a time, antiquity, old times",むかし,"セキ, シャク"
+々,N/A,N/A,N/A
+神,"gods, mind, soul","かみ, かん-, こう-","シン, ジン"
+早,"early, fast","はや.い, はや, はや-, はや.まる, はや.める, さ-","ソウ, サッ"
+起,"rouse, wake up, get up","お.きる, お.こる, お.こす, おこ.す, た.つ",キ
+牛,cow,うし,ギュウ
+使,"use, send on a mission, order, messenger, envoy, ambassador, cause","つか.う, つか.い, -つか.い, -づか.い",シ
+働,"work, (kokuji)",はたら.く,ドウ
+連,"take along, lead, join, connect, party, gang, clique","つら.なる, つら.ねる, つ.れる, -づ.れ",レン
+別,"separate, branch off, diverge, fork, another, extra, specially","わか.れる, わ.ける",ベツ
+度,"degrees, occurrence, time, counter for occurrences, consider, attitude","たび, -た.い","ド, ト, タク"
+赤,red,"あか, あか-, あか.い, あか.らむ, あか.らめる","セキ, シャク"
+青,"blue, green","あお, あお-, あお.い","セイ, ショウ"
+色,color,いろ,"ショク, シキ"
+物,"thing, object, matter","もの, もの-","ブツ, モツ"
+鳥,"bird, chicken",とり,チョウ
+料,"fee, materials",N/A,リョウ
+理,"logic, arrangement, reason, justice, truth",ことわり,リ
+特,special,N/A,トク
+安,"relax, cheap, low, quiet, rested, contented, peaceful","やす.い, やす.まる, やす, やす.らか",アン
+飯,"meal, boiled rice",めし,ハン
+肉,meat,しし,ニク
+悪,"bad, vice, rascal, false, evil, wrong","わる.い, わる-, あ.し, にく.い, -にく.い, ああ, いずくに, いずくんぞ, にく.む","アク, オ"
+体,"body, substance, object, reality, counter for images","からだ, かたち","タイ, テイ"
+同,"same, agree, equal",おな.じ,ドウ
+着,"don, arrive, wear, counter for suits of clothing","き.る, き.せる, つ.く, つ.ける","チャク, ジャク"
+空,"empty, sky, void, vacant, vacuum","そら, あ.く, あ.き, あ.ける, から, す.く, す.かす, むな.しい",クウ
+港,harbor,みなと,コウ
+昼,"daytime, noon",ひる,チュウ
+海,"sea, ocean",うみ,カイ
+彼,"he, that, the","かれ, かの, か.の",ヒ
+代,"substitute, change, convert, replace, period, age, counter for decades of ages, eras, etc., generation, charge, rate, fee","か.わる, かわ.る, かわ.り, か.わり, -がわ.り, -が.わり, か.える, よ, しろ","ダイ, タイ"
+留,"detain, fasten, halt, stop","と.める, と.まる, とど.める, とど.まる, るうぶる","リュウ, ル"
+族,"tribe, family",N/A,ゾク
+親,"parent, intimacy, relative, familiarity, dealer (cards)","おや, おや-, した.しい, した.しむ",シン
+切,"cut, cutoff, be sharp","き.る, -き.る, き.り, -き.り, -ぎ.り, き.れる, -き.れる, き.れ, -き.れ, -ぎ.れ","セツ, サイ"
+英,"England, English, hero, outstanding, calyx",はなぶさ,エイ
+店,"store, shop","みせ, たな",テン
+去,"gone, past, quit, leave, elapse, eliminate, divorce","さ.る, -さ.る","キョ, コ"
+急,"hurry, emergency, sudden, steep","いそ.ぐ, いそ.ぎ, せ.く",キュウ
+乗,"ride, power, multiplication, record, counter for vehicles, board, mount, join","の.る, -の.り, の.せる","ジョウ, ショウ"
+当,"hit, right, appropriate, himself","あ.たる, あ.たり, あ.てる, あ.て, まさ.に, まさ.にべし",トウ
+音,"sound, noise","おと, ね","オン, イン, -ノン"
+楽,"music, comfort, ease","たの.しい, たの.しむ, この.む","ガク, ラク, ゴウ"
+医,"doctor, medicine","い.やす, い.する, くすし",イ
+者,"someone, person",もの,シャ
+死,"death, die","し.ぬ, し.に-",シ
+意,"idea, mind, heart, taste, thought, desire, care, liking",N/A,イ
+味,"flavor, taste","あじ, あじ.わう",ミ
+注,"pour, irrigate, shed (tears), flow into, concentrate on, notes, comment, annotate","そそ.ぐ, さ.す, つ.ぐ",チュウ
+夏,summer,なつ,"カ, ガ, ゲ"
+魚,fish,"うお, さかな, -ざかな",ギョ
+寺,Buddhist temple,てら,ジ
+広,"wide, broad, spacious","ひろ.い, ひろ.まる, ひろ.める, ひろ.がる, ひろ.げる",コウ
+足,"leg, foot, be sufficient, counter for pairs of footwear","あし, た.りる, た.る, た.す",ソク
+転,"revolve, turn around, change","ころ.がる, ころ.げる, ころ.がす, ころ.ぶ, まろ.ぶ, うたた, うつ.る, くる.めく",テン
+借,"borrow, rent",か.りる,シャク
+走,run,はし.る,ソウ
+場,"location, place",ば,"ジョウ, チョウ"
+建,build,"た.てる, た.て, -だ.て, た.つ","ケン, コン"
+地,"ground, earth",N/A,"チ, ジ"
+通,"traffic, pass through, avenue, commute, counter for letters, notes, documents, etc.","とお.る, とお.り, -とお.り, -どお.り, とお.す, とお.し, -どお.し, かよ.う","ツウ, ツ"
+供,"submit, offer, present, serve (meal), accompany","そな.える, とも, -ども","キョウ, ク, クウ, グ"
+世,"generation, world, society, public",よ,"セイ, セ, ソウ"
+界,"world, boundary",N/A,カイ
+全,"whole, entire, all, complete, fulfill","まった.く, すべ.て",ゼン
+部,"section, bureau, dept, class, copy, part, portion, counter for copies of a newspaper or magazine",-べ,ブ
+始,"commence, begin","はじ.める, -はじ.める, はじ.まる",シ
+週,week,N/A,シュウ
+考,"consider, think over","かんが.える, かんが.え",コウ
+開,"open, unfold, unseal","ひら.く, ひら.き, -びら.き, ひら.ける, あ.く, あ.ける",カイ
+屋,"roof, house, shop, dealer, seller",や,オク
+方,"direction, person, alternative","かた, -かた, -がた",ホウ
+運,"carry, luck, destiny, fate, lot, transport, progress, advance",はこ.ぶ,ウン
+動,"move, motion, change, confusion, shift, shake","うご.く, うご.かす",ドウ
+教,"teach, faith, doctrine","おし.える, おそ.わる",キョウ
+室,"room, apartment, chamber, greenhouse, cellar",むろ,シツ
+以,"by means of, because, in view of, compared with",もっ.て,イ
+野,"plains, field, rustic, civilian life","の, の-","ヤ, ショ"
+習,learn,"なら.う, なら.い","シュウ, ジュ"
+主,"lord, chief, master, main thing, principal","ぬし, おも, あるじ","シュ, ス, シュウ"
+歳,"year-end, age, occasion, opportunity","とし, とせ, よわい","サイ, セイ"
+集,"gather, meet, congregate, swarm, flock","あつ.まる, あつ.める, つど.う",シュウ
+発,"departure, discharge, publish, emit, start from, disclose, counter for gunshots","た.つ, あば.く, おこ.る, つか.わす, はな.つ","ハツ, ホツ"
+表,"surface, table, chart, diagram","おもて, -おもて, あらわ.す, あらわ.れる, あら.わす",ヒョウ
+品,"goods, refinement, dignity, article, counter for meal courses",しな,"ヒン, ホン"
+写,"copy, be photographed, describe","うつ.す, うつ.る, うつ-, うつ.し","シャ, ジャ"
+真,"true, reality, Buddhist sect","ま, ま-, まこと",シン
+字,"character, letter, word, section of village","あざ, あざな, -な",ジ
+活,"lively, resuscitation, being helped, living","い.きる, い.かす, い.ける",カツ
+結,"tie, bind, contract, join, organize, do up hair, fasten","むす.ぶ, ゆ.う, ゆ.わえる","ケツ, ケチ"
+婚,marriage,N/A,コン
+歩,"walk, counter for steps","ある.く, あゆ.む","ホ, ブ, フ"
+目,"eye, class, look, insight, experience, care, favor","め, -め, ま-","モク, ボク"
+的,"bull's eye, mark, target, object, adjective ending",まと,テキ
+洋,"ocean, sea, foreign, Western style",N/A,ヨウ
+服,"clothing, admit, obey, discharge",N/A,フク
+堂,"public chamber, hall",N/A,ドウ
+力,"power, strength, strong, strain, bear up, exert",ちから,"リョク, リキ, リイ"
+授,"impart, instruct, grant, confer","さず.ける, さず.かる",ジュ
+業,"business, vocation, arts, performance",わざ,"ギョウ, ゴウ"
+試,"test, try, attempt, experiment, ordeal","こころ.みる, ため.す",シ
+験,"verification, effect, testing","あかし, しるし, ため.す, ためし","ケン, ゲン"
+貸,lend,"か.す, か.し-, かし-",タイ
+図,"map, drawing, plan, extraordinary, audacious","え, はか.る","ズ, ト"
+館,"building, mansion, large building, palace","やかた, たて",カン
+終,"end, finish","お.わる, -お.わる, おわ.る, お.える, つい, つい.に",シュウ
+宿,"inn, lodging, relay station, dwell, lodge, be pregnant, home, dwelling","やど, やど.る, やど.す",シュク
+題,"topic, subject",N/A,ダイ
+春,"springtime, spring (season)",はる,シュン
+秋,autumn,"あき, とき",シュウ
+冬,winter,ふゆ,トウ
+花,flower,はな,"カ, ケ"
+様,"Esq., way, manner, situation, polite suffix","さま, さん","ヨウ, ショウ"
+不,"negative, non-, bad, ugly, clumsy",N/A,"フ, ブ"
+姉,elder sister,"あね, はは",シ
+兄,"elder brother, big brother",あに,"ケイ, キョウ"
+漢,"Sino-, China",N/A,カン
+卒,"graduate, soldier, private, die","そっ.する, お.える, お.わる, ついに, にわか","ソツ, シュツ"
+工,"craft, construction, katakana e radical (no. 48)",N/A,"コウ, ク, グ"
+研,"polish, study of, sharpen",と.ぐ,ケン
+究,"research, study",きわ.める,"キュウ, ク"
+質,"substance, quality, matter, temperament","たち, ただ.す, もと, わりふ","シツ, シチ, チ"
+問,"question, ask, problem","と.う, と.い, とん",モン
+多,"many, frequent, much","おお.い, まさ.に, まさ.る",タ
+皿,"dish, a helping, plate",さら,ベイ
+声,voice,"こえ, こわ-","セイ, ショウ"
+茶,tea,N/A,"チャ, サ"
+止,"stop, halt","と.まる, -ど.まり, と.める, -と.める, -ど.め, とど.める, とど.め, とど.まる, や.める, や.む, -や.む, よ.す, -さ.す, -さ.し",シ
+枚,"sheet of..., counter for flat thin objects or sheets",N/A,"マイ, バイ"
+両,"both, old Japanese coin, counter for carriages (e.g., in a train), two","てる, ふたつ",リョウ
+無,"nothingness, none, ain't, nothing, nil, not",な.い,"ム, ブ"
+払,"pay, clear out, prune, banish, dispose of","はら.う, -はら.い, -ばら.い","フツ, ヒツ, ホツ"
+心,"heart, mind, spirit, heart radical (no. 61)","こころ, -ごころ",シン
+笑,laugh,"わら.う, え.む",ショウ
+絶,"discontinue, sever, cut off, abstain, interrupt, suppress, be beyond, without match, peerless, unparalleled","た.える, た.やす, た.つ",ゼツ
+対,"vis-a-vis, opposite, even, equal, versus, anti-, compare","あいて, こた.える, そろ.い, つれあ.い, なら.ぶ, むか.う","タイ, ツイ"
+痛,"pain, hurt, damage, bruise","いた.い, いた.む, いた.ましい, いた.める",ツウ
+最,"utmost, most, extreme","もっと.も, つま","サイ, シュ"
+続,"continue, series, sequel","つづ.く, つづ.ける, つぐ.ない","ゾク, ショク, コウ, キョウ"
+信,"faith, truth, fidelity, trust",N/A,シン
+経,"sutra, longitude, pass thru, expire, warp","へ.る, た.つ, たていと, はか.る, のり","ケイ, キョウ, キン"
+台,"pedestal, a stand, counter for machines and vehicles","うてな, われ, つかさ","ダイ, タイ"
+風,"wind, air, style, manner","かぜ, かざ-","フウ, フ"
+犬,dog,"いぬ, いぬ-",ケン
+重,"heavy, important, esteem, respect, heap up, pile up, nest of boxes, -fold","え, おも.い, おも.り, おも.なう, かさ.ねる, かさ.なる, おも","ジュウ, チョウ"
+初,"first time, beginning","はじ.め, はじ.めて, はつ, はつ-, うい-, -そ.める, -ぞ.め",ショ
+若,"young, if, perhaps, possibly, low number, immature","わか.い, わか-, も.しくわ, も.し, も.しくは, ごと.し","ジャク, ニャク, ニャ"
+送,"escort, send",おく.る,ソウ
+幸,"happiness, blessing, fortune","さいわ.い, さち, しあわ.せ",コウ
+計,"plot, plan, scheme, measure","はか.る, はか.らう",ケイ
+遅,"slow, late, back, later","おく.れる, おく.らす, おそ.い",チ
+配,"distribute, spouse, exile, rationing",くば.る,ハイ
+弟,"younger brother, faithful service to elders",おとうと,"テイ, ダイ, デ"
+妹,younger sister,いもうと,マイ
+記,"scribe, account, narrative",しる.す,キ
+銀,silver,しろがね,ギン
+回,"-times, round, game, revolve, counter for occurrences","まわ.る, -まわ.る, -まわ.り, まわ.す, -まわ.す, まわ.し-, -まわ.し, もとお.る, か.える","カイ, エ"
+夕,evening,ゆう,セキ
+黒,black,"くろ, くろ.ずむ, くろ.い",コク
+用,"utilize, business, service, use, employ",もち.いる,ヨウ
+末,"end, close, tip, powder, posterity","すえ, うら, うれ","マツ, バツ"
+待,"wait, depend on","ま.つ, -ま.ち",タイ
+残,"remainder, leftover, balance","のこ.る, のこ.す, そこな.う, のこ.り","ザン, サン"
+駅,station,N/A,エキ
+番,"turn, number in a series",つが.い,バン
+説,"opinion, theory, explanation, rumor",と.く,"セツ, ゼイ"
+案,"plan, suggestion, draft, ponder, fear, proposition, idea, expectation, worry, table, bench",つくえ,アン
+内,"inside, within, between, among, house, home",うち,"ナイ, ダイ"
+忘,forget,わす.れる,ボウ
+守,"guard, protect, defend, obey","まも.る, まも.り, もり, -もり, かみ","シュ, ス"
+顔,"face, expression",かお,ガン
+悲,"grieve, sad, deplore, regret","かな.しい, かな.しむ",ヒ
+怒,"angry, be offended","いか.る, おこ.る","ド, ヌ"
+違,"difference, differ","ちが.う, ちが.い, ちが.える, -ちが.える, たが.う, たが.える",イ
+変,"unusual, change, strange","か.わる, か.わり, か.える",ヘン
+比,"compare, race, ratio, Philippines",くら.べる,ヒ
+情,"feelings, emotion, passion, sympathy, circumstances, facts",なさ.け,"ジョウ, セイ"
+感,"emotion, feeling, sensation",N/A,カン
+調,"tune, tone, meter, key (music), writing style, prepare, exorcise, investigate, harmonize, mediate","しら.べる, しら.べ, ととの.う, ととの.える",チョウ
+査,investigate,N/A,サ
+果,"fruit, reward, carry out, achieve, complete, end, finish, succeed","は.たす, はた.す, -は.たす, は.てる, -は.てる, は.て",カ
+化,"change, take the form of, influence, enchant, delude, -ization","ば.ける, ば.かす, ふ.ける, け.する","カ, ケ"
+横,"sideways, side, horizontal, width, woof, unreasonable, perverse",よこ,オウ
+相,"inter-, mutual, together, each other, minister of state, councillor, aspect, phase, physiognomy",あい-,"ソウ, ショウ"
+答,"solution, answer","こた.える, こた.え",トウ
