@@ -1,7 +1,7 @@
 """Takes an excel spreadsheet containing kanji and converts it to a CSV file for use with Kotoba
-Discord Bot. Intended for use with Genki sheets
+Discord Bot. Intended to be used with Genki sheets
 
-The excel sheet must have the following columns in this specific row order (for now):
+Starting on row 4, the excel sheet used has the following columns in this specific order:
     - Kanji number
     - Textbook order
     - Hiragana reading
@@ -16,6 +16,9 @@ The resulting Kotoba CSV file has the following columns:
       number
     - Instructions: Tells user how to answer
     - Render as: Tells Kotoba Bot how to render the kanji
+
+The Kotoba CSV file is sorted by ascending textbook order, which also sorts unique kanji and lesson
+number
 """
 
 import sys
@@ -26,7 +29,7 @@ from openpyxl import load_workbook
 def excel_to_dict(filename: str):
     """Reads rows from excel sheet and returns a dictionary of kanji
 
-    excel sheet structure (from row 3):
+    excel sheet structure (from row 4):
         <kanji #> <textbook order> <hiragana> <kanji> <unique kanji #> <lesson #>
         int       int              str        str     int              str
     dict structure:
@@ -39,7 +42,8 @@ def excel_to_dict(filename: str):
     sheet = workbook.active
 
     # invariants:
-    #   - len([hiragana]) == len([textbook order]) (1:1 mapping between specific hiragana and textbook order)
+    #   - len([hiragana]) == len([textbook order]) (1:1 mapping between specific hiragana and
+    #     textbook order)
     #   - [<textbook order>] is sorted in ascending order and hiragana is inserted accordingly
     #       - this allows us to put more common readings first
     kanji_dict = {}
@@ -56,7 +60,7 @@ def excel_to_dict(filename: str):
             order_list.insert(insert_idx, text_order)
     # print(kanji_dict, len(kanji_dict))
 
-    # sort by ascending textbook order since this also naturally sorts unique kanji and lesson #
+    # sort by ascending textbook order
     ordered = dict(sorted(kanji_dict.items(), key=lambda item: item[1][1][0]))
     return ordered
 
@@ -70,8 +74,8 @@ def dict_to_csv(filename: str, kanji_dict: dict):
     """
     # get kanji meanings and readings from jisho(.csv) -- see jisho.py
     jisho = None
-    with open("jisho.csv", "r", encoding="UTF-8") as file:
-        reader = csv.reader(file)
+    with open("jisho.csv", "r", encoding="UTF-8") as csv_file:
+        reader = csv.reader(csv_file)
         jisho = {
             kanji: (meanings, kunyomi, onyomi)
             for kanji, meanings, kunyomi, onyomi in reader
@@ -90,9 +94,9 @@ def dict_to_csv(filename: str, kanji_dict: dict):
     ]
 
     # write to csv
-    with open(filename, "w", encoding="UTF-8") as file:
+    with open(filename, "w", encoding="UTF-8") as csv_file:
         fieldnames = ["Question", "Answers", "Comment", "Instructions", "Render as"]
-        writer = csv.DictWriter(file, fieldnames=fieldnames)
+        writer = csv.DictWriter(csv_file, fieldnames)
         writer.writeheader()
         writer.writerows(kotoba_list)
 
@@ -114,7 +118,7 @@ if __name__ == "__main__":
         print("Expected excel sheet filename, csv filename")
         sys.exit()
     sheet_name = sys.argv[1] or "kanji.csv"
-    kotoba_name = sys.argv[2] or "kotoba.csv"
+    outfile_name = sys.argv[2] or "kotoba_kanji.csv"
 
     kanji_dict = excel_to_dict(sheet_name)
-    dict_to_csv(kotoba_name, kanji_dict)
+    dict_to_csv(outfile_name, kanji_dict)

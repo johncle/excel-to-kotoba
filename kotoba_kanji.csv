@@ -72,7 +72,7 @@ onyomi: キン, コン, ゴン",Type the reading!,Image
 kunyomi: つち
 onyomi: ド, ト",Type the reading!,Image
 曜,よう,"(L4) weekday
-kunyomi: 
+kunyomi: N/A
 onyomi: ヨウ",Type the reading!,Image
 上,"じょう,うえ,のぼ","(L4) above, up
 kunyomi: うえ, -うえ, うわ-, かみ, あ.げる, -あ.げる, あ.がる, -あ.がる, あ.がり, -あ.がり, のぼ.る, のぼ.り, のぼ.せる, のぼ.す, たてまつ.る
@@ -198,7 +198,7 @@ onyomi: ボ",Type the reading!,Image
 kunyomi: たか.い, たか, -だか, たか.まる, たか.める
 onyomi: コウ",Type the reading!,Image
 校,こう,"(L7) exam, school, printing, proof, correction
-kunyomi: 
+kunyomi: N/A
 onyomi: コウ, キョウ",Type the reading!,Image
 毎,まい,"(L7) every
 kunyomi: ごと, -ごと.に
@@ -216,7 +216,7 @@ onyomi: キ",Type the reading!,Image
 kunyomi: い.る, -い.る, -い.り, い.れる, -い.れ, はい.る
 onyomi: ニュウ, ジュ",Type the reading!,Image
 員,いん,"(L8) employee, member, number, the one in charge
-kunyomi: 
+kunyomi: N/A
 onyomi: イン",Type the reading!,Image
 新,"しん,あたら","(L8) new
 kunyomi: あたら.しい, あら.た, あら-, にい-
@@ -234,7 +234,7 @@ onyomi: シ, ジ",Type the reading!,Image
 kunyomi: こと, つか.う, つか.える
 onyomi: ジ, ズ",Type the reading!,Image
 電,でん,"(L8) electricity
-kunyomi: 
+kunyomi: N/A
 onyomi: デン",Type the reading!,Image
 車,"しゃ,くるま","(L8) car
 kunyomi: くるま
@@ -363,7 +363,7 @@ onyomi: メイ, ミョウ, ミン",Type the reading!,Image
 kunyomi: や.む, -や.み, やまい
 onyomi: ビョウ, ヘイ",Type the reading!,Image
 院,いん,"(L11) Inst., institution, temple, mansion, school
-kunyomi: 
+kunyomi: N/A
 onyomi: イン",Type the reading!,Image
 映,"えい,うつ","(L11) reflect, reflection, projection
 kunyomi: うつ.る, うつ.す, は.える, -ば.え
@@ -395,9 +395,9 @@ onyomi: リョ",Type the reading!,Image
 昔,むかし,"(L12) once upon a time, antiquity, old times
 kunyomi: むかし
 onyomi: セキ, シャク",Type the reading!,Image
-々,symbol of repetition of a kanji,"(L12) 
-kunyomi: 
-onyomi: ",Type the reading!,Image
+々,symbol of repetition of a kanji,"(L12) N/A
+kunyomi: N/A
+onyomi: N/A",Type the reading!,Image
 神,"じん,しん,こう,かみ","(L12) gods, mind, soul
 kunyomi: かみ, かん-, こう-
 onyomi: シン, ジン",Type the reading!,Image
@@ -441,13 +441,13 @@ onyomi: ブツ, モツ",Type the reading!,Image
 kunyomi: とり
 onyomi: チョウ",Type the reading!,Image
 料,りょう,"(L13) fee, materials
-kunyomi: 
+kunyomi: N/A
 onyomi: リョウ",Type the reading!,Image
 理,り,"(L13) logic, arrangement, reason, justice, truth
 kunyomi: ことわり
 onyomi: リ",Type the reading!,Image
 特,"とく,とっ","(L13) special
-kunyomi: 
+kunyomi: N/A
 onyomi: トク",Type the reading!,Image
 安,"あん,やす","(L13) relax, cheap, low, quiet, rested, contented, peaceful
 kunyomi: やす.い, やす.まる, やす, やす.らか
@@ -492,7 +492,7 @@ onyomi: ダイ, タイ",Type the reading!,Image
 kunyomi: と.める, と.まる, とど.める, とど.まる, るうぶる
 onyomi: リュウ, ル",Type the reading!,Image
 族,ぞく,"(L14) tribe, family
-kunyomi: 
+kunyomi: N/A
 onyomi: ゾク",Type the reading!,Image
 親,"しん,おや,した","(L14) parent, intimacy, relative, familiarity, dealer (cards)
 kunyomi: おや, おや-, した.しい, した.しむ
@@ -534,7 +534,7 @@ onyomi: シャ",Type the reading!,Image
 kunyomi: し.ぬ, し.に-
 onyomi: シ",Type the reading!,Image
 意,い,"(L15) idea, mind, heart, taste, thought, desire, care, liking
-kunyomi: 
+kunyomi: N/A
 onyomi: イ",Type the reading!,Image
 味,"み,あじ","(L15) flavor, taste
 kunyomi: あじ, あじ.わう
@@ -573,7 +573,7 @@ onyomi: ジョウ, チョウ",Type the reading!,Image
 kunyomi: た.てる, た.て, -だ.て, た.つ
 onyomi: ケン, コン",Type the reading!,Image
 地,"ち,じ","(L15) ground, earth
-kunyomi: 
+kunyomi: N/A
 onyomi: チ, ジ",Type the reading!,Image
 通,"つう,とお,かよ","(L15) traffic, pass through, avenue, commute, counter for letters, notes, documents, etc.
 kunyomi: とお.る, とお.り, -とお.り, -どお.り, とお.す, とお.し, -どお.し, かよ.う
@@ -585,7 +585,7 @@ onyomi: キョウ, ク, クウ, グ",Type the reading!,Image
 kunyomi: よ
 onyomi: セイ, セ, ソウ",Type the reading!,Image
 界,かい,"(L16) world, boundary
-kunyomi: 
+kunyomi: N/A
 onyomi: カイ",Type the reading!,Image
 全,"ぜん,まった,すべ","(L16) whole, entire, all, complete, fulfill
 kunyomi: まった.く, すべ.て
@@ -597,7 +597,7 @@ onyomi: ブ",Type the reading!,Image
 kunyomi: はじ.める, -はじ.める, はじ.まる
 onyomi: シ",Type the reading!,Image
 週,しゅう,"(L16) week
-kunyomi: 
+kunyomi: N/A
 onyomi: シュウ",Type the reading!,Image
 考,"こう,かんが","(L16) consider, think over
 kunyomi: かんが.える, かんが.え
@@ -666,7 +666,7 @@ onyomi: カツ",Type the reading!,Image
 kunyomi: むす.ぶ, ゆ.う, ゆ.わえる
 onyomi: ケツ, ケチ",Type the reading!,Image
 婚,こん,"(L17) marriage
-kunyomi: 
+kunyomi: N/A
 onyomi: コン",Type the reading!,Image
 歩,"ほ,ぽ,ある","(L17) walk, counter for steps
 kunyomi: ある.く, あゆ.む
@@ -678,13 +678,13 @@ onyomi: モク, ボク",Type the reading!,Image
 kunyomi: まと
 onyomi: テキ",Type the reading!,Image
 洋,よう,"(L18) ocean, sea, foreign, Western style
-kunyomi: 
+kunyomi: N/A
 onyomi: ヨウ",Type the reading!,Image
 服,ふく,"(L18) clothing, admit, obey, discharge
-kunyomi: 
+kunyomi: N/A
 onyomi: フク",Type the reading!,Image
 堂,どう,"(L18) public chamber, hall
-kunyomi: 
+kunyomi: N/A
 onyomi: ドウ",Type the reading!,Image
 力,"りょく,りき,ちから","(L18) power, strength, strong, strain, bear up, exert
 kunyomi: ちから
@@ -717,7 +717,7 @@ onyomi: シュウ",Type the reading!,Image
 kunyomi: やど, やど.る, やど.す
 onyomi: シュク",Type the reading!,Image
 題,だい,"(L18) topic, subject
-kunyomi: 
+kunyomi: N/A
 onyomi: ダイ",Type the reading!,Image
 春,"しゅん,はる","(L19) springtime, spring (season)
 kunyomi: はる
@@ -735,7 +735,7 @@ onyomi: カ, ケ",Type the reading!,Image
 kunyomi: さま, さん
 onyomi: ヨウ, ショウ",Type the reading!,Image
 不,"ふ,ぶ","(L19) negative, non-, bad, ugly, clumsy
-kunyomi: 
+kunyomi: N/A
 onyomi: フ, ブ",Type the reading!,Image
 姉,"し,あね,ねえ","(L19) elder sister
 kunyomi: あね, はは
@@ -744,13 +744,13 @@ onyomi: シ",Type the reading!,Image
 kunyomi: あに
 onyomi: ケイ, キョウ",Type the reading!,Image
 漢,かん,"(L19) Sino-, China
-kunyomi: 
+kunyomi: N/A
 onyomi: カン",Type the reading!,Image
 卒,そつ,"(L19) graduate, soldier, private, die
 kunyomi: そっ.する, お.える, お.わる, ついに, にわか
 onyomi: ソツ, シュツ",Type the reading!,Image
 工,"こう,く","(L19) craft, construction, katakana e radical (no. 48)
-kunyomi: 
+kunyomi: N/A
 onyomi: コウ, ク, グ",Type the reading!,Image
 研,"けん,と","(L19) polish, study of, sharpen
 kunyomi: と.ぐ
@@ -774,13 +774,13 @@ onyomi: ベイ",Type the reading!,Image
 kunyomi: こえ, こわ-
 onyomi: セイ, ショウ",Type the reading!,Image
 茶,"ちゃ,さ","(L20) tea
-kunyomi: 
+kunyomi: N/A
 onyomi: チャ, サ",Type the reading!,Image
 止,"し,と","(L20) stop, halt
 kunyomi: と.まる, -ど.まり, と.める, -と.める, -ど.め, とど.める, とど.め, とど.まる, や.める, や.む, -や.む, よ.す, -さ.す, -さ.し
 onyomi: シ",Type the reading!,Image
 枚,まい,"(L20) sheet of..., counter for flat thin objects or sheets
-kunyomi: 
+kunyomi: N/A
 onyomi: マイ, バイ",Type the reading!,Image
 両,りょう,"(L20) both, old Japanese coin, counter for carriages (e.g., in a train), two
 kunyomi: てる, ふたつ
@@ -813,7 +813,7 @@ onyomi: サイ, シュ",Type the reading!,Image
 kunyomi: つづ.く, つづ.ける, つぐ.ない
 onyomi: ゾク, ショク, コウ, キョウ",Type the reading!,Image
 信,しん,"(L21) faith, truth, fidelity, trust
-kunyomi: 
+kunyomi: N/A
 onyomi: シン",Type the reading!,Image
 経,けい,"(L21) sutra, longitude, pass thru, expire, warp
 kunyomi: へ.る, た.つ, たていと, はか.る, のり
@@ -885,7 +885,7 @@ onyomi: タイ",Type the reading!,Image
 kunyomi: のこ.る, のこ.す, そこな.う, のこ.り
 onyomi: ザン, サン",Type the reading!,Image
 駅,えき,"(L22) station
-kunyomi: 
+kunyomi: N/A
 onyomi: エキ",Type the reading!,Image
 番,ばん,"(L22) turn, number in a series
 kunyomi: つが.い
@@ -927,13 +927,13 @@ onyomi: ヒ",Type the reading!,Image
 kunyomi: なさ.け
 onyomi: ジョウ, セイ",Type the reading!,Image
 感,かん,"(L23) emotion, feeling, sensation
-kunyomi: 
+kunyomi: N/A
 onyomi: カン",Type the reading!,Image
 調,"ちょう,しら","(L23) tune, tone, meter, key (music), writing style, prepare, exorcise, investigate, harmonize, mediate
 kunyomi: しら.べる, しら.べ, ととの.う, ととの.える
 onyomi: チョウ",Type the reading!,Image
 査,さ,"(L23) investigate
-kunyomi: 
+kunyomi: N/A
 onyomi: サ",Type the reading!,Image
 果,"か,は","(L23) fruit, reward, carry out, achieve, complete, end, finish, succeed
 kunyomi: は.たす, はた.す, -は.たす, は.てる, -は.てる, は.て
