@@ -1,13 +1,13 @@
 """Takes an excel spreadsheet containing kanji and converts it to a CSV file for use with Kotoba
-Discord Bot. Intended to be used with Genki sheets
+Discord Bot (https://kotobaweb.com/bot). Intended to be used with Genki sheets
 
 Starting on row 4, the excel sheet used has the following columns in this specific order:
-    - Kanji number
-    - Textbook order
-    - Hiragana reading
-    - Kanji
-    - Unique kanji number (some kanjis have multiple readings)
-    - Lesson number
+    - Kanji number (漢字さくいん 通しNo.)
+    - Textbook order (漢字読み （テキスト順）)
+    - Hiragana reading (漢字の読み)
+    - Kanji (漢字)
+    - Unique kanji number (漢字番号.) (some kanjis have multiple readings)
+    - Lesson number (課)
 
 The resulting Kotoba CSV file has the following columns:
     - Question: Kanji
