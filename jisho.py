@@ -1,9 +1,9 @@
-"""Get meanings and readings of kanji from jisho and writes to jisho.csv"""
+"""Gets meanings and readings of kanji from jisho and writes to jisho.csv"""
 from jisho_api.kanji import Kanji
 import csv
 
 kanjis = None
-with open("kotoba.csv", "r", encoding="UTF-8") as file:
+with open("kotoba.csv", "r", encoding="utf-8") as file:
     reader = csv.reader(file)
     kanjis = [row[0] for row in reader]
     kanjis.pop(0)
@@ -32,7 +32,7 @@ for kanji in kanjis:
     )
 # print(jisho_list)
 
-with open("jisho.csv", "w", encoding="UTF-8") as file:
+with open("jisho.csv", "w", encoding="utf-8") as file:
     fieldnames = ["kanji", "meanings", "kunyomi", "onyomi"]
     writer = csv.DictWriter(file, fieldnames)
     writer.writeheader()
