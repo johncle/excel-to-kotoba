@@ -1,0 +1,1744 @@
+Question,Answers,Comment,Instructions,Render as
+ありがとう,ありがとう,(会G) [exp.] Thank you.,Type the reading!,Image
+ありがとうございます,ありがとうございます,(会G) [exp.] Thank you. (polite),Type the reading!,Image
+いいえ,いいえ,(会G) [exp.] No.; Not at all.,Type the reading!,Image
+いただきます,いただきます,(会G) [exp.] Thank you for the meal. (before eating),Type the reading!,Image
+いってきます,いってきます,(会G) [exp.] I’ll go and come back.,Type the reading!,Image
+いってらっしゃい,いってらっしゃい,(会G) [exp.] Please go and come back.,Type the reading!,Image
+おかえり（なさい）,おかえり（なさい）,(会G) [exp.] Welcome home.,Type the reading!,Image
+おはよう,おはよう,(会G) [exp.] Good morning.,Type the reading!,Image
+おはようございます,おはようございます,(会G) [exp.] Good morning. (polite),Type the reading!,Image
+おやすみ（なさい）,おやすみ（なさい）,(会G) [exp.] Good night.,Type the reading!,Image
+ごちそうさま（でした）,ごちそうさま（でした）,(会G) [exp.] Thank you for the meal. (after eating),Type the reading!,Image
+こんにちは,こんにちは,(会G) [exp.] Good afternoon.,Type the reading!,Image
+こんばんは,こんばんは,(会G) [exp.] Good evening.,Type the reading!,Image
+さようなら,さようなら,(会G) [exp.] Good-bye.,Type the reading!,Image
+すみません,すみません,(会G) [exp.] Excuse me.;  I’m sorry.,Type the reading!,Image
+ただいま,ただいま,(会G) [exp.] I’m home.,Type the reading!,Image
+～です,～です,(会G) [exp.] I am . . . .,Type the reading!,Image
+はじめまして,はじめまして,(会G) [exp.] How do you do ?,Type the reading!,Image
+よろしくお願いします,よろしくおねがいします,(会G) [exp.] Nice to meet you.,Type the reading!,Image
+アジア研究,アジアけんきゅう,(会L1) [n.] Asian studies,Type the reading!,Image
+あのう,あのう,(会L1) [exp.] um . . .,Type the reading!,Image
+アメリカ,アメリカ,(会L1) [n.] U.S.A.,Type the reading!,Image
+イギリス,イギリス,"(会L1, 会L2) [n.] Britain",Type the reading!,Image
+医者,いしゃ,"(会L1, 会L10) [n.] doctor",Type the reading!,Image
+一時,いちじ,"(会L1, 会L1(e)) [n.] one o’clock",Type the reading!,Image
+一年生,いちねんせい,(会L1) [n.] first-year student,Type the reading!,Image
+一分,いっぷん,(会L1(e)) [n.] one minute,Type the reading!,Image
+今,いま,(会L1) [adv.] now,Type the reading!,Image
+妹,いもうと,"(会L1, 会L7) [n.] younger sister",Type the reading!,Image
+インド,インド,(会L1) [n.] India,Type the reading!,Image
+エジプト,エジプト,(会L1) [n.] Egypt,Type the reading!,Image
+オーストラリア,オーストラリア,"(会L1, 会L11) [n.] Australia",Type the reading!,Image
+お母さん,おかあさん,"(会L1, 会L2) [n.] mother",Type the reading!,Image
+お父さん,おとうさん,"(会L1, 会L2) [n.] father",Type the reading!,Image
+弟,おとうと,"(会L1, 会L7) [n.] younger brother",Type the reading!,Image
+お兄さん,おにいさん,"(会L1, 会L7) [n.] older brother",Type the reading!,Image
+お姉さん,おねえさん,"(会L1, 会L7) [n.] older sister",Type the reading!,Image
+会社員,かいしゃいん,"(会L1, 会L8) [n.] office worker",Type the reading!,Image
+学生,がくせい,(会L1) [n.] student,Type the reading!,Image
+カナダ,カナダ,(会L1) [n.] Canada,Type the reading!,Image
+韓国,かんこく,"(会L1, 会L2) [n.] Korea",Type the reading!,Image
+看護師,かんごし,"(会L1, 会L11) [n.] nurse",Type the reading!,Image
+九分,きゅうふん,(会L1(e)) [n.] nine minutes,Type the reading!,Image
+九時,くじ,(会L1(e)) [n.] nine o’clock,Type the reading!,Image
+経済,けいざい,"(会L1, 会L2) [n.] economics",Type the reading!,Image
+～語,～ご,(会L1) [suf.] . . . language,Type the reading!,Image
+高校,こうこう,(会L1) [n.] high school,Type the reading!,Image
+高校生,こうこうせい,(会L1) [n.] high school student,Type the reading!,Image
+国際関係,こくさいかんけい,(会L1) [n.] international relations,Type the reading!,Image
+午後,ごご,(会L1) [n.] p.m.,Type the reading!,Image
+五時,ごじ,(会L1(e)) [n.] five o’clock,Type the reading!,Image
+午前,ごぜん,(会L1) [n.] a.m.,Type the reading!,Image
+五分,ごふん,(会L1(e)) [n.] five minutes,Type the reading!,Image
+コンピューター,コンピューター,"(会L1, 会L2) [n.] computer",Type the reading!,Image
+～歳,～さい,(会L1) [suf.] . . . years old,Type the reading!,Image
+～さん,～さん,(会L1) [suf.] Mr./Ms. . . .,Type the reading!,Image
+三時,さんじ,(会L1(e)) [n.] three o’clock,Type the reading!,Image
+三十分,さんじっぷん/さんじゅっぷん,(会L1(e)) [n.] thirty minutes,Type the reading!,Image
+三分,さんぷん,(会L1(e)) [n.] three minutes,Type the reading!,Image
+～時,～じ,(会L1) [suf.] o’clock,Type the reading!,Image
+七時,しちじ,(会L1(e)) [n.] seven o’clock,Type the reading!,Image
+十分,"じっぷん,じゅっぷん",(会L1(e)) [n.] ten minutes,Type the reading!,Image
+十一時,じゅういちじ,(会L1(e)) [n.] eleven o’clock,Type the reading!,Image
+十一分,じゅういっぷん,(会L1(e)) [n.] eleven minutes,Type the reading!,Image
+十九分,じゅうきゅうふん,(会L1(e)) [n.] nineteen minutes,Type the reading!,Image
+十五分,じゅうごふん,(会L1(e)) [n.] fifteen minutes,Type the reading!,Image
+十三分,じゅうさんぷん,(会L1(e)) [n.] thirteen minutes,Type the reading!,Image
+十時,じゅうじ,(会L1(e)) [n.] ten o’clock,Type the reading!,Image
+十七分,じゅうななふん,(会L1(e)) [n.] seventeen minutes,Type the reading!,Image
+十二時,じゅうにじ,(会L1(e)) [n.] twelve o’clock,Type the reading!,Image
+十二分,じゅうにふん,(会L1(e)) [n.] twelve minutes,Type the reading!,Image
+十八分,じゅうはちふん/じゅうはっぷん,(会L1(e)) [n.] eighteen minutes,Type the reading!,Image
+十四分,じゅうよんぷん,(会L1(e)) [n.] fourteen minutes,Type the reading!,Image
+十六分,じゅうろっぷん,(会L1(e)) [n.] sixteen minutes,Type the reading!,Image
+主婦,しゅふ,(会L1) [n.] housewife,Type the reading!,Image
+～人,"～じん,～にん","(会L1, 会L7) [suf.] . . . people; [counter for people]",Type the reading!,Image
+政治,せいじ,"(会L1, 会L12) [n.] politics",Type the reading!,Image
+生物学,せいぶつがく,(会L1) [n.] biology,Type the reading!,Image
+専攻,せんこう,(会L1) [n.] major,Type the reading!,Image
+先生,せんせい,(会L1) [n.] teacher; Professor . . .,Type the reading!,Image
+そうです,そうです,(会L1) [exp.] That’s right.,Type the reading!,Image
+そうですか,そうですか,(会L1) [exp.] I see.; Is that so?,Type the reading!,Image
+大学,だいがく,(会L1) [n.] college; university,Type the reading!,Image
+大学院生,だいがくいんせい,(会L1) [n.] graduate student,Type the reading!,Image
+大学生,だいがくせい,(会L1) [n.] college student,Type the reading!,Image
+中国,ちゅうごく,"(会L1, 会L2) [n.] China",Type the reading!,Image
+電話,でんわ,(会L1) [n.] telephone,Type the reading!,Image
+友だち,ともだち,(会L1) [n.] friend,Type the reading!,Image
+七分,ななふん,(会L1(e)) [n.] seven minutes,Type the reading!,Image
+何,"なに/なん,なん/なに",(会L1) [n.] what,Type the reading!,Image
+名前,なまえ,(会L1) [n.] name,Type the reading!,Image
+二時,にじ,(会L1(e)) [n.] two o’clock,Type the reading!,Image
+二十分,"にじっぷん,にじゅっぷん",(会L1(e)) [n.] twenty minutes,Type the reading!,Image
+二時半,にじはん,(会L1) [n.] half past two,Type the reading!,Image
+二分,にふん,(会L1(e)) [n.] two minutes,Type the reading!,Image
+日本,にほん,(会L1) [n.] Japan,Type the reading!,Image
+日本語,にほんご,(会L1) [n.] Japanese language,Type the reading!,Image
+日本人,にほんじん,(会L1) [n.] Japanese people,Type the reading!,Image
+～年生,～ねんせい,(会L1) [suf.] . . . year student,Type the reading!,Image
+はい,はい,(会L1) [exp.] yes,Type the reading!,Image
+八時,はちじ,(会L1(e)) [n.] eight o’clock,Type the reading!,Image
+八分,"はちふん,はっぷん",(会L1(e)) [n.] eight minutes,Type the reading!,Image
+半,はん,(会L1) [suf.] half,Type the reading!,Image
+～番,～ばん,"(会L1, 会L11(e)) [suf.] number . . .",Type the reading!,Image
+番号,ばんごう,(会L1) [n.] number,Type the reading!,Image
+ビジネス,ビジネス,"(会L1, 会L2) [n.] business",Type the reading!,Image
+フィリピン,フィリピン,(会L1) [n.] Philippines,Type the reading!,Image
+文学,ぶんがく,"(会L1, 読L7-II) [n.] literature",Type the reading!,Image
+弁護士,べんごし,"(会L1, 会L13) [n.] lawyer",Type the reading!,Image
+四時,よじ,(会L1(e)) [n.] four o’clock,Type the reading!,Image
+四分,よんぷん,(会L1(e)) [n.] four minutes,Type the reading!,Image
+留学生,りゅうがくせい,(会L1) [n.] international student,Type the reading!,Image
+歴史,れきし,"(会L1, 会L2) [n.] history",Type the reading!,Image
+六時,ろくじ,(会L1(e)) [n.] six o’clock,Type the reading!,Image
+六分,ろっぷん,(会L1(e)) [n.] six minutes,Type the reading!,Image
+あそこ,あそこ,(会L2) [n.] over there,Type the reading!,Image
+あの,あの,(会L2) [pre.] that . . . (over there),Type the reading!,Image
+あれ,あれ,(会L2) [n.] that one (over there),Type the reading!,Image
+いくら,いくら,(会L2) [n.] how much,Type the reading!,Image
+いす,いす,"(会L2(e), 会L4) [n.] chair",Type the reading!,Image
+いらっしゃいませ,いらっしゃいませ,(会L2) [exp.] Welcome (to our store).,Type the reading!,Image
+英語,えいご,(会L2) [n.] English language,Type the reading!,Image
+～円,～えん,(会L2) [suf.] . . . yen,Type the reading!,Image
+おいしい,おいしい,(会L2) [い-adj.] delicious,Type the reading!,Image
+おねがいします（～を）,おねがいします（～を）,"(会L2) [exp.] . . . , please.",Type the reading!,Image
+カーテン,カーテン,"(会L2(e), 会L18) [n.] curtain",Type the reading!,Image
+傘,かさ,(会L2) [n.] umbrella,Type the reading!,Image
+かばん,かばん,(会L2) [n.] bag,Type the reading!,Image
+銀行,ぎんこう,(会L2) [n.] bank,Type the reading!,Image
+ください（～を）,ください（～を）,(会L2) [exp.] Please give me . . .,Type the reading!,Image
+靴,くつ,(会L2) [n.] shoes,Type the reading!,Image
+消しゴム,けしゴム,(会L2(e)) [n.] eraser,Type the reading!,Image
+黒板,こくばん,(会L2(e)) [n.] blackboard,Type the reading!,Image
+ここ,ここ,(会L2) [n.] here,Type the reading!,Image
+この,この,(会L2) [pre.] this . . .,Type the reading!,Image
+これ,これ,(会L2) [n.] this one,Type the reading!,Image
+コンビニ,コンビニ,(会L2) [n.] convenience store,Type the reading!,Image
+財布,さいふ,(会L2) [n.] wallet,Type the reading!,Image
+魚,さかな,(会L2) [n.] fish,Type the reading!,Image
+ジーンズ,ジーンズ,(会L2) [n.] jeans,Type the reading!,Image
+辞書,じしょ,"(会L2(e), 会L15) [n.] dictionary",Type the reading!,Image
+自転車,じてんしゃ,(会L2) [n.] bicycle,Type the reading!,Image
+じゃあ,じゃあ,"(会L2) [exp.] then . . . ; if that is the case, . . .",Type the reading!,Image
+新聞,しんぶん,(会L2) [n.] newspaper,Type the reading!,Image
+スマホ,スマホ,(会L2) [n.] smartphone; mobile,Type the reading!,Image
+そこ,そこ,(会L2) [n.] there,Type the reading!,Image
+その,その,(会L2) [pre.] that . . .,Type the reading!,Image
+それ,それ,(会L2) [n.] that one,Type the reading!,Image
+高い,たかい,(会L2) [い-adj.] expensive; high,Type the reading!,Image
+だれ,だれ,(会L2) [n.] who,Type the reading!,Image
+机,つくえ,"(会L2(e), 会L4) [n.] desk",Type the reading!,Image
+Ｔシャツ,ティーシャツ,(会L2) [n.] T-shirt,Type the reading!,Image
+電気,でんき,"(会L2(e), 会L6) [n.] electricity; light",Type the reading!,Image
+ドア,ドア,"(会L2(e), 読L13-III) [n.] door",Type the reading!,Image
+トイレ,トイレ,(会L2) [n.] toilet; restroom,Type the reading!,Image
+どうぞ,どうぞ,(会L2) [exp.] Please.; Here it is.,Type the reading!,Image
+どうも,どうも,(会L2) [exp.] Thank you.,Type the reading!,Image
+時計,とけい,(会L2) [n.] watch; clock,Type the reading!,Image
+どこ,どこ,(会L2) [n.] where,Type the reading!,Image
+図書館,としょかん,(会L2) [n.] library,Type the reading!,Image
+どの,どの,(会L2) [pre.] which . . .,Type the reading!,Image
+どれ,どれ,(会L2) [n.] which one,Type the reading!,Image
+とんかつ,とんかつ,(会L2) [n.] pork cutlet,Type the reading!,Image
+肉,にく,(会L2) [n.] meat,Type the reading!,Image
+ノート,ノート,(会L2) [n.] notebook,Type the reading!,Image
+ペン,ペン,(会L2) [n.] pen,Type the reading!,Image
+帽子,ぼうし,(会L2) [n.] hat; cap,Type the reading!,Image
+本,ほん,"(会L2, 会L2(e)) [n.] book",Type the reading!,Image
+窓,まど,"(会L2(e), 会L6) [n.] window",Type the reading!,Image
+メニュー,メニュー,(会L2) [n.] menu,Type the reading!,Image
+野菜,やさい,(会L2) [n.] vegetable,Type the reading!,Image
+郵便局,ゆうびんきょく,(会L2) [n.] post office,Type the reading!,Image
+アイスクリーム,アイスクリーム,(会L3) [n.] ice cream,Type the reading!,Image
+朝,あさ,(会L3) [n.] morning,Type the reading!,Image
+朝ご飯,あさごはん,(会L3) [n.] breakfast,Type the reading!,Image
+明日,あした,"(会L3, 会L4(e)) [n.] tomorrow",Type the reading!,Image
+あまり ＋ negative,あまり ＋ negative,(会L3) [adv.] not much,Type the reading!,Image
+いい,いい,(会L3) [い-adj.] good,Type the reading!,Image
+家,いえ,(会L3) [n.] home; house,Type the reading!,Image
+行く,いく,(会L3) [u-v.] to go,Type the reading!,Image
+いつ,いつ,(会L3) [n.] when,Type the reading!,Image
+うち,うち,(会L3) [n.] home; house; my place,Type the reading!,Image
+映画,えいが,(会L3) [n.] movie,Type the reading!,Image
+ええ,ええ,(会L3) [exp.] yes,Type the reading!,Image
+起きる,おきる,(会L3) [ru-v.] to get up ,Type the reading!,Image
+お酒,おさけ,(会L3) [n.] sake; alcoholic drink,Type the reading!,Image
+お茶,おちゃ,(会L3) [n.] green tea,Type the reading!,Image
+音楽,おんがく,(会L3) [n.] music,Type the reading!,Image
+帰る,かえる,(会L3) [u-v.] to go back; to return,Type the reading!,Image
+学校,がっこう,(会L3) [n.] school,Type the reading!,Image
+カフェ,カフェ,(会L3) [n.] cafe,Type the reading!,Image
+今日,きょう,"(会L3, 会L4(e)) [n.] today",Type the reading!,Image
+来る,くる,(会L3) [irr-v.] to come ,Type the reading!,Image
+コーヒー,コーヒー,(会L3) [n.] coffee,Type the reading!,Image
+～ごろ,～ごろ,(会L3) [suf.] at about . . .,Type the reading!,Image
+今晩,こんばん,(会L3) [n.] tonight,Type the reading!,Image
+酒,さけ,(会L3) [n.] sake; alcohol,Type the reading!,Image
+雑誌,ざっし,(会L3) [n.] magazine,Type the reading!,Image
+週末,しゅうまつ,(会L3) [n.] weekend,Type the reading!,Image
+スポーツ,スポーツ,(会L3) [n.] sports,Type the reading!,Image
+全然,ぜんぜん ＋ negative,(会L3) [adv.] not at all,Type the reading!,Image
+そうですね,そうですね,(会L3) [exp.] That’s right.; Let me see.,Type the reading!,Image
+たいてい,たいてい,(会L3) [adv.] usually,Type the reading!,Image
+食べる,たべる,(会L3) [ru-v.] to eat ,Type the reading!,Image
+茶,ちゃ,(会L3) [n.] green tea,Type the reading!,Image
+ちょっと,ちょっと,(会L3) [adv.] a little,Type the reading!,Image
+デート,デート,"(会L3) [n.] date (romantic, not calendar)",Type the reading!,Image
+テニス,テニス,(会L3) [n.] tennis,Type the reading!,Image
+でも,でも,(会L3) [exp.] but,Type the reading!,Image
+テレビ,テレビ,(会L3) [n.] TV,Type the reading!,Image
+どうですか,どうですか,(会L3) [exp.] How about . . . ?; How is . . . ?,Type the reading!,Image
+時々,ときどき,(会L3) [adv.] sometimes,Type the reading!,Image
+土曜日,どようび,"(会L3, 会L4(e)) [n.] Saturday",Type the reading!,Image
+日曜日,にちようび,"(会L3, 会L4(e)) [n.] Sunday",Type the reading!,Image
+寝る,ねる,(会L3) [ru-v.] to sleep; to go to sleep ,Type the reading!,Image
+飲む,のむ,(会L3) [u-v.] to drink,Type the reading!,Image
+話す,はなす,(会L3) [u-v.] to speak; to talk,Type the reading!,Image
+早い,はやい,(会L3) [い-adj.] early,Type the reading!,Image
+晩ご飯,ばんごはん,(会L3) [n.] dinner,Type the reading!,Image
+ハンバーガー,ハンバーガー,(会L3) [n.] hamburger,Type the reading!,Image
+昼ご飯,ひるごはん,(会L3) [n.] lunch,Type the reading!,Image
+勉強する,べんきょうする,(会L3) [irr-v.] to study ,Type the reading!,Image
+毎日,まいにち,(会L3) [n.] every day,Type the reading!,Image
+毎晩,まいばん,(会L3) [n.] every night,Type the reading!,Image
+水,みず,(会L3) [n.] water,Type the reading!,Image
+見る,みる,(会L3) [ru-v.] to see; to look at; to watch ,Type the reading!,Image
+よく,よく,"(会L3, 会L14) [adv.] often; much; well",Type the reading!,Image
+読む,よむ,(会L3) [u-v.] to read,Type the reading!,Image
+間,あいだ,(会L4) [n.] between,Type the reading!,Image
+会う,あう,(会L4) [u-v.] to meet; to see (a person),Type the reading!,Image
+あさって,あさって,"(会L4(e), 会L8) [n.] the day after tomorrow",Type the reading!,Image
+あなた,あなた,(会L4) [n.] you,Type the reading!,Image
+ある,ある,(会L4) [u-v.] there is . . .,Type the reading!,Image
+アルバイト,アルバイト,(会L4) [n.] part-time job,Type the reading!,Image
+一月,いちがつ,(会L4(e)) [n.] January,Type the reading!,Image
+一時間,いちじかん,(会L4) [n.] one hour,Type the reading!,Image
+犬,いぬ,(会L4) [n.] dog,Type the reading!,Image
+いる,いる,"(会L4, 会L8) [ru-v., u-v.] (a person) is in . . . ; stays at . . . ; to need",Type the reading!,Image
+上,うえ,(会L4) [n.] on,Type the reading!,Image
+後ろ,うしろ,(会L4) [n.] back,Type the reading!,Image
+遅く,おそく,"(読L4-III, 会L8) [adv.] (do something) late",Type the reading!,Image
+お寺,おてら,(会L4) [n.] temple,Type the reading!,Image
+おととい,おととい,"(会L4(e), 会L19) [n.] the day before yesterday",Type the reading!,Image
+おととし,おととし,(会L4(e)) [n.] the year before last,Type the reading!,Image
+おまんじゅう,おまんじゅう,(読L4-III) [n.] sweet bun,Type the reading!,Image
+買い物,かいもの,(会L4) [n.] shopping,Type the reading!,Image
+買う,かう,(会L4) [u-v.] to buy,Type the reading!,Image
+書く,かく,(会L4) [u-v.] to write,Type the reading!,Image
+火曜日,かようび,"(会L4, 会L4(e)) [n.] Tuesday",Type the reading!,Image
+昨日,きのう,"(会L4, 会L4(e)) [n.] yesterday",Type the reading!,Image
+去年,きょねん,"(会L4(e), 会L9) [n.] last year",Type the reading!,Image
+金曜日,きんようび,"(会L4, 会L4(e)) [n.] Friday",Type the reading!,Image
+九月,くがつ,(会L4(e)) [n.] September,Type the reading!,Image
+～ぐらい,～ぐらい,(会L4) [suf.] about (approximate measurement),Type the reading!,Image
+クラス,クラス,(会L4) [n.] class,Type the reading!,Image
+ゲーム,ゲーム,(会L4) [n.] game,Type the reading!,Image
+月曜日,げつようび,"(会L4, 会L4(e)) [n.] Monday",Type the reading!,Image
+公園,こうえん,(会L4) [n.] park,Type the reading!,Image
+五月,ごがつ,(会L4(e)) [n.] May,Type the reading!,Image
+今年,ことし,"(会L4(e), 会L10) [n.] this year",Type the reading!,Image
+子供,こども,(会L4) [n.] child,Type the reading!,Image
+ご飯,ごはん,(会L4) [n.] rice; meal,Type the reading!,Image
+ごめんなさい,ごめんなさい,(会L4) [exp.] I’m sorry.,Type the reading!,Image
+今月,こんげつ,"(会L4(e), 会L8) [n.] this month",Type the reading!,Image
+今週,こんしゅう,"(会L4(e), 会L6) [n.] this week",Type the reading!,Image
+再来月,さらいげつ,(会L4(e)) [n.] the month after next,Type the reading!,Image
+再来週,さらいしゅう,(会L4(e)) [n.] the week after next,Type the reading!,Image
+再来年,さらいねん,(会L4(e)) [n.] the year after next,Type the reading!,Image
+三月,さんがつ,(会L4(e)) [n.] March,Type the reading!,Image
+四月,しがつ,(会L4(e)) [n.] April,Type the reading!,Image
+～時間,～じかん,(会L4) [suf.] . . . hours,Type the reading!,Image
+下,した,(会L4) [n.] under,Type the reading!,Image
+七月,しちがつ,(会L4(e)) [n.] July,Type the reading!,Image
+写真,しゃしん,(会L4) [n.] picture; photograph,Type the reading!,Image
+十一月,じゅういちがつ,(会L4(e)) [n.] November,Type the reading!,Image
+十一日,じゅういちにち,(会L4(e)) [n.] the eleventh day of a month,Type the reading!,Image
+十月,じゅうがつ,(会L4(e)) [n.] October,Type the reading!,Image
+十二月,じゅうにがつ,(会L4(e)) [n.] December,Type the reading!,Image
+十四日,じゅうよっか,(会L4(e)) [n.] the fourteenth day of a month,Type the reading!,Image
+水曜日,すいようび,"(会L4, 会L4(e)) [n.] Wednesday",Type the reading!,Image
+スーパー,スーパー,(会L4) [n.] supermarket,Type the reading!,Image
+先月,せんげつ,"(会L4(e), 会L9) [n.] last month",Type the reading!,Image
+先週,せんしゅう,"(会L4, 会L4(e)) [n.] last week",Type the reading!,Image
+それから,それから,(会L4) [adv.] and then,Type the reading!,Image
+だから,だから,(会L4) [adv.] so; therefore,Type the reading!,Image
+たくさん,たくさん,(会L4) [adv.] many; a lot,Type the reading!,Image
+近く,ちかく,(会L4) [n.] near; nearby,Type the reading!,Image
+寺,てら,(会L4) [n.] temple,Type the reading!,Image
+～と,～と,(会L4) [part.] together with (a person); and,Type the reading!,Image
+どうして,どうして,(会L4) [adv.] why,Type the reading!,Image
+時,とき,(会L4) [n.] when . . . ; at the time of . . .,Type the reading!,Image
+隣,となり,(会L4) [n.] next,Type the reading!,Image
+撮る,とる,(会L4) [u-v.] to take (a picture),Type the reading!,Image
+中,なか,(会L4) [n.] inside,Type the reading!,Image
+二か月前,にかげつまえ,(会L4(e)) [n.] two months ago,Type the reading!,Image
+二月,にがつ,(会L4(e)) [n.] February,Type the reading!,Image
+二週間前,にしゅうかんまえ,(会L4(e)) [n.] two weeks ago,Type the reading!,Image
+二十四日,にじゅうよっか,(会L4(e)) [n.] the twenty-fourth day of a month,Type the reading!,Image
+猫,ねこ,(会L4) [n.] cat,Type the reading!,Image
+バス停,バスてい,(会L4) [n.] bus stop,Type the reading!,Image
+八月,はちがつ,(会L4(e)) [n.] August,Type the reading!,Image
+二十日,はつか,(会L4(e)) [n.] the twentieth day of a month,Type the reading!,Image
+花,はな,(会L4) [n.] flower,Type the reading!,Image
+パン,パン,(会L4) [n.] bread,Type the reading!,Image
+左,ひだり,(会L4) [n.] left,Type the reading!,Image
+人,ひと,(会L4) [n.] person,Type the reading!,Image
+一人で,ひとりで,(会L4) [adv.] alone,Type the reading!,Image
+病院,びょういん,(会L4) [n.] hospital,Type the reading!,Image
+二日,ふつか,"(会L4(e), 会L13) [n.] the second day of a month; two days",Type the reading!,Image
+ホテル,ホテル,(会L4) [n.] hotel,Type the reading!,Image
+本屋,ほんや,(会L4) [n.] bookstore,Type the reading!,Image
+町,まち,(会L4) [n.] town; city,Type the reading!,Image
+待つ,まつ,(会L4) [u-v.] to wait,Type the reading!,Image
+まんじゅう,まんじゅう,(読L4-III) [n.] sweet bun,Type the reading!,Image
+右,みぎ,(会L4) [n.] right,Type the reading!,Image
+店,みせ,"(読L4-III, 会L13) [n.] shop; store",Type the reading!,Image
+三日,みっか,"(会L4(e), 会L13) [n.] the third day of a month; three days",Type the reading!,Image
+木曜日,もくようび,"(会L4, 会L4(e)) [n.] Thursday",Type the reading!,Image
+もしもし,もしもし,(会L4) [exp.] Hello? (used on the phone),Type the reading!,Image
+来月,らいげつ,"(会L4(e), 会L8) [n.] next month",Type the reading!,Image
+来週,らいしゅう,"(会L4(e), 会L6) [n.] next week",Type the reading!,Image
+来年,らいねん,"(会L4(e), 会L6) [n.] next year",Type the reading!,Image
+レストラン,レストラン,(会L4) [n.] restaurant,Type the reading!,Image
+レポート,レポート,(会L4) [n.] (term) paper,Type the reading!,Image
+六月,ろくがつ,(会L4(e)) [n.] June,Type the reading!,Image
+わかる,わかる,(会L4) [u-v.] to understand,Type the reading!,Image
+新しい,あたらしい,(会L5) [い-adj.] new,Type the reading!,Image
+熱い,あつい,(会L5) [い-adj.] hot (thing),Type the reading!,Image
+暑い,あつい,(会L5) [い-adj.] hot (weather),Type the reading!,Image
+忙しい,いそがしい,(会L5) [い-adj.] busy (people/days),Type the reading!,Image
+一緒に,いっしょに,(会L5) [adv.] together,Type the reading!,Image
+海,うみ,(会L5) [n.] sea,Type the reading!,Image
+Ｌサイズ,エルサイズ,(会L5) [n.] size L,Type the reading!,Image
+大きい,おおきい,(会L5) [い-adj.] large,Type the reading!,Image
+お城,おしろ,(読L5-II) [n.] castle,Type the reading!,Image
+男の人,おとこのひと,"(読L5-II, 会L7) [n.] man",Type the reading!,Image
+お土産,おみやげ,(会L5) [n.] souvenir,Type the reading!,Image
+面白い,おもしろい,(会L5) [い-adj.] interesting; funny,Type the reading!,Image
+泳ぐ,およぐ,(会L5) [u-v.] to swim,Type the reading!,Image
+女の人,おんなのひと,"(読L5-II, 会L7) [n.] woman",Type the reading!,Image
+～が,～が,"(読L5-II, 会L7) [part.] . . . , but",Type the reading!,Image
+かっこいい,かっこいい,(会L5) [い-adj.] good-looking,Type the reading!,Image
+聞く,きく,"(会L5, 会L3) [u-v.] to ask; to listen; to hear",Type the reading!,Image
+嫌い,きらい（な）,(会L5) [な-adj.] disgusted with; to dislike,Type the reading!,Image
+きれい（な）,きれい（な）,(会L5) [な-adj.] beautiful; clean,Type the reading!,Image
+果物,くだもの,(会L5) [n.] fruit,Type the reading!,Image
+元気,げんき（な）,(会L5) [な-adj.] healthy; energetic,Type the reading!,Image
+怖い,こわい,(会L5) [い-adj.] frightening,Type the reading!,Image
+サーフィン,サーフィン,(会L5) [n.] surfing,Type the reading!,Image
+～様,～さま,(読L5-II) [suf.] Mr./Ms. . . .,Type the reading!,Image
+寒い,さむい,(会L5) [い-adj.] cold (weather),Type the reading!,Image
+静か,しずか（な）,(会L5) [な-adj.] quiet,Type the reading!,Image
+宿題,しゅくだい,(会L5) [n.] homework,Type the reading!,Image
+城,しろ,(読L5-II) [n.] castle,Type the reading!,Image
+好き,すき（な）,(会L5) [な-adj.] fond of; to like,Type the reading!,Image
+すごく,すごく,(会L5) [adv.] extremely,Type the reading!,Image
+大嫌い,だいきらい（な）,(会L5) [な-adj.] to hate,Type the reading!,Image
+大丈夫,だいじょうぶ,(会L5) [exp.] It’s okay.; Not to worry.; Everything is under control.,Type the reading!,Image
+大好き,だいすき（な）,(会L5) [な-adj.] very fond of; to love,Type the reading!,Image
+大変,たいへん（な）,"(読L5-II, 会L6) [な-adj.] tough (situation)",Type the reading!,Image
+楽しい,たのしい,(会L5) [い-adj.] fun,Type the reading!,Image
+食べ物,たべもの,(会L5) [n.] food,Type the reading!,Image
+誕生日,たんじょうび,(会L5) [n.] birthday,Type the reading!,Image
+小さい,ちいさい,(会L5) [い-adj.] small,Type the reading!,Image
+つまらない,つまらない,(会L5) [い-adj.] boring,Type the reading!,Image
+出かける,でかける,(会L5) [ru-v.] to go out ,Type the reading!,Image
+テスト,テスト,(会L5) [n.] test,Type the reading!,Image
+では、お元気で,では、おげんきで,(読L5-II) [exp.] Take care.,Type the reading!,Image
+天気,てんき,(会L5) [n.] weather,Type the reading!,Image
+とても,とても,(会L5) [adv.] very,Type the reading!,Image
+どんな,どんな,(会L5) [pre.] what kind of . . .,Type the reading!,Image
+にぎやか（な）,にぎやか（な）,(会L5) [な-adj.] lively,Type the reading!,Image
+飲み物,のみもの,(会L5) [n.] drink,Type the reading!,Image
+乗る,のる,(会L5) [u-v.] to ride; to board,Type the reading!,Image
+バス,バス,(会L5) [n.] bus,Type the reading!,Image
+暇,ひま（な）,(会L5) [な-adj.] not busy; free (time),Type the reading!,Image
+古い,ふるい,(会L5) [い-adj.] old (thing),Type the reading!,Image
+部屋,へや,(会L5) [n.] room,Type the reading!,Image
+僕,ぼく,(会L5) [n.] I (used by men),Type the reading!,Image
+～枚,～まい,"(会L5, 会L14(e)) [suf.] [counter for flat objects]",Type the reading!,Image
+土産,みやげ,(会L5) [n.] souvenir,Type the reading!,Image
+難しい,むずかしい,(会L5) [い-adj.] difficult,Type the reading!,Image
+メキシコ,メキシコ,(読L5-II) [n.] Mexico,Type the reading!,Image
+やさしい,やさしい,(会L5) [い-adj.] easy (problem); kind (person),Type the reading!,Image
+安い,やすい,(会L5) [い-adj.] inexpensive; cheap (thing),Type the reading!,Image
+休み,やすみ,(会L5) [n.] holiday; day off; absence,Type the reading!,Image
+山,やま,"(読L5-II, 会L11) [n.] mountain",Type the reading!,Image
+やる,やる,"(会L5, 会L21) [u-v.] to do; to perform; to give (to pets, plants, younger siblings, etc.)",Type the reading!,Image
+夜,よる,"(読L5-II, 会L6) [n.] night",Type the reading!,Image
+旅行,りょこう,(会L5) [n.] travel,Type the reading!,Image
+開ける,あける,(会L6) [ru-v.] to open (something) ,Type the reading!,Image
+遊ぶ,あそぶ,(会L6) [u-v.] to play; to spend time pleasantly,Type the reading!,Image
+後で,あとで,(会L6) [adv.] later on,Type the reading!,Image
+急ぐ,いそぐ,(会L6) [u-v.] to hurry,Type the reading!,Image
+イタリア,イタリア,(読L6-III) [n.] Italy,Type the reading!,Image
+いつも,いつも,"(読L6-III, 会L8) [adv.] always",Type the reading!,Image
+エアコン,エアコン,(会L6) [n.] air conditioner,Type the reading!,Image
+駅,えき,"(読L6-I, 会L10) [n.] station",Type the reading!,Image
+お金,おかね,(会L6) [n.] money,Type the reading!,Image
+教える,おしえる,(会L6) [ru-v.] to teach; to instruct ,Type the reading!,Image
+降りる,おりる,(会L6) [ru-v.] to get off ,Type the reading!,Image
+返す,かえす,(会L6) [u-v.] to return (a thing),Type the reading!,Image
+角,かど,"(会L6(e), 会L20) [n.] corner",Type the reading!,Image
+金,かね,(会L6) [n.] money,Type the reading!,Image
+借りる,かりる,(会L6) [ru-v.] to borrow ,Type the reading!,Image
+漢字,かんじ,(会L6) [n.] kanji; Chinese character,Type the reading!,Image
+北,きた,(会L6(e)) [n.] north,Type the reading!,Image
+教科書,きょうかしょ,(会L6) [n.] textbook,Type the reading!,Image
+国,くに,(会L6) [n.] country; place of origin,Type the reading!,Image
+消す,けす,(会L6) [u-v.] to turn off; to erase,Type the reading!,Image
+結構です,けっこうです,(会L6) [exp.] That would be fine.; That wouldn’t be necessary.,Type the reading!,Image
+シェフ,シェフ,"(読L6-III, 会L11) [n.] chef",Type the reading!,Image
+死ぬ,しぬ,(会L6) [u-v.] to die,Type the reading!,Image
+閉める,しめる,(会L6) [ru-v.] to close (something) ,Type the reading!,Image
+シャワー,シャワー,(会L6) [n.] shower,Type the reading!,Image
+シャワーを浴びる,シャワーをあびる,(会L6) [ru-v.] to take a shower ,Type the reading!,Image
+信号,しんごう,"(会L6(e), 会L20) [n.] traffic light",Type the reading!,Image
+すぐ,すぐ,(会L6) [adv.] right away,Type the reading!,Image
+座る,すわる,(会L6) [u-v.] to sit down,Type the reading!,Image
+立つ,たつ,(会L6) [u-v.] to stand up,Type the reading!,Image
+たばこを吸う,たばこをすう,(会L6) [u-v.] to smoke,Type the reading!,Image
+使う,つかう,(会L6) [u-v.] to use,Type the reading!,Image
+次,つぎ,(会L6) [n.] next,Type the reading!,Image
+つける,つける,(会L6) [ru-v.] to turn on ,Type the reading!,Image
+連れてくる,つれてくる,(会L6) [irr-v.] to bring (a person) ,Type the reading!,Image
+手伝う,てつだう,(会L6) [u-v.] to help,Type the reading!,Image
+出る,でる,"(読L6-I, 会L9) [ru-v.] to appear; to attend; to exit ",Type the reading!,Image
+電車,でんしゃ,(会L6) [n.] train,Type the reading!,Image
+電話する,でんわする,(会L6) [irr-v.] to call ,Type the reading!,Image
+西,にし,(会L6(e)) [n.] west,Type the reading!,Image
+荷物,にもつ,(会L6) [n.] baggage,Type the reading!,Image
+入る,はいる,(会L6) [u-v.] to enter,Type the reading!,Image
+パソコン,パソコン,(会L6) [n.] personal computer,Type the reading!,Image
+東,ひがし,(会L6(e)) [n.] east,Type the reading!,Image
+ピザ,ピザ,"(読L6-III, 会L9) [n.] pizza",Type the reading!,Image
+左側,ひだりがわ,(会L6(e)) [n.] left side,Type the reading!,Image
+一つ目,ひとつめ,(会L6(e)) [n.] first,Type the reading!,Image
+二つ目,ふたつめ,(会L6(e)) [n.] second,Type the reading!,Image
+ページ,ページ,(会L6) [n.] page,Type the reading!,Image
+本当ですか,ほんとうですか,(会L6) [exp.] Really?,Type the reading!,Image
+曲がる,まがる,"(会L6(e), 会L20) [u-v.] to turn (right/left)",Type the reading!,Image
+まっすぐ,まっすぐ,"(会L6(e), 読L6-I) [adv.] straight",Type the reading!,Image
+右側,みぎがわ,(会L6(e)) [n.] right side,Type the reading!,Image
+三つ目,みっつめ,(会L6(e)) [n.] third,Type the reading!,Image
+皆さん,みなさん,"(読L6-III, 会L14) [n.] everyone; all of you",Type the reading!,Image
+南,みなみ,"(会L6(e), 読L15-II) [n.] south",Type the reading!,Image
+持つ,もつ,(会L6) [u-v.] to carry; to hold,Type the reading!,Image
+持ってくる,もってくる,(会L6) [irr-v.] to bring (a thing) ,Type the reading!,Image
+休む,やすむ,(会L6) [u-v.] to be absent (from); to rest,Type the reading!,Image
+ゆっくり,ゆっくり,(会L6) [adv.] slowly; leisurely; unhurriedly,Type the reading!,Image
+料理,りょうり,"(読L6-III, 会L10) [n.] cooking; dish",Type the reading!,Image
+ワイン,ワイン,(読L6-III) [n.] wine,Type the reading!,Image
+忘れる,わすれる,(会L6) [ru-v.] to forget; to leave behind ,Type the reading!,Image
+渡る,わたる,"(会L6(e), 読L15-II) [u-v.] to cross",Type the reading!,Image
+足,あし,"(会L7(e), 会L12) [n.] leg; foot",Type the reading!,Image
+頭,あたま,(会L7(e)) [n.] head,Type the reading!,Image
+頭がいい,あたまがいい,(会L7) [い-adj.] bright; smart; clever,Type the reading!,Image
+兄,あに,(会L7) [n.] (my) older brother,Type the reading!,Image
+姉,あね,(会L7) [n.] (my) older sister,Type the reading!,Image
+歌,うた,(会L7) [n.] song,Type the reading!,Image
+歌う,うたう,(会L7) [u-v.] to sing,Type the reading!,Image
+おじいさん,おじいさん,(会L7) [n.] grandfather; old man,Type the reading!,Image
+お尻,おしり,(会L7(e)) [n.] buttocks,Type the reading!,Image
+おなか,おなか,"(会L7(e), 会L12) [n.] stomach",Type the reading!,Image
+おばあさん,おばあさん,(会L7) [n.] grandmother; old woman,Type the reading!,Image
+会社,かいしゃ,(会L7) [n.] company,Type the reading!,Image
+顔,かお,"(会L7(e), 会L10) [n.] face",Type the reading!,Image
+かける（眼鏡を）,かける（めがねを）,(会L7) [ru-v.] to put on (glasses) ,Type the reading!,Image
+家族,かぞく,(会L7) [n.] family,Type the reading!,Image
+肩,かた,(会L7(e)) [n.] shoulder,Type the reading!,Image
+かぶる,かぶる,(会L7) [u-v.] to put on (a hat),Type the reading!,Image
+髪,かみ,"(会L7, 会L7(e)) [n.] hair",Type the reading!,Image
+～から,～から,"(読L7-II, 会L9) [part.] from . . .",Type the reading!,Image
+体に気をつける,からだにきをつける,(読L7-II) [ru-v.] to take care of oneself ,Type the reading!,Image
+かわいい,かわいい,(会L7) [い-adj.] cute,Type the reading!,Image
+兄弟,きょうだい,(会L7) [n.] brothers and sisters,Type the reading!,Image
+着る,きる,(会L7) [ru-v.] to put on (clothes above your waist) ,Type the reading!,Image
+口,くち,"(会L7, 会L7(e)) [n.] mouth",Type the reading!,Image
+首,くび,(会L7(e)) [n.] neck,Type the reading!,Image
+車,くるま,(会L7) [n.] car,Type the reading!,Image
+結婚する,けっこんする,(会L7) [irr-v.] to get married ,Type the reading!,Image
+サークル,サークル,(会L7) [n.] club activity,Type the reading!,Image
+知っています,しっています,(会L7) [exp.] I know,Type the reading!,Image
+塾,じゅく,"(読L7-II, 会L22) [n.] cram school",Type the reading!,Image
+食堂,しょくどう,(会L7) [n.] cafeteria; dining commons,Type the reading!,Image
+尻,しり,(会L7(e)) [n.] buttocks,Type the reading!,Image
+知りません,しりません,(会L7) [exp.] I do not know,Type the reading!,Image
+知る,しる,(会L7) [u-v.] to get to know,Type the reading!,Image
+親切,しんせつ（な）,(会L7) [な-adj.] kind,Type the reading!,Image
+少し,すこし,"(読L7-II, 会L21) [adv.] a little",Type the reading!,Image
+住む,すむ,(会L7) [u-v.] to live,Type the reading!,Image
+背が高い,せがたかい,(会L7) [い-adj.] tall (stature),Type the reading!,Image
+背が低い,せがひくい,(会L7) [い-adj.] short (stature),Type the reading!,Image
+背中,せなか,(会L7(e)) [n.] back (body),Type the reading!,Image
+楽しみにする,たのしみにする（〜を）,(読L7-II) [irr-v.] to look forward (to) ,Type the reading!,Image
+父,ちち,(会L7) [n.] (my) father,Type the reading!,Image
+手,て,(会L7(e)) [n.] hand; arm,Type the reading!,Image
+デパート,デパート,(会L7) [n.] department store,Type the reading!,Image
+取る,とる,"(読L7-II, 会L11) [u-v.] to take (a class); to get (a grade)",Type the reading!,Image
+長い,ながい,(会L7) [い-adj.] long,Type the reading!,Image
+何も,なにも ＋ negative,(会L7) [adv.] not . . . anything,Type the reading!,Image
+歯,は,"(会L7(e), 会L12) [n.] tooth",Type the reading!,Image
+はく,はく,(会L7) [u-v.] to put on (items below your waist),Type the reading!,Image
+働く,はたらく,(会L7) [u-v.] to work,Type the reading!,Image
+鼻,はな,(会L7(e)) [n.] nose,Type the reading!,Image
+母,はは,(会L7) [n.] (my) mother,Type the reading!,Image
+速い,はやい,(会L7) [い-adj.] fast,Type the reading!,Image
+一人,ひとり,(会L7) [exp.] one person,Type the reading!,Image
+二人,ふたり,(会L7) [exp.] two people,Type the reading!,Image
+太っています,ふとっています,(会L7) [exp.] to be on the heavy side,Type the reading!,Image
+太る,ふとる,(会L7) [u-v.] to gain weight; overweight,Type the reading!,Image
+別に,べつに ＋ negative,(会L7) [adv.] nothing in particular,Type the reading!,Image
+便利,べんり（な）,(会L7) [な-adj.] convenient,Type the reading!,Image
+眉毛,まゆげ,(会L7(e)) [n.] eyebrow,Type the reading!,Image
+短い,みじかい,(会L7) [い-adj.] short (length),Type the reading!,Image
+耳,みみ,(会L7(e)) [n.] ear,Type the reading!,Image
+みんな,みんな,"(読L7-II, 会L9) [adv.] all",Type the reading!,Image
+胸,むね,(会L7(e)) [n.] breast,Type the reading!,Image
+目,め,"(会L7, 会L7(e)) [n.] eye",Type the reading!,Image
+眼鏡,めがね,(会L7) [n.] glasses,Type the reading!,Image
+もちろん,もちろん,(会L7) [adv.] of course,Type the reading!,Image
+やせています,やせています,(会L7) [exp.] to be thin,Type the reading!,Image
+やせる,やせる,(会L7) [ru-v.] to lose weight ,Type the reading!,Image
+指,ゆび,(会L7(e)) [n.] finger,Type the reading!,Image
+よかったら,よかったら,(会L7) [adv.] if you like,Type the reading!,Image
+アボカド,アボカド,(会L8(e)) [n.] avocado,Type the reading!,Image
+雨,あめ,(会L8) [n.] rain,Type the reading!,Image
+洗う,あらう,(会L8) [u-v.] to wash,Type the reading!,Image
+アレルギー,アレルギー,"(会L8(e), 会L12) [n.] allergy",Type the reading!,Image
+アンケート,アンケート,(読L8-II) [n.] questionnaire,Type the reading!,Image
+言う,いう,(会L8) [u-v.] to say,Type the reading!,Image
+いちご,いちご,(会L8(e)) [n.] strawberry,Type the reading!,Image
+ううん,ううん,(会L8) [exp.] uh-uh; no,Type the reading!,Image
+うん,うん,(会L8) [exp.] uh-huh; yes,Type the reading!,Image
+運転する,うんてんする,(会L8) [irr-v.] to drive ,Type the reading!,Image
+遅くなる,おそくなる,(会L8) [u-v.] to be late,Type the reading!,Image
+お風呂,おふろ,(会L8) [n.] bath,Type the reading!,Image
+お風呂に入る,おふろにはいる,(会L8) [u-v.] to take a bath,Type the reading!,Image
+思う,おもう,(会L8) [u-v.] to think,Type the reading!,Image
+カメラ,カメラ,(会L8) [n.] camera,Type the reading!,Image
+カラオケ,カラオケ,(会L8) [n.] karaoke,Type the reading!,Image
+乾杯,かんぱい,(会L8) [exp.] Cheers! (a toast),Type the reading!,Image
+気温,きおん,(会L8) [n.] temperature (weather),Type the reading!,Image
+キャベツ,キャベツ,(会L8(e)) [n.] cabbage,Type the reading!,Image
+牛肉,ぎゅうにく,(会L8(e)) [n.] beef,Type the reading!,Image
+きゅうり,きゅうり,(会L8(e)) [n.] cucumber,Type the reading!,Image
+切る,きる,"(会L8, 会L17(e)) [u-v.] to cut",Type the reading!,Image
+曇り,くもり,(会L8) [n.] cloudy weather,Type the reading!,Image
+今朝,けさ,(会L8) [n.] this morning,Type the reading!,Image
+答える,こたえる,"(読L8-II, 会L23) [ru-v.] to answer ",Type the reading!,Image
+この間,このあいだ,"(読L8-II, 会L16) [adv.] the other day",Type the reading!,Image
+最後に,さいごに,"(読L8-II, 会L23) [adv.] finally; lastly",Type the reading!,Image
+残業,ざんぎょう,"(読L8-II, 会L17) [n.] overtime work",Type the reading!,Image
+残念（ですね）,ざんねん（ですね）,(会L8) [exp.] That’s too bad.,Type the reading!,Image
+仕事,しごと,(会L8) [n.] job; work; occupation,Type the reading!,Image
+じゃがいも,じゃがいも,(会L8(e)) [n.] potato,Type the reading!,Image
+上手,じょうず（な）,(会L8) [な-adj.] skillful; good at . . .,Type the reading!,Image
+すいか,すいか,(会L8(e)) [n.] watermelon,Type the reading!,Image
+捨てる,すてる,(会L8) [ru-v.] to throw away ,Type the reading!,Image
+ストレス,ストレス,(読L8-II) [n.] stress,Type the reading!,Image
+スペイン,スペイン,(会L8) [n.] Spain,Type the reading!,Image
+洗濯する,せんたくする,(会L8) [irr-v.] to do laundry ,Type the reading!,Image
+掃除する,そうじする,(会L8) [irr-v.] to clean ,Type the reading!,Image
+たまねぎ,たまねぎ,(会L8(e)) [n.] onion,Type the reading!,Image
+疲れている,つかれている,(読L8-II) [exp.] to be tired,Type the reading!,Image
+次に,つぎに,(読L8-II) [adv.] secondly,Type the reading!,Image
+作る,つくる,(会L8) [u-v.] to make,Type the reading!,Image
+天気予報,てんきよほう,(会L8) [n.] weather forecast,Type the reading!,Image
+～度,～ど,(会L8) [suf.] . . . degrees (temperature),Type the reading!,Image
+どう,どう,(会L8) [adv.] how,Type the reading!,Image
+所,ところ,(会L8) [n.] place,Type the reading!,Image
+トマト,トマト,(会L8) [n.] tomato,Type the reading!,Image
+鶏肉,とりにく,(会L8(e)) [n.] chicken,Type the reading!,Image
+なす,なす,(会L8(e)) [n.] eggplant,Type the reading!,Image
+夏,なつ,(会L8) [n.] summer,Type the reading!,Image
+何か,なにか,(会L8) [n.] something,Type the reading!,Image
+～について,～について,(会L8) [part.] about . . . ; concerning . . .,Type the reading!,Image
+にんじん,にんじん,(会L8(e)) [n.] carrot,Type the reading!,Image
+パーティー,パーティー,(会L8) [n.] party,Type the reading!,Image
+バーベキュー,バーベキュー,(会L8) [n.] barbecue,Type the reading!,Image
+はし,はし,(会L8) [n.] chopsticks,Type the reading!,Image
+始める,はじめる,(会L8) [ru-v.] to begin ,Type the reading!,Image
+話,はなし,"(読L8-II, 会L19) [n.] story; talk",Type the reading!,Image
+ハラルフード,ハラルフード,(会L8(e)) [n.] halal,Type the reading!,Image
+晴れ,はれ,(会L8) [n.] sunny weather,Type the reading!,Image
+ピーナッツ,ピーナッツ,(会L8(e)) [n.] peanut,Type the reading!,Image
+袋,ふくろ,"(会L8(e), 会L23) [n.] bag; sack; plastic/paper bag",Type the reading!,Image
+豚肉,ぶたにく,(会L8(e)) [n.] pork,Type the reading!,Image
+ぶどう,ぶどう,(会L8(e)) [n.] grape,Type the reading!,Image
+冬,ふゆ,(会L8) [n.] winter,Type the reading!,Image
+降る（雨/雪が）,ふる（あめ/ゆきが）,(会L8) [u-v.] (rain/snow) falls,Type the reading!,Image
+風呂,ふろ,(会L8) [n.] bath,Type the reading!,Image
+風呂に入る,ふろにはいる,(会L8) [u-v.] to take a bath,Type the reading!,Image
+下手,へた（な）,(会L8) [な-adj.] clumsy; poor at . . .,Type the reading!,Image
+ホームステイ,ホームステイ,(会L8) [n.] homestay; living with a local family,Type the reading!,Image
+毎週,まいしゅう,(会L8) [n.] every week,Type the reading!,Image
+まず,まず,"(読L8-II, 会L18) [adv.] first of all",Type the reading!,Image
+まだ ＋ negative,まだ ＋ negative,(会L8) [adv.] not . . . yet,Type the reading!,Image
+みかん,みかん,"(会L8(e), 会L14) [n.] mandarin orange",Type the reading!,Image
+みんなで,みんなで,(会L8) [n.] all (of the people) together,Type the reading!,Image
+持っていく,もっていく,(会L8) [u-v.] to take (a thing),Type the reading!,Image
+もも,もも,(会L8(e)) [n.] peach,Type the reading!,Image
+有名,ゆうめい（な）,(会L8) [な-adj.] famous,Type the reading!,Image
+料理する,りょうりする,(会L8) [irr-v.] to cook ,Type the reading!,Image
+りんご,りんご,"(会L8(e), 会L10) [n.] apple",Type the reading!,Image
+青い,あおい,"(会L9, 会L9(e)) [い-adj.] blue",Type the reading!,Image
+青信号,あおしんごう,(会L9(e)) [n.] green light,Type the reading!,Image
+赤い,あかい,"(会L9, 会L9(e)) [い-adj.] red",Type the reading!,Image
+案内する,あんないする,"(読L9-II, 会L16) [irr-v.] to show (someone) around",Type the reading!,Image
+いい子,いいこ,(会L9) [n.] good child,Type the reading!,Image
+意地悪,いじわる（な）,(会L9) [な-adj.] mean-spirited,Type the reading!,Image
+五つ,いつつ,(会L9) [n.] five,Type the reading!,Image
+色,いろ,(会L9) [n.] color,Type the reading!,Image
+いろいろ（な）,いろいろ（な）,"(読L9-II, 会L13) [な-adj.] various; different kinds of",Type the reading!,Image
+運動する,うんどうする,(会L9) [irr-v.] to exercise ,Type the reading!,Image
+踊る,おどる,(会L9) [u-v.] to dance,Type the reading!,Image
+お弁当,おべんとう,(会L9) [n.] boxed lunch,Type the reading!,Image
+覚える,おぼえる,(会L9) [ru-v.] to memorize ,Type the reading!,Image
+オレンジ,オレンジ,(会L9(e)) [n.] orange,Type the reading!,Image
+終わる,おわる,(会L9) [u-v.] (something) ends,Type the reading!,Image
+顔が青い,かおがあおい,(会L9(e)) [い-adj.] to look pale,Type the reading!,Image
+歌舞伎,かぶき,(会L9) [n.] Kabuki; traditional Japanese theatrical art,Type the reading!,Image
+黄色い,きいろい,(会L9(e)) [い-adj.] yellow,Type the reading!,Image
+ギター,ギター,(会L9) [n.] guitar,Type the reading!,Image
+着物,きもの,"(読L9-II, 会L13) [n.] kimono; Japanese traditional dress",Type the reading!,Image
+金色,きんいろ,(会L9(e)) [n.] gold,Type the reading!,Image
+銀色,ぎんいろ,(会L9(e)) [n.] silver,Type the reading!,Image
+薬,くすり,(会L9) [n.] medicine,Type the reading!,Image
+薬を飲む,くすりをのむ,(会L9) [u-v.] to take medicine,Type the reading!,Image
+グリーン,グリーン,(会L9(e)) [n.] green,Type the reading!,Image
+グレー,グレー,(会L9(e)) [n.] gray,Type the reading!,Image
+黒い,くろい,"(会L9, 会L9(e)) [い-adj.] black",Type the reading!,Image
+ゴールド,ゴールド,(会L9(e)) [n.] gold,Type the reading!,Image
+九つ,ここのつ,(会L9) [n.] nine,Type the reading!,Image
+午前中,ごぜんちゅう,"(読L9-II, 会L21) [n.] in the morning",Type the reading!,Image
+ごちそう,ごちそう,(読L9-II) [n.] excellent food,Type the reading!,Image
+紺色,こんいろ,(会L9(e)) [n.] navy,Type the reading!,Image
+コンサート,コンサート,(会L9) [n.] concert,Type the reading!,Image
+今度,こんど,(会L9) [n.] near future,Type the reading!,Image
+作文,さくぶん,(会L9) [n.] essay; composition,Type the reading!,Image
+寂しい,さびしい,(会L9) [い-adj.] lonely,Type the reading!,Image
+散歩する,さんぽする,(会L9) [irr-v.] to take a walk ,Type the reading!,Image
+試験,しけん,(会L9) [n.] exam,Type the reading!,Image
+シルバー,シルバー,(会L9(e)) [n.] silver,Type the reading!,Image
+白い,しろい,"(会L9, 会L9(e)) [い-adj.] white",Type the reading!,Image
+白黒,しろくろ,(会L9(e)) [n.] black and white,Type the reading!,Image
+スキー,スキー,(会L9) [n.] ski,Type the reading!,Image
+是非,ぜひ,(会L9) [adv.] by all means,Type the reading!,Image
+そう,そう,(会L9) [adv.] (I think) so,Type the reading!,Image
+そして,そして,"(読L9-II, 会L11) [adv.] and then",Type the reading!,Image
+単語,たんご,(会L9) [n.] word; vocabulary,Type the reading!,Image
+チケット,チケット,(会L9) [n.] ticket,Type the reading!,Image
+茶色い,ちゃいろい,(会L9(e)) [い-adj.] brown,Type the reading!,Image
+手紙,てがみ,(会L9) [n.] letter,Type the reading!,Image
+十,とお,(会L9) [n.] ten,Type the reading!,Image
+ところで,ところで,(会L9) [adv.] by the way,Type the reading!,Image
+七つ,ななつ,(会L9) [n.] seven,Type the reading!,Image
+日記,にっき,"(読L9-II, 会L18) [n.] diary",Type the reading!,Image
+人気がある,にんきがある,(会L9) [u-v.] to be popular,Type the reading!,Image
+灰色,はいいろ,(会L9(e)) [n.] gray,Type the reading!,Image
+始まる,はじまる,(会L9) [u-v.] (something) begins,Type the reading!,Image
+話をする,はなしをする,"(読L9-II, 会L19) [irr-v.] to have a talk ",Type the reading!,Image
+ピアノ,ピアノ,(会L9) [n.] piano,Type the reading!,Image
+弾く,ひく,(会L9) [u-v.] to play (a string instrument or piano),Type the reading!,Image
+一つ,ひとつ,(会L9) [n.] one,Type the reading!,Image
+病気,びょうき,"(会L9, 会L12(e)) [n.] illness; sickness",Type the reading!,Image
+昼,ひる,(読L9-II) [n.] noon,Type the reading!,Image
+ピンク,ピンク,(会L9(e)) [n.] pink,Type the reading!,Image
+二つ,ふたつ,(会L9) [n.] two,Type the reading!,Image
+ベージュ,ベージュ,(会L9(e)) [n.] beige,Type the reading!,Image
+弁当,べんとう,(会L9) [n.] boxed lunch,Type the reading!,Image
+ホストファミリー,ホストファミリー,"(読L9-II, 会L11) [n.] host family",Type the reading!,Image
+～まで,～まで,(会L9) [part.] to (a place/a time),Type the reading!,Image
+水色,みずいろ,(会L9(e)) [n.] light blue,Type the reading!,Image
+三つ,みっつ,(会L9) [n.] three,Type the reading!,Image
+緑,みどり,"(会L9(e), 読L15-II) [n.] green",Type the reading!,Image
+六つ,むっつ,(会L9) [n.] six,Type the reading!,Image
+紫,むらさき,(会L9(e)) [n.] purple,Type the reading!,Image
+メール,メール,(会L9) [n.] e-mail,Type the reading!,Image
+もう,もう,(会L9) [adv.] already,Type the reading!,Image
+もらう,もらう,(会L9) [u-v.] to get (from somebody),Type the reading!,Image
+八つ,やっつ,(会L9) [n.] eight,Type the reading!,Image
+四つ,よっつ,(会L9) [n.] four,Type the reading!,Image
+寮,りょう,"(読L9-II, 会L17) [n.] dormitory",Type the reading!,Image
+若い,わかい,(会L9) [い-adj.] young,Type the reading!,Image
+秋,あき,(会L10) [n.] fall,Type the reading!,Image
+暖かい,あたたかい,(会L10) [い-adj.] warm,Type the reading!,Image
+歩いて,あるいて,(会L10) [adv.] on foot,Type the reading!,Image
+いいこと,いいこと,(読L10-II) [n.] good deed,Type the reading!,Image
+～行き,～いき,(会L10(e)) [suf.] bound for . . .,Type the reading!,Image
+一号車,いちごうしゃ,(会L10(e)) [n.] Car No. 1,Type the reading!,Image
+一番,いちばん,(会L10) [adv.] best,Type the reading!,Image
+入口,いりぐち,(会L10(e)) [n.] entrance,Type the reading!,Image
+売る,うる,"(読L10-II, 会L15) [u-v.] to sell",Type the reading!,Image
+往復,おうふく,(会L10(e)) [n.] round trip,Type the reading!,Image
+お金持ち,おかねもち,(会L10) [n.] rich person,Type the reading!,Image
+おじぞうさん,おじぞうさん,(読L10-II) [n.] guardian deity of children,Type the reading!,Image
+お正月,おしょうがつ,"(読L10-II, 会L11) [n.] New Year’s",Type the reading!,Image
+遅い,おそい,(会L10) [い-adj.] slow; late,Type the reading!,Image
+おもち,おもち,(読L10-II) [n.] rice cake,Type the reading!,Image
+～か～,～か～,(会L10) [part.] or,Type the reading!,Image
+改札,かいさつ,(会L10(e)) [n.] gate,Type the reading!,Image
+階段,かいだん,"(会L10(e), 会L23) [n.] stairs",Type the reading!,Image
+かかる,かかる,(会L10) [u-v.] to take (amount of time/money),Type the reading!,Image
+学割,がくわり,(会L10(e)) [n.] student discount,Type the reading!,Image
+～か月,～かげつ,(会L10) [suf.] for . . . months,Type the reading!,Image
+かさ,かさ,(読L10-II) [n.] bamboo hat,Type the reading!,Image
+片道,かたみち,(会L10(e)) [n.] one way,Type the reading!,Image
+悲しい,かなしい,"(読L10-II, 会L13) [い-adj.] sad",Type the reading!,Image
+金持ち,かねもち,(会L10) [n.] rich person,Type the reading!,Image
+かぶせる,かぶせる,(読L10-II) [n.] to put (a hat) on a person’s head ,Type the reading!,Image
+簡単,かんたん（な）,(会L10) [な-adj.] easy; simple,Type the reading!,Image
+季節,きせつ,(会L10) [n.] season,Type the reading!,Image
+切符売り場,きっぷうりば,(会L10(e)) [n.] ticket vending area,Type the reading!,Image
+決める,きめる,(会L10) [ru-v.] to decide ,Type the reading!,Image
+急行,きゅうこう,(会L10(e)) [n.] express,Type the reading!,Image
+牛乳,ぎゅうにゅう,(会L10) [n.] milk,Type the reading!,Image
+ケーキ,ケーキ,(会L10) [n.] cake,Type the reading!,Image
+～後,～ご,(会L10) [suf.] in . . . time; after . . .,Type the reading!,Image
+交通系ICカード,こうつうけいアイシーカード,"(会L10(e)) [n.] rechargeable card such as Suica, Icoca, Pasmo, etc.",Type the reading!,Image
+声,こえ,(読L10-II) [n.] voice,Type the reading!,Image
+このごろ,このごろ,(会L10) [adv.] these days,Type the reading!,Image
+ごろごろする,ごろごろする,(会L10) [irr-v.] to chill out at home; to stay home do nothing ,Type the reading!,Image
+サッカー,サッカー,(会L10) [n.] soccer,Type the reading!,Image
+幸せ,しあわせ（な）,"(読L10-II, 会L13) [な-adj.] happy (lasting happiness)",Type the reading!,Image
+時間,じかん,(会L10) [n.] time,Type the reading!,Image
+じぞう,じぞう,(読L10-II) [n.] guardian deity of children,Type the reading!,Image
+指定席,していせき,(会L10(e)) [n.] reserved seat,Type the reading!,Image
+次発,じはつ,(会L10(e)) [n.] departing second,Type the reading!,Image
+自分,じぶん,"(読L10-II, 会L17) [n.] oneself",Type the reading!,Image
+～週間,～しゅうかん,(会L10) [suf.] for . . . weeks,Type the reading!,Image
+自由席,じゆうせき,(会L10(e)) [n.] general admission seat,Type the reading!,Image
+終電,しゅうでん,"(会L10(e), 会L21) [n.] last train (of the day)",Type the reading!,Image
+正月,しょうがつ,"(読L10-II, 会L11) [n.] New Year’s",Type the reading!,Image
+乗車券,じょうしゃけん,(会L10(e)) [n.] (boarding) ticket,Type the reading!,Image
+新幹線,しんかんせん,(会L10) [n.] Shinkansen;  “Bullet Train”,Type the reading!,Image
+すし,すし,(会L10) [n.] sushi,Type the reading!,Image
+涼しい,すずしい,(会L10) [い-adj.] cool (weather),Type the reading!,Image
+生活,せいかつ,(会L10) [n. ] life; living,Type the reading!,Image
+世界,せかい,(会L10) [n. ] world,Type the reading!,Image
+先発,せんぱつ,(会L10(e)) [n.] departing first,Type the reading!,Image
+地下鉄,ちかてつ,(会L10) [n. ] subway,Type the reading!,Image
+ツアー,ツアー,(会L10) [n.] tour,Type the reading!,Image
+次は～,つぎは～,"(会L10(e)) [exp.] next (stop), . . .",Type the reading!,Image
+冷たい,つめたい,(会L10) [い-adj.] cold (things/people),Type the reading!,Image
+～で,～で,(会L10) [part.] by (means of transportation); with (a tool),Type the reading!,Image
+定期券,ていきけん,(会L10(e)) [n.] commuter’s pass,Type the reading!,Image
+出口,でぐち,(会L10(e)) [n.] exit,Type the reading!,Image
+手袋,てぶくろ,(会L10) [n.] gloves,Type the reading!,Image
+天ぷら,てんぷら,(会L10) [n.] tempura,Type the reading!,Image
+戸,と,(読L10-II) [n.] door,Type the reading!,Image
+動物園,どうぶつえん,(会L10) [n.] zoo,Type the reading!,Image
+どうやって,どうやって,(会L10) [adv.] how; by what means,Type the reading!,Image
+年,とし,(読L10-II) [n.] year,Type the reading!,Image
+年上,としうえ,(会L10) [n.] someone older,Type the reading!,Image
+特急,とっきゅう,(会L10(e)) [n.] super express,Type the reading!,Image
+どっち,どっち,(会L10) [n.] which,Type the reading!,Image
+どのぐらい,どのぐらい,(会L10) [exp.] how much; how long,Type the reading!,Image
+泊まる,とまる,"(会L10) [u-v.] to stay (at a hotel, etc.)",Type the reading!,Image
+とる,とる,(読L10-II) [u-v.] to take off,Type the reading!,Image
+なる,なる,(会L10) [u-v.] to become,Type the reading!,Image
+眠い,ねむい,(会L10) [い-adj.] sleepy,Type the reading!,Image
+～年,～ねん,(会L10) [suf.] . . . years,Type the reading!,Image
+乗り換え,のりかえ,(会L10(e)) [n.] transfer,Type the reading!,Image
+売店,ばいてん,(会L10(e)) [n.] shop; stand,Type the reading!,Image
+早く/速く,はやく,(会L10) [adv.] (do something) early; fast,Type the reading!,Image
+春,はる,(会L10) [n.] spring,Type the reading!,Image
+～番線,～ばんせん,(会L10(e)) [suf.] track number . . .,Type the reading!,Image
+飛行機,ひこうき,(会L10) [n.] airplane,Type the reading!,Image
+びっくりする,びっくりする,"(読L10-II, 会L21) [irr-v.] to be surprised ",Type the reading!,Image
+美容院,びよういん,(会L10) [n.] beauty parlor,Type the reading!,Image
+普通,ふつう,(会L10(e)) [n.] local (train),Type the reading!,Image
+船,ふね,(会L10) [n.] ship; boat,Type the reading!,Image
+～方面,～ほうめん,(会L10(e)) [suf.] serving . . . areas,Type the reading!,Image
+ホーム,ホーム,"(会L10(e), 読L22-II) [n.] platform",Type the reading!,Image
+昔々,むかしむかし,(読L10-II) [n.] once upon a time,Type the reading!,Image
+もち,もち,(読L10-II) [n.] rice cake,Type the reading!,Image
+野球,やきゅう,(会L10) [n.] baseball,Type the reading!,Image
+山道,やまみち,(読L10-II) [n.] mountain road,Type the reading!,Image
+有名人,ゆうめいじん,(会L10) [n.] celebrity,Type the reading!,Image
+雪,ゆき,"(読L10-II, 会L8) [n.] snow",Type the reading!,Image
+予約,よやく,(会L10) [n.] reservation,Type the reading!,Image
+旅行する,りょこうする,(会L10) [irr-v.] to travel ,Type the reading!,Image
+練習する,れんしゅうする,(会L10) [irr-v.] to practice ,Type the reading!,Image
+アウトドア,アウトドア,(読L11-II) [n.] outdoor activities,Type the reading!,Image
+意味,いみ,"(会L11(e), 会L12) [n.] meaning",Type the reading!,Image
+うそをつく,うそをつく,(会L11) [u-v.] to tell a lie,Type the reading!,Image
+宇宙飛行士,うちゅうひこうし,(会L11) [n.] astronaut,Type the reading!,Image
+お菓子,おかし,(会L11) [n.] snack; sweets,Type the reading!,Image
+おなかがすく,おなかがすく,(会L11) [u-v.] to become hungry,Type the reading!,Image
+お返事,おへんじ,(読L11-II) [n.] reply,Type the reading!,Image
+お祭り,おまつり,(会L11) [n.] festival,Type the reading!,Image
+おもちゃ,おもちゃ,(会L11) [n.] toy,Type the reading!,Image
+温泉,おんせん,(会L11) [n.] spa; hot spring,Type the reading!,Image
+外国,がいこく,(会L11) [n.] foreign country,Type the reading!,Image
+飼う,かう,(会L11) [u-v.] to own (a pet),Type the reading!,Image
+菓子,かし,(会L11) [n.] snack; sweets,Type the reading!,Image
+歌手,かしゅ,(会L11) [n.] singer,Type the reading!,Image
+かたい言い方,かたいいいかた,(会L11(e)) [n.] bookish expression,Type the reading!,Image
+かっこ,かっこ,(会L11(e)) [n.] parenthesis,Type the reading!,Image
+川,かわ,(会L11) [n.] river,Type the reading!,Image
+キャンプ,キャンプ,(会L11) [n.] camp,Type the reading!,Image
+教師,きょうし,(会L11) [n.] schoolteacher,Type the reading!,Image
+共通語,きょうつうご,(会L11(e)) [n.] common language,Type the reading!,Image
+～行目,～ぎょうめ,(会L11(e)) [suf.] line number . . .,Type the reading!,Image
+近所,きんじょ,(読L11-II) [n.] neighborhood,Type the reading!,Image
+くだけた言い方,くだけたいいかた,(会L11(e)) [n.] colloquial expression,Type the reading!,Image
+警察官,けいさつかん,(会L11) [n.] police officer,Type the reading!,Image
+けんかする,けんかする,(会L11) [irr-v.] to have a fight; to quarrel ,Type the reading!,Image
+研究者,けんきゅうしゃ,(会L11) [n.] researcher,Type the reading!,Image
+答／答え,こたえ,"(会L11(e), 読L23-II) [n.] answer",Type the reading!,Image
+こちら,こちら,"(会L11, 会L19) [n.] this person (polite); this way (polite)",Type the reading!,Image
+こと,こと,"(読L11-II, 会L21) [n.] things; matters",Type the reading!,Image
+これから,これから,"(読L11-II, 会L16) [adv.] from now on",Type the reading!,Image
+今学期,こんがっき,(会L11) [n.] this semester,Type the reading!,Image
+作家,さっか,(会L11) [n.] writer,Type the reading!,Image
+サボる,サボる,(会L11) [u-v.] to cut (classes),Type the reading!,Image
+質問,しつもん,"(会L11(e), 読L19-III) [n.] question",Type the reading!,Image
+締め切り,しめきり,"(会L11(e), 会L15) [n.] deadline",Type the reading!,Image
+ジャーナリスト,ジャーナリスト,(会L11) [n.] journalist,Type the reading!,Image
+社長,しゃちょう,(会L11) [n.] president of a company,Type the reading!,Image
+授業,じゅぎょう,(会L11) [n.] class,Type the reading!,Image
+出身,しゅっしん,(会L11) [n.] coming from,Type the reading!,Image
+紹介する,しょうかいする,(会L11) [irr-v.] to introduce ,Type the reading!,Image
+消防士,しょうぼうし,(会L11) [n.] firefighter,Type the reading!,Image
+将来,しょうらい,(会L11) [n.] future,Type the reading!,Image
+神社,じんじゃ,(会L11) [n.] shrine,Type the reading!,Image
+スポーツ選手,スポーツせんしゅ,(会L11) [n.] athlete,Type the reading!,Image
+ダイエットする,ダイエットする,(会L11) [irr-v.] to go on a diet ,Type the reading!,Image
+大統領,だいとうりょう,(会L11) [n.] president of a country,Type the reading!,Image
+～だけ,～だけ,(会L11) [suf.] just . . . ; only . . .,Type the reading!,Image
+例えば,たとえば,"(会L11(e), 読L16-II, 会L17) [adv.] for example",Type the reading!,Image
+遅刻する,ちこくする,(会L11) [irr-v.] to be late (for an appointment) ,Type the reading!,Image
+疲れる,つかれる,(会L11) [ru-v.] to get tired ,Type the reading!,Image
+つり,つり,(会L11) [n.] fishing,Type the reading!,Image
+ていねいな言い方,ていねいないいかた,(会L11(e)) [n.] polite expression,Type the reading!,Image
+～点,～てん,(会L11) [suf.] . . . points,Type the reading!,Image
+ドライブ,ドライブ,(会L11) [n.] drive,Type the reading!,Image
+習う,ならう,(会L11) [u-v.] to learn,Type the reading!,Image
+登る,のぼる,(会L11) [u-v.] to climb,Type the reading!,Image
+俳優,はいゆう,(会L11) [n.] actor; actress,Type the reading!,Image
+走る,はしる,(会L11) [u-v.] to run,Type the reading!,Image
+ばつ,ばつ,(会L11(e)) [n.] × (wrong),Type the reading!,Image
+発音,はつおん,(会L11(e)) [n.] pronunciation,Type the reading!,Image
+バンド,バンド,(読L11-II) [n.] band,Type the reading!,Image
+ビール,ビール,(会L11) [n.] beer,Type the reading!,Image
+久しぶり,ひさしぶり,(会L11) [exp.] it has been a long time,Type the reading!,Image
+美術館,びじゅつかん,(会L11) [n.] art museum,Type the reading!,Image
+二人ずつ,ふたりずつ,(会L11(e)) [exp.] two people each,Type the reading!,Image
+文化,ぶんか,"(読L11-II, 会L16) [n.] culture",Type the reading!,Image
+文法,ぶんぽう,"(会L11(e), 会L13) [n.] grammar",Type the reading!,Image
+平日,へいじつ,(読L11-II) [n.] weekday,Type the reading!,Image
+返事,へんじ,"(読L11-II, 会L16) [n.] reply",Type the reading!,Image
+方言,ほうげん,(会L11(e)) [n.] dialect,Type the reading!,Image
+ほかに,ほかに,(会L11(e)) [adv.] anything else,Type the reading!,Image
+～募集,～ぼしゅう,(読L11-II) [suf.] looking for . . .,Type the reading!,Image
+ホラー,ホラー,(読L11-II) [n.] horror,Type the reading!,Image
+ボランティア,ボランティア,"(読L11-II, 会L15) [n.] volunteer",Type the reading!,Image
+まあまあ,まあまあ,(会L11) [exp.] okay; so-so,Type the reading!,Image
+祭り,まつり,(会L11) [n.] festival,Type the reading!,Image
+まる,まる,(会L11(e)) [n.] ○ (correct),Type the reading!,Image
+漫画家,まんがか,(会L11) [n.] cartoonist,Type the reading!,Image
+湖,みずうみ,(会L11) [n.] lake,Type the reading!,Image
+もっと,もっと,(会L11) [adv.] more,Type the reading!,Image
+やめる,やめる,(会L11) [ru-v.] to quit ,Type the reading!,Image
+夢,ゆめ,(会L11) [n.] dream,Type the reading!,Image
+来学期,らいがっき,(会L11) [n.] next semester,Type the reading!,Image
+留学する,りゅうがくする,(会L11) [irr-v.] to study abroad ,Type the reading!,Image
+ルームメイト,ルームメイト,(会L11) [n.] roommate,Type the reading!,Image
+例,れい,(会L11(e)) [n.] example,Type the reading!,Image
+練習,れんしゅう,(会L11(e)) [n.] exercise,Type the reading!,Image
+甘い,あまい,(会L12) [い-adj.] sweet,Type the reading!,Image
+天の川,あまのがわ,(読L12-II) [n.] the Milky Way,Type the reading!,Image
+ある～,ある～,(読L12-II) [pre.] one . . .,Type the reading!,Image
+歩く,あるく,(会L12) [u-v.] to walk,Type the reading!,Image
+痛い,いたい,(会L12) [い-adj.] hurt; painful,Type the reading!,Image
+痛み止め,いたみどめ,(会L12(e)) [n.] painkiller,Type the reading!,Image
+一年に一度,いちねんにいちど,(読L12-II) [adv.] once a year,Type the reading!,Image
+インフルエンザ,インフルエンザ,(会L12) [n.] influenza,Type the reading!,Image
+牛,うし,(読L12-II) [n.] cow,Type the reading!,Image
+多い,おおい,(会L12) [い-adj.] there are many . . .,Type the reading!,Image
+怒る,おこる,(読L12-II) [u-v.] to get angry,Type the reading!,Image
+お大事に,おだいじに,(会L12) [exp.] Get well soon.,Type the reading!,Image
+お手洗い,おてあらい,(会L12) [n.] restroom,Type the reading!,Image
+大人,おとな,"(読L12-II, 会L13) [n.] adult",Type the reading!,Image
+同じ,おなじ,(会L12) [adv.] same,Type the reading!,Image
+風邪,かぜ,(会L12) [n.] cold,Type the reading!,Image
+風邪をひく,かぜをひく,(会L12) [u-v.] to catch a cold,Type the reading!,Image
+かなう,かなう,(読L12-II) [u-v.] to be realized,Type the reading!,Image
+彼女,かのじょ,(会L12) [n.] she; girlfriend,Type the reading!,Image
+花粉症,かふんしょう,(会L12(e)) [n.] hay fever,Type the reading!,Image
+神様,かみさま,"(読L12-II, 会L22) [n.] God",Type the reading!,Image
+彼,かれ,(会L12) [n.] he; boyfriend,Type the reading!,Image
+彼氏,かれし,(会L12) [n.] boyfriend,Type the reading!,Image
+かわいそう（な）,かわいそう（な）,"(読L12-II, 会L23) [な-adj.] pitiful; feel sorry for; poor thing",Type the reading!,Image
+眼科,がんか,(会L12(e)) [n.] ophthalmologist,Type the reading!,Image
+切符,きっぷ,(会L12) [n.] train ticket,Type the reading!,Image
+気分が悪い,きぶんがわるい,"(会L12(e), 会L13) [い-adj.] not to feel well; to feel sick",Type the reading!,Image
+興味がある,きょうみがある,(会L12) [u-v.] to be interested (in),Type the reading!,Image
+緊張する,きんちょうする,(会L12) [irr-v.] to get nervous ,Type the reading!,Image
+くしゃみ,くしゃみ,(会L12(e)) [n.] sneeze,Type the reading!,Image
+けが,けが,(会L12(e)) [n.] injury,Type the reading!,Image
+外科,げか,(会L12(e)) [n.] surgeon,Type the reading!,Image
+下痢,げり,(会L12(e)) [n.] diarrhea,Type the reading!,Image
+元気がない,げんきがない,(会L12) [exp.] don’t look well,Type the reading!,Image
+抗生物質,こうせいぶっしつ,(会L12(e)) [n.] antibiotic,Type the reading!,Image
+骨折する,こっせつする,(会L12(e)) [irr-v.] to break (a bone),Type the reading!,Image
+産婦人科,さんふじんか,(会L12(e)) [n.] obstetrician and gynecologist,Type the reading!,Image
+試合,しあい,(会L12) [n.] match; game,Type the reading!,Image
+歯科,しか,(会L12(e)) [n.] dentist,Type the reading!,Image
+耳鼻科,じびか,(会L12(e)) [n.] otorhinolaryngologist; ENT doctor,Type the reading!,Image
+ジュース,ジュース,(会L12) [n.] juice,Type the reading!,Image
+手術,しゅじゅつ,(会L12(e)) [n.] operation,Type the reading!,Image
+食後,しょくご,(会L12(e)) [n.] after meals,Type the reading!,Image
+心配する,しんぱいする,(会L12) [irr-v.] to worry ,Type the reading!,Image
+素敵,すてき（な）,(会L12) [な-adj.] nice,Type the reading!,Image
+整形外科,せいけいげか,(会L12(e)) [n.] orthopedic surgeon,Type the reading!,Image
+成績,せいせき,"(会L12) [n.] grade (on a test, etc.)",Type the reading!,Image
+生理,せいり,(会L12(e)) [n.] period,Type the reading!,Image
+せき,せき,(会L12) [n.] cough,Type the reading!,Image
+せきが出る,せきがでる,(会L12) [ru-v.] to cough ,Type the reading!,Image
+狭い,せまい,(会L12) [い-adj.] narrow; not spacious,Type the reading!,Image
+それに,それに,"(会L12) [adv.] moreover, . . .",Type the reading!,Image
+～代,～だい,(会L12) [suf.] charge; fee,Type the reading!,Image
+体温計,たいおんけい,(会L12(e)) [n.] thermometer,Type the reading!,Image
+多分,たぶん,(会L12) [adv.] probably; maybe,Type the reading!,Image
+卵,たまご,(会L12) [n.] egg,Type the reading!,Image
+たんざく,たんざく,(読L12-II) [n.] strip of fancy paper,Type the reading!,Image
+注射,ちゅうしゃ,(会L12(e)) [n.] injection,Type the reading!,Image
+連れて帰る,つれてかえる,(読L12-II) [u-v.] to bring (a person) back,Type the reading!,Image
+できるだけ,できるだけ,(会L12) [adv.] as much as possible,Type the reading!,Image
+天,てん,(読L12-II) [n.] the heavens; the sky,Type the reading!,Image
+点滴,てんてき,(会L12(e)) [n.] intravenous feeding,Type the reading!,Image
+内科,ないか,(会L12(e)) [n.] physician,Type the reading!,Image
+泣く,なく,"(読L12-II, 会L13) [u-v.] to cry",Type the reading!,Image
+なくす,なくす,(会L12) [u-v.] to lose,Type the reading!,Image
+〜など,〜など,(読L12-II) [suf.] and so forth,Type the reading!,Image
+二三日,にさんにち,(会L12) [n.] for two to three days,Type the reading!,Image
+願い,ねがい,(読L12-II) [n.] wish,Type the reading!,Image
+熱がある,ねつがある,(会L12) [u-v.] to have a fever,Type the reading!,Image
+喉,のど,(会L12) [n.] throat,Type the reading!,Image
+喉が渇く,のどがかわく,(会L12) [u-v.] to become thirsty,Type the reading!,Image
+吐く,はく,(会L12(e)) [u-v.] to throw up,Type the reading!,Image
+初めて,はじめて,(会L12) [adv.] for the first time,Type the reading!,Image
+畑,はたけ,(読L12-II) [n.] farm,Type the reading!,Image
+はたを織る,はたをおる,(読L12-II) [u-v.] to weave,Type the reading!,Image
+発疹,はっしん,(会L12(e)) [n.] rash,Type the reading!,Image
+鼻水,はなみず,(会L12(e)) [n.] runny nose,Type the reading!,Image
+払う,はらう,(会L12) [u-v.] to pay,Type the reading!,Image
+人々,ひとびと,(読L12-II) [n.] people,Type the reading!,Image
+皮膚科,ひふか,(会L12(e)) [n.] dermatologist,Type the reading!,Image
+広い,ひろい,(会L12) [い-adj.] wide; spacious,Type the reading!,Image
+服,ふく,(会L12) [n.] clothes,Type the reading!,Image
+二日酔い,ふつかよい,(会L12) [n.] hangover,Type the reading!,Image
+プレゼント,プレゼント,(会L12) [n.] present,Type the reading!,Image
+便秘,べんぴ,(会L12(e)) [n.] constipation,Type the reading!,Image
+ホームシック,ホームシック,(会L12) [n.] homesickness,Type the reading!,Image
+保険証,ほけんしょう,(会L12(e)) [n.] health insurance certificate,Type the reading!,Image
+まじめ（な）,まじめ（な）,"(読L12-II, 会L19) [な-adj.] serious; sober; diligent",Type the reading!,Image
+～までに,～までに,"(読L12-II, 会L18) [part.] by (time/date)",Type the reading!,Image
+向こう,むこう,(読L12-II) [n.] the other side; over there,Type the reading!,Image
+虫歯,むしば,(会L12(e)) [n.] bad tooth,Type the reading!,Image
+娘,むすめ,(読L12-II) [n.] daughter,Type the reading!,Image
+めまいがする,めまいがする,(会L12(e)) [irr-v.] to feel dizzy,Type the reading!,Image
+もうすぐ,もうすぐ,(会L12) [adv.] very soon; in a few moments/days,Type the reading!,Image
+物,もの,(会L12) [n.] thing (concrete object),Type the reading!,Image
+やけどをする,やけどをする,(会L12(e)) [irr-v.] to burn oneself,Type the reading!,Image
+用事,ようじ,(会L12) [n.] business to take care of,Type the reading!,Image
+レントゲン,レントゲン,(会L12(e)) [n.] X-ray,Type the reading!,Image
+別れる,わかれる,(会L12) [ru-v.] to break up; to separate ,Type the reading!,Image
+私たち,わたしたち,"(読L12-II, 会L14) [n.] we",Type the reading!,Image
+悪い,わるい,(会L12) [い-adj.] bad,Type the reading!,Image
+預け入れ,あずけいれ,(会L13(e)) [n.] deposit,Type the reading!,Image
+アナウンス,アナウンス,(読L13-III) [n.] announcement,Type the reading!,Image
+アパート,アパート,(会L13) [n.] apartment; smaller apartment building,Type the reading!,Image
+アプリ,アプリ,(会L13) [n.] application,Type the reading!,Image
+編む,あむ,(会L13) [u-v.] to knit,Type the reading!,Image
+暗証番号,あんしょうばんごう,(会L13(e)) [n.] personal identification number,Type the reading!,Image
+一日,"いちにち,ついたち","(会L13, 会L4(e)) [n.] one day; the first day of a month",Type the reading!,Image
+五日,いつか,"(会L13, 会L4(e)) [n.] five days; the fifth day of a month",Type the reading!,Image
+一生に一度,いっしょうにいちど,(読L13-II) [adv.] once in a lifetime,Type the reading!,Image
+うれしい,うれしい,(会L13) [い-adj.] glad,Type the reading!,Image
+お預け入れ,おあずけいれ,(会L13(e)) [n.] deposit,Type the reading!,Image
+遅れる,おくれる,"(読L13-III, 会L19) [ru-v.] to become late ",Type the reading!,Image
+お引き出し,おひきだし,(会L13(e)) [n.] withdrawal,Type the reading!,Image
+お振込,おふりこみ,(会L13(e)) [n.] bank transfer,Type the reading!,Image
+～回,～かい,(会L13) [suf.] . . . times,Type the reading!,Image
+外国語,がいこくご,(会L13) [n.] foreign language,Type the reading!,Image
+楽器,がっき,(会L13) [n.] musical instrument,Type the reading!,Image
+かめ,かめ,(読L13-II) [n.] turtle,Type the reading!,Image
+辛い,からい,(会L13) [い-adj.] hot and spicy; salty,Type the reading!,Image
+体,からだ,(会L13) [n.] body,Type the reading!,Image
+空手,からて,(会L13) [n.] karate,Type the reading!,Image
+カレー,カレー,(会L13) [n.] curry,Type the reading!,Image
+感動する,かんどうする,(会L13) [irr-v.] to be moved/touched (by . . . ) ,Type the reading!,Image
+頑張る,がんばる,(会L13) [u-v.] to do one’s best; to try hard,Type the reading!,Image
+厳しい,きびしい,(会L13) [い-adj.] strict,Type the reading!,Image
+キャッシュカード,キャッシュカード,(会L13(e)) [n.] bank card,Type the reading!,Image
+～キロ,～キロ,(会L13) [suf.] . . . kilometers; . . . kilograms,Type the reading!,Image
+金額,きんがく,(会L13(e)) [n.] amount,Type the reading!,Image
+空港,くうこう,(会L13) [n.] airport,Type the reading!,Image
+クレジットカード,クレジットカード,(会L13(e)) [n.] credit card,Type the reading!,Image
+経験,けいけん,"(読L13-II, 会L15) [n.] experience",Type the reading!,Image
+現金,げんきん,(会L13(e)) [n.] cash,Type the reading!,Image
+広告,こうこく,(会L13) [n.] advertisement,Type the reading!,Image
+口座,こうざ,(会L13(e)) [n.] account,Type the reading!,Image
+紅茶,こうちゃ,(会L13) [n.] black tea,Type the reading!,Image
+九日,ここのか,"(会L13, 会L4(e)) [n.] nine days; the ninth day of a month",Type the reading!,Image
+言葉,ことば,(会L13) [n.] language,Type the reading!,Image
+ゴルフ,ゴルフ,(会L13) [n.] golf,Type the reading!,Image
+座談会,ざだんかい,(読L13-III) [n.] round-table discussion,Type the reading!,Image
+残高照会,ざんだかしょうかい,(会L13(e)) [n.] balance inquiry,Type the reading!,Image
+時間通り,じかんどおり,(読L13-III) [n.] on time,Type the reading!,Image
+自動,じどう,(読L13-III) [n.] automatic,Type the reading!,Image
+すごい,すごい,(会L13) [い-adj.] incredible; awesome,Type the reading!,Image
+すっぽん,すっぽん,(読L13-II) [n.] snapping turtle; terrapin,Type the reading!,Image
+セーター,セーター,(会L13) [n.] sweater,Type the reading!,Image
+全部,ぜんぶ,(会L13) [adv.] all,Type the reading!,Image
+象,ぞう,(会L13) [n.] elephant,Type the reading!,Image
+タクシー,タクシー,(読L13-III) [n.] taxi,Type the reading!,Image
+だめ（な）,だめ（な）,(会L13) [な-adj.] no good,Type the reading!,Image
+近い,ちかい,(会L13) [い-adj.] close; near,Type the reading!,Image
+チップ,チップ,(読L13-III) [n.] tip,Type the reading!,Image
+通帳,つうちょう,(会L13(e)) [n.] passbook,Type the reading!,Image
+通帳記入,つうちょうきにゅう,(会L13(e)) [n.] passbook update,Type the reading!,Image
+着く,つく,"(読L13-III, 会L15) [u-v.] to arrive",Type the reading!,Image
+デザート,デザート,(読L13-III) [n.] desert,Type the reading!,Image
+手数料,てすうりょう,(会L13(e)) [n.] commission,Type the reading!,Image
+十日,とおか,"(会L13, 会L4(e)) [n.] ten days; the tenth day of a month",Type the reading!,Image
+特に,とくに,(会L13) [adv.] especially,Type the reading!,Image
+～と申します,～ともうします,(会L13) [exp.] my name is . . .,Type the reading!,Image
+鳥,とり,(読L13-II) [n.] bird; poultry,Type the reading!,Image
+七日,なのか,"(会L13, 会L4(e)) [n.] seven days; the seventh day of a month",Type the reading!,Image
+なべ,なべ,(読L13-II) [n.] pot,Type the reading!,Image
+なんでも,なんでも,(読L13-II) [adv.] anything; everything,Type the reading!,Image
+ニヤニヤする,ニヤニヤする,(読L13-II) [irr-v.] to grin ,Type the reading!,Image
+バイク,バイク,(会L13) [n.] motorcycle,Type the reading!,Image
+引き出し,ひきだし,(会L13(e)) [n.] withdrawal,Type the reading!,Image
+不安,ふあん（な）,"(読L13-II, 会L18) [な-adj.] anxious; worried",Type the reading!,Image
+物価,ぶっか,(会L13) [n.] consumer prices,Type the reading!,Image
+振込,ふりこみ,(会L13(e)) [n.] bank transfer,Type the reading!,Image
+プリン,プリン,(読L13-III) [n.] pudding,Type the reading!,Image
+募集,ぼしゅう,(会L13) [n.] recruitment,Type the reading!,Image
+マンション,マンション,(会L13) [n.] larger apartment building; condominium,Type the reading!,Image
+磨く,みがく,(会L13) [u-v.] to brush (teeth); to polish,Type the reading!,Image
+水着,みずぎ,(読L13-III) [n.] swimwear,Type the reading!,Image
+六日,むいか,"(会L13, 会L4(e)) [n.] six days; the sixth day of a month",Type the reading!,Image
+めずらしい,めずらしい,(読L13-II) [い-adj.] rare,Type the reading!,Image
+もう～ない,もう～ない,(読L13-II) [adv.] not any longer,Type the reading!,Image
+約束,やくそく,(会L13) [n.] promise; appointment,Type the reading!,Image
+約束を守る,やくそくをまもる,(会L13) [u-v.] to keep a promise,Type the reading!,Image
+やっぱり,やっぱり,"(読L13-II, 会L17) [adv.] after all",Type the reading!,Image
+八日,ようか,"(会L13, 会L4(e)) [n.] eight days; the eighth day of a month",Type the reading!,Image
+預金,よきん,(会L13(e)) [n.] savings,Type the reading!,Image
+四日,よっか,"(会L13, 会L4(e)) [n.] four days; the fourth day of a month",Type the reading!,Image
+両替,りょうがえ,(会L13(e)) [n.] money exchange,Type the reading!,Image
+私,"わたくし,わたし","(会L13, 会L1) [n.] I (formal); I",Type the reading!,Image
+愛す,あいす,(読L14-II) [u-v.] to love,Type the reading!,Image
+あきらめる,あきらめる,(会L14) [ru-v.] to give up ,Type the reading!,Image
+あげる,あげる,(会L14) [ru-v.] to give (to others) ,Type the reading!,Image
+アドバイス,アドバイス,(読L14-II) [n.] advice,Type the reading!,Image
+鉛筆,えんぴつ,(会L14) [n.] pencil,Type the reading!,Image
+大家さん,おおやさん,(会L14) [n.] landlord; landlady,Type the reading!,Image
+お返し,おかえし,(会L14) [n.] return (as a token of gratitude),Type the reading!,Image
+奥さん,おくさん,(会L14) [n.] (your/someone’s) wife,Type the reading!,Image
+送る,おくる,"(会L14, 会L19) [u-v.] to send; to walk/drive (someone)",Type the reading!,Image
+お皿,おさら,(会L14) [n.] plate; dish,Type the reading!,Image
+おじさん,おじさん,(会L14) [n.] uncle; middle-aged man,Type the reading!,Image
+おしゃれ（な）,おしゃれ（な）,(会L14) [な-adj.] fashionable; stylish,Type the reading!,Image
+おばさん,おばさん,(会L14) [n.] aunt; middle-aged woman,Type the reading!,Image
+急に,きゅうに,(会L14) [adv.] suddenly,Type the reading!,Image
+クリスマス,クリスマス,(会L14) [n.] Christmas,Type the reading!,Image
+くれる,くれる,(会L14) [ru-v.] to give (me) ,Type the reading!,Image
+～君,～くん,(会L14) [suf.] Mr./Ms. . . . (casual),Type the reading!,Image
+化粧品,けしょうひん,(会L14) [n.] cosmetics,Type the reading!,Image
+けち（な）,けち（な）,(会L14) [な-adj.] stingy; cheap,Type the reading!,Image
+～個,～こ,"(会L14, 会L14(e)) [suf.] [generic counter for smaller items]",Type the reading!,Image
+ご主人,ごしゅじん,(会L14) [n.] (your/someone’s) husband,Type the reading!,Image
+こんな～,こんな～,(会L14) [pre.] . . . like this; this kind of . . .,Type the reading!,Image
+さあ,さあ,(会L14) [exp.] I am not sure . . .,Type the reading!,Image
+～冊,～さつ,"(会L14, 会L14(e)) [suf.] [counter for bound volumes]",Type the reading!,Image
+皿,さら,(会L14) [n.] plate; dish,Type the reading!,Image
+時代,じだい,(読L14-II) [n.] age; era,Type the reading!,Image
+シャツ,シャツ,(会L14) [n.] shirt,Type the reading!,Image
+出張,しゅっちょう,"(読L14-II, 会L19) [n.] business trip",Type the reading!,Image
+先輩,せんぱい,"(読L14-II, 会L22) [n.] senior member of a group",Type the reading!,Image
+相談する,そうだんする,(会L14) [irr-v.] to consult ,Type the reading!,Image
+～台,～だい,"(会L14, 会L14(e)) [suf.] [counter for equipment]",Type the reading!,Image
+～たち,～たち,(会L14) [suf.] [makes a noun plural],Type the reading!,Image
+父親,ちちおや,(読L14-II) [n.] father,Type the reading!,Image
+注意する,ちゅういする,(会L14) [irr-v.] to give warning; to watch out ,Type the reading!,Image
+ちょうど,ちょうど,(会L14) [adv.] exactly,Type the reading!,Image
+チョコレート,チョコレート,(会L14) [n.] chocolate,Type the reading!,Image
+付き合う,つきあう,"(読L14-II, 会L15) [u-v.] to date (someone); to keep company",Type the reading!,Image
+できる,できる,(会L14) [ru-v.] to come into existence; to be made ,Type the reading!,Image
+どうしたらいい,どうしたらいい,(会L14) [exp.] what should one do,Type the reading!,Image
+トレーナー,トレーナー,(会L14) [n.] sweatshirt,Type the reading!,Image
+悩み,なやみ,"(読L14-II, 会L19) [n.] worry",Type the reading!,Image
+似合う,にあう,(会L14) [u-v.] to look good (on somebody),Type the reading!,Image
+ぬいぐるみ,ぬいぐるみ,"(会L14) [n.] stuffed animal (e.g., teddy bear)",Type the reading!,Image
+ネクタイ,ネクタイ,(会L14) [n.] necktie,Type the reading!,Image
+～年間,～ねんかん,(読L14-II) [suf.] for . . . years,Type the reading!,Image
+場合,ばあい,(読L14-II) [n.] case,Type the reading!,Image
+パートナー,パートナー,(会L14) [n.] partner,Type the reading!,Image
+バレンタインデー,バレンタインデー,(会L14) [n.] Valentine’s Day,Type the reading!,Image
+～匹,～ひき,"(会L14, 会L14(e)) [suf.] [counter for smaller animals]",Type the reading!,Image
+プロポーズする,プロポーズする,(会L14) [irr-v.] to propose marriage ,Type the reading!,Image
+欲しい,ほしい,(会L14) [い-adj.] to want,Type the reading!,Image
+ホワイトデー,ホワイトデー,(会L14) [n.] “White Day” (yet another gift-giving day),Type the reading!,Image
+～本,～ほん,"(会L14, 会L14(e)) [suf.] [counter for long objects]",Type the reading!,Image
+本当に,ほんとうに,"(読L14-II, 会L18) [adv.] really",Type the reading!,Image
+マフラー,マフラー,(会L14) [n.] winter scarf,Type the reading!,Image
+漫画,まんが,(会L14) [n.] comic book,Type the reading!,Image
+指輪,ゆびわ,(会L14) [n.] ring,Type the reading!,Image
+ラジオ,ラジオ,(会L14) [n.] radio,Type the reading!,Image
+両親,りょうしん,(会L14) [n.] parents,Type the reading!,Image
+履歴書,りれきしょ,(会L14) [n.] résumé,Type the reading!,Image
+一日中,いちにちじゅう,(会L15) [adv.] all day long,Type the reading!,Image
+一日目,いちにちめ,(会L15) [n.] first day,Type the reading!,Image
+一年中,いちねんじゅう,(読L15-II) [adv.] all year,Type the reading!,Image
+一泊二食付き,いっぱくにしょくつき,(会L15(e)) [exp.] one night with two meals,Type the reading!,Image
+インターネット,インターネット,(会L15) [n.] internet,Type the reading!,Image
+生まれる,うまれる,"(読L15-II, 会L17) [ru-v.] to be born ",Type the reading!,Image
+絵,え,(会L15) [n.] painting; picture; drawing,Type the reading!,Image
+映画館,えいがかん,(会L15) [n.] movie theater,Type the reading!,Image
+落とされる,おとされる,(読L15-II) [exp.] to be dropped,Type the reading!,Image
+下ろす,おろす,(会L15) [u-v.] to withdraw (money),Type the reading!,Image
+外国人,がいこくじん,(会L15) [n.] foreigner,Type the reading!,Image
+描く,かく,(会L15) [u-v.] to draw; to paint,Type the reading!,Image
+家具,かぐ,(会L15) [n.] furniture,Type the reading!,Image
+活動,かつどう,(会L15) [n.] activity,Type the reading!,Image
+観光する,かんこうする,(会L15) [irr-v.] to do sightseeing ,Type the reading!,Image
+喫煙,きつえん,(会L15(e)) [n.] smoking,Type the reading!,Image
+教室,きょうしつ,(会L15) [n.] classroom,Type the reading!,Image
+気をつける,きをつける,(会L15) [ru-v.] to be cautious/careful ,Type the reading!,Image
+禁煙,きんえん,(会L15(e)) [n.] non-smoking,Type the reading!,Image
+くじら,くじら,(読L15-II) [n.] whale,Type the reading!,Image
+景色,けしき,(読L15-II) [n.] scenery,Type the reading!,Image
+結婚式,けっこんしき,(会L15) [n.] wedding,Type the reading!,Image
+～けど,～けど,"(会L15) [part.] . . . , but; . . . , so",Type the reading!,Image
+原爆,げんばく,(読L15-II) [n.] atomic bomb,Type the reading!,Image
+紅葉,こうよう,(読L15-II) [n.] autumn leaves/colors,Type the reading!,Image
+混む,こむ,"(読L15-II, 会L17) [u-v.] to get crowded",Type the reading!,Image
+混んでいる,こんでいる,(読L15-II) [exp.] to be crowded,Type the reading!,Image
+最近,さいきん,(会L15) [adv.] recently,Type the reading!,Image
+探す,さがす,(会L15) [u-v.] to look for,Type the reading!,Image
+誘う,さそう,(会L15) [u-v.] to invite,Type the reading!,Image
+参加する,さんかする,(会L15) [irr-v.] to participate ,Type the reading!,Image
+鹿,しか,(読L15-II) [n.] deer,Type the reading!,Image
+地震,じしん,(会L15) [n.] earthquake,Type the reading!,Image
+自然,しぜん,(読L15-II) [n.] nature,Type the reading!,Image
+島,しま,(読L15-II) [n.] island,Type the reading!,Image
+ジャケット,ジャケット,(会L15) [n.] jacket,Type the reading!,Image
+しゃべる,しゃべる,(会L15) [u-v.] to chat,Type the reading!,Image
+習慣,しゅうかん,(会L15) [n.] custom,Type the reading!,Image
+主人,しゅじん,(読L15-II) [n.] head of a familiy,Type the reading!,Image
+調べる,しらべる,(会L15) [ru-v.] to look into (a matter) ,Type the reading!,Image
+シングル,シングル,(会L15(e)) [n.] single room,Type the reading!,Image
+スクランブル交差点,スクランブルこうさてん,(読L15-II) [n.] scramble crossing,Type the reading!,Image
+税金,ぜいきん,(会L15) [n.] tax,Type the reading!,Image
+卒業式,そつぎょうしき,(会L15) [n.] graduation ceremony,Type the reading!,Image
+卒業する,そつぎょうする,(会L15) [irr-v.] to graduate (from . . . ) ,Type the reading!,Image
+そば,そば,(会L15) [n.] soba; Japanese buckwheat noodles,Type the reading!,Image
+大浴場,だいよくじょう,(会L15(e)) [n.] large spa,Type the reading!,Image
+竹,たけ,(読L15-II) [n.] bamboo,Type the reading!,Image
+建物,たてもの,(会L15) [n.] building,Type the reading!,Image
+楽しみです,たのしみです,(会L15) [exp.] cannot wait; to look forward to it,Type the reading!,Image
+楽しむ,たのしむ,(読L15-II) [u-v.] to enjoy,Type the reading!,Image
+ダブル,ダブル,(会L15(e)) [n.] double room,Type the reading!,Image
+チェックアウト（する）,チェックアウト（する）,(会L15(e)) [irr-v.] checking out,Type the reading!,Image
+チェックイン（する）,チェックイン（する）,(会L15(e)) [irr-v.] checking in,Type the reading!,Image
+地下,ちか,(読L15-II) [n.] underground,Type the reading!,Image
+地図,ちず,(会L15) [n.] map,Type the reading!,Image
+朝食付き,ちょうしょくつき,(会L15(e)) [n.] with breakfast,Type the reading!,Image
+ツイン,ツイン,(会L15(e)) [n.] twin room,Type the reading!,Image
+電池,でんち,(会L15) [n.] battery,Type the reading!,Image
+通る,とおる,(読L15-II) [u-v.] to go through; to pass,Type the reading!,Image
+トロッコ列車,トロッコれっしゃ,(読L15-II) [n.] small train usually for tourists,Type the reading!,Image
+庭,にわ,(会L15) [n.] garden,Type the reading!,Image
+残す,のこす,(読L15-II) [u-v.] to leave; to preserve,Type the reading!,Image
+～泊,～はく,(会L15(e)) [suf.] . . . nights,Type the reading!,Image
+場所,ばしょ,"(読L15-II, 会L23) [n.] place",Type the reading!,Image
+発表する,はっぴょうする,(会L15) [irr-v.] to make a presentation; to make public ,Type the reading!,Image
+日,ひ,"(読L15-II, 会L16) [n.] day",Type the reading!,Image
+ファッション,ファッション,(読L15-II) [n.] fashion,Type the reading!,Image
+プール,プール,(会L15) [n.] swimming pool,Type the reading!,Image
+フロント,フロント,(会L15(e)) [n.] receptionist; front desk,Type the reading!,Image
+平和,へいわ,(読L15-II) [n.] peace,Type the reading!,Image
+平和記念資料館,へいわきねんしりょうかん,(読L15-II) [n.] Peace Memorial Museum,Type the reading!,Image
+ペット,ペット,(会L15) [n.] pet,Type the reading!,Image
+保険,ほけん,(会L15) [n.] insurance,Type the reading!,Image
+保険に入る,ほけんにはいる,(会L15) [u-v.] to buy insurance,Type the reading!,Image
+待ち合わせをする,まちあわせをする,(読L15-II) [irr-v.] to meet up ,Type the reading!,Image
+見える,みえる,(会L15) [ru-v.] to be visible ,Type the reading!,Image
+～目,～め,(会L15) [suf.] =-th,Type the reading!,Image
+～名,～めい,(会L15(e)) [suf.] . . . person(s),Type the reading!,Image
+もう一度,もういちど,(会L15) [adv.] one more time,Type the reading!,Image
+予定,よてい,(会L15) [n.] schedule; plan,Type the reading!,Image
+予約する,よやくする,(会L15) [irr-v.] to reserve ,Type the reading!,Image
+旅館,りょかん,(会L15) [n.] Japanese inn,Type the reading!,Image
+若者,わかもの,(読L15-II) [n.] young people,Type the reading!,Image
+割引券,わりびきけん,(会L15) [n.] discount coupon,Type the reading!,Image
+アイロンをかける,アイロンをかける,(会L16) [ru-v.] to iron (clothes) ,Type the reading!,Image
+朝寝坊する,あさねぼうする,(会L16) [irr-v.] to oversleep ,Type the reading!,Image
+集める,あつめる,(会L16) [ru-v.] to collect ,Type the reading!,Image
+～以外,～いがい,(会L16) [suf.] other than . . .,Type the reading!,Image
+入れる,いれる,(会L16) [ru-v.] to put (something) in ,Type the reading!,Image
+写す,うつす,(読L16-II) [u-v.] to copy,Type the reading!,Image
+ええと,ええと,(会L16) [exp.] well . . . ; let me see . . .,Type the reading!,Image
+駅員（さん）,えきいん（さん）,(会L16) [n.] station attendant,Type the reading!,Image
+大きさ,おおきさ,(会L16) [n.] size,Type the reading!,Image
+起こす,おこす,(会L16) [u-v.] to wake (someone) up,Type the reading!,Image
+おごる,おごる,(会L16) [u-v.] to treat (someone) to a meal,Type the reading!,Image
+落ち込む,おちこむ,(会L16) [u-v.] to get depressed,Type the reading!,Image
+親,おや,(会L16) [n.] parent,Type the reading!,Image
+かける（アイロンを）,かける（アイロンを）,(会L16) [ru-v.] to iron (clothes) ,Type the reading!,Image
+貸す,かす,(会L16) [u-v.] to lend,Type the reading!,Image
+汚い,きたない,(会L16) [い-adj.] dirty,Type the reading!,Image
+期末試験,きまつしけん,(会L16) [n.] final examination,Type the reading!,Image
+今日中に,きょうじゅうに,(会L16) [adv.] by the end of today,Type the reading!,Image
+研究,けんきゅう,(会L16) [n.] research,Type the reading!,Image
+このぐらい,このぐらい,(会L16) [adv.] about this much,Type the reading!,Image
+困る,こまる,(会L16) [u-v.] to have difficulty,Type the reading!,Image
+ごみ,ごみ,(会L16) [n.] garbage,Type the reading!,Image
+ごめん,ごめん,(会L16) [exp.] I’m sorry. (casual),Type the reading!,Image
+砂糖,さとう,(会L16) [n.] sugar,Type the reading!,Image
+実は,じつは,(会L16) [adv.] actually; in fact,Type the reading!,Image
+失礼します,しつれいします,(会L16) [exp.] Excuse me.; Sorry to interrupt you.,Type the reading!,Image
+自分で,じぶんで,(会L16) [adv.] (do something) by oneself,Type the reading!,Image
+授業中に,じゅぎょうちゅうに,(会L16) [adv.] in class; during the class,Type the reading!,Image
+奨学金,しょうがくきん,(会L16) [n.] scholarship,Type the reading!,Image
+小学生,しょうがくせい,(読L16-II) [n.] elementary school students,Type the reading!,Image
+親せき,しんせき,(会L16) [n.] relatives,Type the reading!,Image
+推薦状,すいせんじょう,(会L16) [n.] letter of recommendation,Type the reading!,Image
+すると,すると,(読L16-II) [adv.] . . . Then . . .,Type the reading!,Image
+説明する,せつめいする,(会L16) [irr-v.] to explain ,Type the reading!,Image
+空,そら,(読L16-II) [n.] sky,Type the reading!,Image
+そんな～,そんな～,"(読L16-II, 会L23) [pre.] such . . . ; that kind of . . .",Type the reading!,Image
+大学院,だいがくいん,(会L16) [n.] graduate school,Type the reading!,Image
+台風,たいふう,(会L16) [n.] typhoon,Type the reading!,Image
+出す,だす,(会L16) [u-v.] to take (something) out; to hand in (something),Type the reading!,Image
+助ける,たすける,"(読L16-II, 会L22) [ru-v.] to help; to rescue ",Type the reading!,Image
+違う,ちがう,"(読L16-II, 会L23) [u-v.] to be different; to be wrong",Type the reading!,Image
+続く,つづく,(読L16-II) [u-v.] to continue,Type the reading!,Image
+連れていく,つれていく,(会L16) [u-v.] to take (someone) to (a place),Type the reading!,Image
+道具,どうぐ,(読L16-II) [n.] tool,Type the reading!,Image
+どこでも,どこでも,(読L16-II) [adv.] anywhere,Type the reading!,Image
+飛ぶ,とぶ,(読L16-II) [u-v.] to fly,Type the reading!,Image
+直す,なおす,(会L16) [u-v.] to correct; to fix,Type the reading!,Image
+～のようなもの,～のようなもの,(読L16-II) [exp.] something like . . .,Type the reading!,Image
+乗り遅れる,のりおくれる,"(会L16) [ru-v.] to miss (a train, bus, etc.) ",Type the reading!,Image
+番組,ばんぐみ,(読L16-II) [n.] broadcast program,Type the reading!,Image
+秘密,ひみつ,"(読L16-II, 会L17) [n.] secret",Type the reading!,Image
+ファイル,ファイル,(会L16) [n.] (file) folder; portfolio; file,Type the reading!,Image
+他の,ほかの,(会L16) [pre.] other,Type the reading!,Image
+ポケット,ポケット,(読L16-II) [n.] pocket,Type the reading!,Image
+味方,みかた,(読L16-II) [n.] person on one’s side,Type the reading!,Image
+見せる,みせる,(会L16) [ru-v.] to show ,Type the reading!,Image
+道,みち,(会L16) [n.] way; road; directions,Type the reading!,Image
+道に迷う,みちにまよう,(会L16) [u-v.] to become lost; to lose one’s way,Type the reading!,Image
+見つかる,みつかる,(会L16) [u-v.] to be found,Type the reading!,Image
+未来,みらい,(読L16-II) [n.] future,Type the reading!,Image
+迎えに行く,むかえにいく,(会L16) [u-v.] to go to pick up,Type the reading!,Image
+迎えに来る,むかえにくる,(会L16) [irr-v.] to come to pick up ,Type the reading!,Image
+戻る,もどる,"(読L16-II, 会L20) [u-v.] to return; to come/go back",Type the reading!,Image
+訳す,やくす,(会L16) [u-v.] to translate,Type the reading!,Image
+弱い,よわい,(読L16-II) [い-adj.] weak,Type the reading!,Image
+ロボット,ロボット,(読L16-II) [n.] robot,Type the reading!,Image
+笑う,わらう,(会L16) [u-v.] to laugh,Type the reading!,Image
+赤ちゃん,あかちゃん,(会L17) [n.] baby,Type the reading!,Image
+危ない,あぶない,(会L17) [い-adj.] dangerous,Type the reading!,Image
+いれる,いれる,"(会L17) [ru-v.] to make tea, coffee, etc. ",Type the reading!,Image
+うらやましい,うらやましい,(会L17) [い-adj.] envious,Type the reading!,Image
+影響を受ける,えいきょうをうける,(読L17-II) [ru-v.] to be affected ,Type the reading!,Image
+選ぶ,えらぶ,(会L17) [u-v.] to choose; to select,Type the reading!,Image
+お祈りする,おいのりする,(会L17) [irr-v.] to pray ,Type the reading!,Image
+お客さん,おきゃくさん,(会L17) [n.] guest; visitor; client; customer,Type the reading!,Image
+おめでとうございます,おめでとうございます,(会L17) [exp.] Congratulations!,Type the reading!,Image
+主に,おもに,(読L17-II) [adv.] mainly,Type the reading!,Image
+お湯,おゆ,(会L17) [n.] hot water,Type the reading!,Image
+お湯を沸かす,おゆをわかす,(会L17) [u-v.] to boil water,Type the reading!,Image
+鍵,かぎ,(会L17) [n.] lock; key,Type the reading!,Image
+鍵をかける,かぎをかける,(会L17) [ru-v.] to lock ,Type the reading!,Image
+かける（鍵を）,かける（かぎを）,(会L17) [ru-v.] to lock ,Type the reading!,Image
+かける（パーマを）,かける（パーマを）,(会L17(e)) [ru-v.] to have one’s hair permed ,Type the reading!,Image
+火事,かじ,(会L17) [n.] fire,Type the reading!,Image
+数える,かぞえる,(読L17-II) [ru-v.] to count ,Type the reading!,Image
+カット,カット,(会L17(e)) [n.] cut,Type the reading!,Image
+～かな（あ）,～かな（あ）,(会L17) [part.] I wonder . . . (casual),Type the reading!,Image
+紙,かみ,(会L17) [n.] paper,Type the reading!,Image
+髪形,かみがた,(会L17(e)) [n.] hairstyle,Type the reading!,Image
+髪をとかす,かみをとかす,(会L17) [u-v.] to comb one’s hair,Type the reading!,Image
+カラー,カラー,(会L17(e)) [n.] hair coloring,Type the reading!,Image
+刈る,かる,(会L17(e)) [u-v.] to crop,Type the reading!,Image
+完成する,かんせいする,(読L17-II) [irr-v.] to be completed ,Type the reading!,Image
+給料,きゅうりょう,(会L17) [n.] salary,Type the reading!,Image
+雲,くも,(読L17-II) [n.] cloud,Type the reading!,Image
+芸術,げいじゅつ,(読L17-II) [n.] art,Type the reading!,Image
+化粧する,けしょうする,(会L17) [irr-v.] to put makeup on ,Type the reading!,Image
+コンタクト（レンズ）,コンタクト（レンズ）,(会L17) [n.] contact lenses,Type the reading!,Image
+最悪,さいあく（な）,(会L17) [な-adj.] the worst,Type the reading!,Image
+作品,さくひん,"(読L17-II) [n.] work (of art, etc.)",Type the reading!,Image
+サラリーマン,サラリーマン,(会L17) [n.] salaryman; office worker,Type the reading!,Image
+詩,し,(読L17-II) [n.] poem,Type the reading!,Image
+しかし,しかし,(読L17-II) [adv.] however,Type the reading!,Image
+シャンプー,シャンプー,"(会L17(e), 会L18) [n.] shampoo",Type the reading!,Image
+就職する,しゅうしょくする,(会L17) [irr-v.] to get a full-time job (at . . . ) ,Type the reading!,Image
+銃で撃たれる,じゅうでうたれる,(読L17-II) [exp.] to be shot,Type the reading!,Image
+首相,しゅしょう,(会L17) [n.] prime minister,Type the reading!,Image
+主夫,しゅふ,(読L17-II) [n.] house husband,Type the reading!,Image
+準備,じゅんび,(会L17) [n.] preparation,Type the reading!,Image
+ショッピングモール,ショッピングモール,(会L17) [n.] shopping mall,Type the reading!,Image
+ずいぶん,ずいぶん,(会L17) [adv.] very,Type the reading!,Image
+すく,すく,(会L17(e)) [u-v.] thin out (hair),Type the reading!,Image
+少ない,すくない,(会L17) [い-adj.] a little; a few,Type the reading!,Image
+スプーン,スプーン,(会L17) [n.] spoon,Type the reading!,Image
+セット,セット,(会L17(e)) [n.] set,Type the reading!,Image
+1960年代,せんきゅうひゃくろくじゅうねんだい,(読L17-II) [n.] 1960’s,Type the reading!,Image
+そうか,そうか,(会L17) [exp.] I see. (casual),Type the reading!,Image
+その後,そのご,(読L17-II) [adv.] after that,Type the reading!,Image
+そめる,そめる,(会L17(e)) [ru-v.] to dye ,Type the reading!,Image
+そる,そる,(会L17(e)) [u-v.] to shave,Type the reading!,Image
+そろえる,そろえる,(会L17(e)) [ru-v.] to make hair even; to trim ,Type the reading!,Image
+大ヒット,だいヒット,(読L17-II) [n.] big hit,Type the reading!,Image
+宝くじ,たからくじ,(会L17) [n.] lottery,Type the reading!,Image
+宝くじに当たる,たからくじにあたる,(会L17) [u-v.] to win a lottery,Type the reading!,Image
+足りる,たりる,(会L17) [ru-v.] to be sufficient; to be enough ,Type the reading!,Image
+違い,ちがい,(会L17) [n.] difference,Type the reading!,Image
+都合が悪い,つごうがわるい,(会L17) [い-adj.] inconvenient; to have a scheduling conflict,Type the reading!,Image
+強い,つよい,(会L17) [い-adj.] strong,Type the reading!,Image
+天井,てんじょう,(読L17-II) [n.] ceiling,Type the reading!,Image
+電子レンジ,でんしレンジ,(会L17) [n.] microwave oven,Type the reading!,Image
+展覧会,てんらんかい,(読L17-II) [n.] art exhibition,Type the reading!,Image
+名前をつける,なまえをつける,(読L17-II) [ru-v.] to name ,Type the reading!,Image
+慣れる,なれる,(会L17) [ru-v.] to get used to . . . ,Type the reading!,Image
+何度も,なんども,"(読L17-II, 会L22) [adv.] many times",Type the reading!,Image
+～に比べて,～にくらべて,(会L17) [part.] compared with . . .,Type the reading!,Image
+ニュース,ニュース,(会L17) [n.] news,Type the reading!,Image
+～によると,～によると,(会L17) [part.] according to . . .,Type the reading!,Image
+脱ぐ,ぬぐ,(会L17) [u-v.] to take off (clothes),Type the reading!,Image
+～のための,～のための,(読L17-II) [suf.] for the sake of . . .,Type the reading!,Image
+パーマ,パーマ,(会L17(e)) [n.] perm,Type the reading!,Image
+パーマをかける,パーマをかける,(会L17(e)) [ru-v.] to have one’s hair permed ,Type the reading!,Image
+俳句,はいく,(読L17-II) [n.] haiku,Type the reading!,Image
+はしご,はしご,(読L17-II) [n.] ladders,Type the reading!,Image
+パンダ,パンダ,(会L17) [n.] panda,Type the reading!,Image
+ヒーター,ヒーター,(会L17) [n.] heater,Type the reading!,Image
+ひげ,ひげ,(会L17) [n.] beard,Type the reading!,Image
+ひげをそる,ひげをそる,(会L17) [u-v.] to shave one’s beard,Type the reading!,Image
+ブーツ,ブーツ,(会L17) [n.] boots,Type the reading!,Image
+ブロー,ブロー,(会L17(e)) [n.] blow-dry,Type the reading!,Image
+分野,ぶんや,(読L17-II) [n.] field; realm,Type the reading!,Image
+前,まえ,"(会L17, 会L4) [suf., n.] before . . .; front",Type the reading!,Image
+虫めがね,むしめがね,(読L17-II) [n.] magnifying glass,Type the reading!,Image
+文字,もじ,(読L17-II) [n.] letter; character,Type the reading!,Image
+湯,ゆ,(会L17) [n.] hot water,Type the reading!,Image
+離婚する,りこんする,(会L17) [irr-v.] to get a divorce ,Type the reading!,Image
+旅行会社,りょこうがいしゃ,(会L17) [n.] travel agency,Type the reading!,Image
+明るい,あかるい,"(会L18, 読L11-II) [い-adj.] bright; cheerful",Type the reading!,Image
+開く,あく,(会L18) [u-v.] (something) opens,Type the reading!,Image
+後,"あと,（〜の）あと","(会L18, 読L8-II, 会L11) [n., exp.] the rest; after (an event)",Type the reading!,Image
+謝る,あやまる,(会L18) [u-v.] to apologize,Type the reading!,Image
+～以上,～いじょう,(読L18-II) [suf.] . . . or more,Type the reading!,Image
+今すぐ,いますぐ,(会L18) [adv.] right away,Type the reading!,Image
+おかげで,おかげで,(会L18) [part.] thanks to . . .,Type the reading!,Image
+お先に失礼します,おさきにしつれいします,"(会L18) [exp.] See you. (lit., I’m leaving ahead of you.)",Type the reading!,Image
+押す,おす,(会L18) [u-v.] to press; to push,Type the reading!,Image
+落ちる,おちる,(会L18) [ru-v.] (something) drops ,Type the reading!,Image
+お疲れ様（でした）,おつかれさま（でした）,(会L18) [exp.] You must be tired after working so hard. (greeting between friends and coworkers),Type the reading!,Image
+落とす,おとす,(会L18) [u-v.] to drop (something),Type the reading!,Image
+お湯が沸く,おゆがわく,(会L18) [u-v.] water boils,Type the reading!,Image
+片付ける,かたづける,(会L18) [ru-v.] to tidy up ,Type the reading!,Image
+家庭教師,かていきょうし,(読L18-III) [n.] tutor,Type the reading!,Image
+考える,かんがえる,(会L18) [ru-v.] to think (about); to consider ,Type the reading!,Image
+消える,きえる,(会L18) [ru-v.] (something) goes off ,Type the reading!,Image
+暗い,くらい,(会L18) [い-adj.] dark,Type the reading!,Image
+携帯（電話）,けいたい（でんわ）,(会L18) [n.] cell phone,Type the reading!,Image
+転ぶ,ころぶ,(会L18) [u-v.] to fall down,Type the reading!,Image
+壊す,こわす,(会L18) [u-v.] to break (something),Type the reading!,Image
+壊れる,こわれる,(会L18) [ru-v.] (something) breaks ,Type the reading!,Image
+咲く,さく,(会L18) [u-v.] to bloom,Type the reading!,Image
+桜,さくら,(会L18) [n.] cherry blossom,Type the reading!,Image
+親しい,したしい,(読L18-III) [い-adj.] close; intimate,Type the reading!,Image
+閉まる,しまる,(会L18) [u-v.] (something) closes,Type the reading!,Image
+収入,しゅうにゅう,(読L18-II) [n.] income,Type the reading!,Image
+しょう油,しょうゆ,(会L18) [n.] soy sauce,Type the reading!,Image
+食費,しょくひ,(読L18-III) [n.] cost of food,Type the reading!,Image
+女子学生,じょしがくせい,(読L18-II) [n.] female student,Type the reading!,Image
+スイッチ,スイッチ,(会L18) [n.] switch,Type the reading!,Image
+スープ,スープ,(会L18) [n.] soup,Type the reading!,Image
+スカート,スカート,(会L18) [n.] skirt,Type the reading!,Image
+生活のゆとり,せいかつのゆとり,(読L18-II) [n.] extra money to spare for the cost of living,Type the reading!,Image
+生活費,せいかつひ,(読L18-II) [n.] the cost of living,Type the reading!,Image
+外,そと,(会L18) [n.] outside,Type the reading!,Image
+ソファ,ソファ,(会L18) [n.] sofa,Type the reading!,Image
+大切,たいせつ（な）,(会L18) [な-adj.] precious; important,Type the reading!,Image
+タオル,タオル,(会L18) [n.] towel,Type the reading!,Image
+助かる,たすかる,(会L18) [u-v.] to be saved; to be helped,Type the reading!,Image
+頼む,たのむ,(会L18) [u-v.] to ask (a favor),Type the reading!,Image
+～（ん）だろう,～（ん）だろう,(会L18) [exp.] short form of ～（ん）でしょう,Type the reading!,Image
+男子学生,だんしがくせい,(読L18-II) [n.] male student,Type the reading!,Image
+力仕事,ちからしごと,(読L18-III) [n.] physical labor (such as construction),Type the reading!,Image
+注文する,ちゅうもんする,(会L18) [irr-v.] to place an order ,Type the reading!,Image
+貯金する,ちょきんする,(読L18-II) [irr-v.] to deposit money (in a bank) ,Type the reading!,Image
+つく,つく,(会L18) [u-v.] (something) turns on,Type the reading!,Image
+どうしよう,どうしよう,(会L18) [exp.] What should I/we do?,Type the reading!,Image
+初めは,はじめは,(読L18-III) [adv.] at first,Type the reading!,Image
+恥ずかしい,はずかしい,(会L18) [い-adj.] embarrassing; to feel embarrassed,Type the reading!,Image
+バナナ,バナナ,(会L18) [n.] banana,Type the reading!,Image
+引っ越し,ひっこし,(読L18-III) [n.] moving,Type the reading!,Image
+ポップコーン,ポップコーン,(会L18) [n.] popcorn,Type the reading!,Image
+毎月,まいつき,(読L18-III) [n.] every month,Type the reading!,Image
+～未満,～みまん,(読L18-II) [suf.] less than . . .,Type the reading!,Image
+虫,むし,(会L18) [n.] insect,Type the reading!,Image
+無理,むり（な）,(会L18) [な-adj.] impossible,Type the reading!,Image
+目的,もくてき,(読L18-II) [n.] object; purpose,Type the reading!,Image
+家賃,やちん,(会L18) [n.] rent,Type the reading!,Image
+夕方,ゆうがた,(会L18) [n.] evening,Type the reading!,Image
+洋服,ようふく,(読L18-II) [n.] clothes,Type the reading!,Image
+汚す,よごす,(会L18) [u-v.] to make dirty,Type the reading!,Image
+汚れる,よごれる,(会L18) [ru-v.] to become dirty ,Type the reading!,Image
+冷蔵庫,れいぞうこ,(会L18) [n.] refrigerator,Type the reading!,Image
+ろうそく,ろうそく,(会L18) [n.] candle,Type the reading!,Image
+ワンルームマンション,ワンルームマンション,(読L18-III) [n.] studio apartment,Type the reading!,Image
+いかが,いかが,(読L19-II) [adv.] how (polite expression of どう),Type the reading!,Image
+いらっしゃる,いらっしゃる,"(会L19) [u-v.] honorific expression for いく, くる, and いる",Type the reading!,Image
+受ける,うける,"(読L19-III, 会L22) [ru-v.] to take (an examination) ",Type the reading!,Image
+遠慮する,えんりょする,(会L19) [irr-v.] to hold back for the time being; to refrain from ,Type the reading!,Image
+奥様,おくさま,(会L19) [n.] (your/someone’s) wife (polite),Type the reading!,Image
+お子さん,おこさん,(会L19) [n.] (your/someone’s) child (polite),Type the reading!,Image
+お世話になる,おせわになる,"(読L19-II, 会L23) [u-v.] to be in someone’s care",Type the reading!,Image
+おっしゃる,おっしゃる,(会L19) [u-v.] honorific expression for いう,Type the reading!,Image
+思い出す,おもいだす,(読L19-II) [u-v.] to recall,Type the reading!,Image
+お休みになる,おやすみになる,(会L19) [u-v.] honorific expression for ねる,Type the reading!,Image
+お礼,おれい,(会L19) [n.] expression of gratitude,Type the reading!,Image
+かける,かける,(会L19) [ru-v.] to sit down ,Type the reading!,Image
+決まる,きまる,(会L19) [u-v.] to be decided,Type the reading!,Image
+下さる,くださる,(会L19) [u-v.] honorific expression for くれる,Type the reading!,Image
+敬語,けいご,(会L19) [n.] honorific language,Type the reading!,Image
+国際,こくさい,(読L19-III) [n.] international,Type the reading!,Image
+ごちそうする,ごちそうする,(会L19) [irr-v.] to treat/invite (someone) to a meal ,Type the reading!,Image
+ご覧になる,ごらんになる,(会L19) [u-v.] honorific expression for みる,Type the reading!,Image
+種類,しゅるい,(会L19) [n.] a kind; a sort,Type the reading!,Image
+しょうぎ,しょうぎ,(読L19-II) [n.] Japanese chess,Type the reading!,Image
+少々,しょうしょう,(会L19) [adv.] a few seconds,Type the reading!,Image
+招待する,しょうたいする,(会L19) [irr-v.] to invite someone (to an event/a place) ,Type the reading!,Image
+知り合う,しりあう,(会L19) [u-v.] to get acquainted with,Type the reading!,Image
+性格,せいかく,(会L19) [n.] personality,Type the reading!,Image
+それで,それで,(会L19) [adv.] then; therefore,Type the reading!,Image
+それでは,それでは,(読L19-II) [adv.] well then,Type the reading!,Image
+大切にする,たいせつにする,(読L19-II) [irr-v.] to take good care of ,Type the reading!,Image
+たいへん,たいへん,(読L19-II) [adv.] greatly,Type the reading!,Image
+たつ,たつ,(読L19-II) [u-v.] (time) pass,Type the reading!,Image
+～中,～ちゅう,(読L19-II) [suf.] while . . .,Type the reading!,Image
+中学生,ちゅうがくせい,(会L19) [n.] junior high school student,Type the reading!,Image
+～ていらっしゃる,～ていらっしゃる,(会L19) [u-v.] honorific expression for ～ている,Type the reading!,Image
+電気工学,でんきこうがく,(読L19-III) [n.] electrical engineering,Type the reading!,Image
+どうぞよろしくお願いします,どうぞよろしくおねがいします,(読L19-III) [exp.] Thank you in advance.,Type the reading!,Image
+どちら,どちら,"(会L19, 会L10) [n.] where (polite); which",Type the reading!,Image
+突然,とつぜん,(読L19-III) [adv.] suddenly,Type the reading!,Image
+仲がいい,なかがいい,(会L19) [い-adj.] be on good/close terms; to get along well,Type the reading!,Image
+なさる,なさる,(会L19) [u-v.] honorific expression for する,Type the reading!,Image
+なぜ,なぜ,(会L19) [adv.] why,Type the reading!,Image
+なつかしい,なつかしい,(読L19-II) [い-adj.] to miss; to long for,Type the reading!,Image
+怠け者,なまけもの,(会L19) [n.] lazy person,Type the reading!,Image
+～の紹介で,～のしょうかいで,(読L19-III) [exp.] through the introduction of,Type the reading!,Image
+～のために,～のために,(読L19-III) [part.] for . . .,Type the reading!,Image
+恥ずかしがり屋,はずかしがりや,(会L19) [n.] shy person,Type the reading!,Image
+晴れる,はれる,(会L19) [ru-v.] to become sunny ,Type the reading!,Image
+引っ越す,ひっこす,(会L19) [u-v.] to move (to another place to live),Type the reading!,Image
+部長,ぶちょう,(会L19) [n.] department manager,Type the reading!,Image
+本当は,ほんとうは,(会L19) [adv.] in fact; originally,Type the reading!,Image
+毎朝,まいあさ,(会L19) [adv.] every morning,Type the reading!,Image
+まだ,まだ,(会L19) [adv.] still,Type the reading!,Image
+間違い,まちがい,(会L19) [n.] mistake,Type the reading!,Image
+みな様,みなさま,(読L19-II) [n.] everyone (polite expression of みなさん),Type the reading!,Image
+～名様,～めいさま,(会L19) [suf.] party of . . . people,Type the reading!,Image
+召し上がる,めしあがる,(会L19) [u-v.] honorific expression for たべる and のむ,Type the reading!,Image
+申し込み,もうしこみ,(読L19-III) [n.] application,Type the reading!,Image
+申し訳ありません,もうしわけありません,"(読L19-III, 会L20) [exp.] You have my apologies.",Type the reading!,Image
+もし～たら,もし～たら,(読L19-III) [adv.] if . . .,Type the reading!,Image
+もてる,もてる,(会L19) [ru-v.] to be popular (in terms of romantic interest) ,Type the reading!,Image
+友人,ゆうじん,(読L19-III) [n.] friend,Type the reading!,Image
+ようこそ,ようこそ,(会L19) [exp.] Welcome.,Type the reading!,Image
+呼ぶ,よぶ,(会L19) [u-v.] to call (one’s name); to invite,Type the reading!,Image
+寄る,よる,(会L19) [u-v.] to stop by,Type the reading!,Image
+よろしくお伝えください,よろしくおつたえください,(会L19) [exp.] Please give my best regards (to . . . ).,Type the reading!,Image
+あちら,あちら,(会L20) [n.] that way (polite),Type the reading!,Image
+アニメ,アニメ,(会L20) [n.] animation,Type the reading!,Image
+あんなに,あんなに,(読L20-II) [adv.] so; such,Type the reading!,Image
+致す,いたす,(会L20) [u-v.] extra-modest expression for する,Type the reading!,Image
+頂く,いただく,(会L20) [u-v.] extra-modest expression for たべる and のむ; humble expression for もらう,Type the reading!,Image
+一階,いっかい,(会L20) [n.] first floor,Type the reading!,Image
+いなか,いなか,(読L20-II) [n.] countryside,Type the reading!,Image
+伺う,うかがう,(会L20) [u-v.] to humbly visit; to humbly ask,Type the reading!,Image
+宇宙人,うちゅうじん,(会L20) [n.] space alien,Type the reading!,Image
+売れる,うれる,(読L20-II) [ru-v.] to be sold ,Type the reading!,Image
+えさ,えさ,(読L20-II) [n.] feed,Type the reading!,Image
+江戸,えど,(読L20-II) [n.] former name of Tokyo,Type the reading!,Image
+江戸時代,えどじだい,(読L20-II) [n.] Edo period (1603－1868),Type the reading!,Image
+お宅,おたく,(会L20) [n.] (someone’s) home/house,Type the reading!,Image
+音,おと,(会L20) [n.] sound,Type the reading!,Image
+おにぎり,おにぎり,(会L20) [n.] rice ball,Type the reading!,Image
+重い,おもい,(会L20) [い-adj.] heavy; serious (illness),Type the reading!,Image
+おる,おる,(会L20) [u-v.] extra-modest expression for いる,Type the reading!,Image
+～階,～かい,(会L20) [suf.] . . . th floor,Type the reading!,Image
+係の者,かかりのもの,(会L20) [n.] our person in charge,Type the reading!,Image
+かしこまりました,かしこまりました,(会L20) [exp.] Certainly.,Type the reading!,Image
+がっかりする,がっかりする,"(読L20-II, 会L23) [irr-v.] to be disappointed ",Type the reading!,Image
+軽い,かるい,(会L20) [い-adj.] light,Type the reading!,Image
+聞こえる,きこえる,(会L20) [ru-v.] to be audible ,Type the reading!,Image
+交換する,こうかんする,(会L20) [irr-v.] to exchange ,Type the reading!,Image
+心,こころ,(読L20-II) [n.] mind; heart,Type the reading!,Image
+ござる,ござる,(会L20) [u-v.] extra-modest expression for ある,Type the reading!,Image
+差し上げる,さしあげる,(会L20) [ru-v.] humble expression for あげる ,Type the reading!,Image
+字,じ,(会L20) [n.] letter; character,Type the reading!,Image
+失礼しました,しつれいしました,(会L20) [exp.] I’m very sorry.,Type the reading!,Image
+支店,してん,(会L20) [n.] branch office,Type the reading!,Image
+趣味,しゅみ,(会L20) [n.] hobby; pastime,Type the reading!,Image
+小説,しょうせつ,(会L20) [n.] novel,Type the reading!,Image
+スニーカー,スニーカー,(会L20) [n.] sneakers,Type the reading!,Image
+する,する,"(読L20-II, 会L15, 会L3, 会L17) [irr-v.] to cost ; to decide on (an item) ; to do ; to wear small items (necktie, watch, etc.) ",Type the reading!,Image
+生活する,せいかつする,(会L20) [irr-v.] to lead a life ,Type the reading!,Image
+絶対に,ぜったいに,"(読L20-II, 会L22) [adv.] definitely; no matter what",Type the reading!,Image
+扇子,せんす,(会L20) [n.] (hand) fan,Type the reading!,Image
+そうだ！,そうだ！,(読L20-II) [exp.] I have an idea!,Type the reading!,Image
+抱く,だく,(読L20-II) [u-v.] to hold something in one’s arm,Type the reading!,Image
+だます,だます,(読L20-II) [u-v.] to deceive,Type the reading!,Image
+茶店,ちゃみせ,(読L20-II) [n.] teahouse,Type the reading!,Image
+月,つき,(会L20) [n.] moon,Type the reading!,Image
+伝える,つたえる,(会L20) [ru-v.] to convey message ,Type the reading!,Image
+続ける,つづける,(会L20) [ru-v.] to continue ,Type the reading!,Image
+～ておる,～ておる,(会L20) [u-v.] extra-modest expression for ～ている,Type the reading!,Image
+できれば,できれば,(会L20) [adv.] if possible,Type the reading!,Image
+～でござる,～でござる,(会L20) [u-v.] extra-modest expression for です,Type the reading!,Image
+では,では,(会L20) [adv.] well then (polite),Type the reading!,Image
+ドイツ,ドイツ,(会L20) [n.] Germany,Type the reading!,Image
+動物,どうぶつ,(会L20) [n.] animal,Type the reading!,Image
+止まる,とまる,(読L20-II) [u-v.] to stop,Type the reading!,Image
+にこにこする,にこにこする,(読L20-II) [irr-v.] to smile ,Type the reading!,Image
+値段,ねだん,(読L20-II) [n.] price,Type the reading!,Image
+ひっかく,ひっかく,(読L20-II) [u-v.] to scratch,Type the reading!,Image
+不思議,ふしぎ（な）,(会L20) [な-adj.] mysterious,Type the reading!,Image
+ヘッドホン,ヘッドホン,(会L20) [n.] headphones,Type the reading!,Image
+返品する,へんぴんする,(会L20) [irr-v.] to return (merchandise) ,Type the reading!,Image
+参る,まいる,(会L20) [u-v.] extra-modest expression for いく and くる,Type the reading!,Image
+誠に,まことに,(会L20) [adv.] really (very polite),Type the reading!,Image
+また,また,"(会L20, 読L16-II) [adv.] again; in addition",Type the reading!,Image
+待たせる,またせる,(会L20) [ru-v.] to keep (someone) waiting ,Type the reading!,Image
+～みたいなX,～みたいなX,(会L20) [suf.] X like . . . ,Type the reading!,Image
+身ぶり,みぶり,(読L20-II) [n.] gesture,Type the reading!,Image
+申す,もうす,(会L20) [u-v.] extra-modest expression for いう,Type the reading!,Image
+～屋,～や,(会L20) [suf.] . . . shop,Type the reading!,Image
+やった！,やった！,(読L20-II) [exp.] I did it!,Type the reading!,Image
+よろしかったら,よろしかったら,(会L20) [adv.] if it is okay (polite),Type the reading!,Image
+落語,らくご,(読L20-II) [n.] comic monologue,Type the reading!,Image
+落語家,らくごか,(読L20-II) [n.] comic storyteller,Type the reading!,Image
+両,りょう,(読L20-II) [n.] a unit of currency used in the Edo period,Type the reading!,Image
+渡す,わたす,(読L20-II) [u-v.] to give; to hand,Type the reading!,Image
+安全,あんぜん（な）,(会L21) [な-adj.] safe,Type the reading!,Image
+言う（文句を）,いう（もんくを）,(会L21) [u-v.] to complain,Type the reading!,Image
+いじめる,いじめる,(会L21) [ru-v.] to bully ,Type the reading!,Image
+一生懸命,いっしょうけんめい,(読L21-II) [adv.] very hard,Type the reading!,Image
+占い,うらない,(読L21-II) [n.] fortune-telling,Type the reading!,Image
+多くの～,おおくの～,"(読L21-II, 会L22) [pre.] many . . .",Type the reading!,Image
+置く,おく,(会L21) [u-v.] to put; to lay; to place,Type the reading!,Image
+起こる,おこる,(読L21-II) [u-v.] to occur; to happen,Type the reading!,Image
+お守り,おまもり,(読L21-II) [n.] charm (against evils); amulet,Type the reading!,Image
+蚊,か,(会L21) [n.] mosquito,Type the reading!,Image
+会議,かいぎ,(会L21) [n.] business meeting; conference,Type the reading!,Image
+ガソリン,ガソリン,(会L21) [n.] gasoline,Type the reading!,Image
+通う,かよう,(読L21-II) [u-v.] to commute to,Type the reading!,Image
+環境,かんきょう,(会L21) [n.] environment,Type the reading!,Image
+着替える,きがえる,(会L21) [ru-v.] to change clothes ,Type the reading!,Image
+気が付く,きがつく,(会L21) [u-v.] to notice,Type the reading!,Image
+気にする,きにする,(読L21-II) [irr-v.] to worry ,Type the reading!,Image
+比べる,くらべる,(会L21) [ru-v.] to compare ,Type the reading!,Image
+警察,けいさつ,(会L21) [n.] police; police station,Type the reading!,Image
+ける,ける,(会L21) [u-v.] to kick,Type the reading!,Image
+工場,こうじょう,(会L21) [n.] factory,Type the reading!,Image
+～ころ,～ころ,(会L21) [suf.] time of . . . ; when . . .,Type the reading!,Image
+刺す,さす,(会L21) [u-v.] to bite,Type the reading!,Image
+触る,さわる,(会L21) [u-v.] to touch,Type the reading!,Image
+授業料,じゅぎょうりょう,(会L21) [n.] tuition,Type the reading!,Image
+食事,しょくじ,(読L21-II) [n.] meal,Type the reading!,Image
+信じる,しんじる,(会L21) [ru-v.] to believe ,Type the reading!,Image
+心配,しんぱい（な）,"(読L21-II, 会L22) [な-adj.] worried about",Type the reading!,Image
+スピーチ,スピーチ,(会L21) [n.] speech,Type the reading!,Image
+ぜいたくをする,ぜいたくをする,(読L21-II) [irr-v.] to indulge in luxury ,Type the reading!,Image
+政府,せいふ,(会L21) [n.] government,Type the reading!,Image
+ただの～,ただの～,(読L21-II) [pre.] nothing more than . . .,Type the reading!,Image
+楽しみ,たのしみ,(読L21-II) [n.] pleasure,Type the reading!,Image
+ためる,ためる,(会L21) [ru-v.] to save money ,Type the reading!,Image
+ちかん,ちかん,(会L21) [n.] groper; pervert,Type the reading!,Image
+捕まる,つかまる,(会L21) [u-v.] to be arrested; to be caught,Type the reading!,Image
+包む,つつむ,(会L21) [u-v.] to wrap; to cover,Type the reading!,Image
+同僚,どうりょう,(会L21) [n.] colleague,Type the reading!,Image
+遠い,とおい,(会L21) [い-adj.] far (away),Type the reading!,Image
+ところが,ところが,(読L21-II) [adv.] however; on the contrary,Type the reading!,Image
+とにかく,とにかく,(会L21) [adv.] anyhow; anyway,Type the reading!,Image
+泥棒,どろぼう,(会L21) [n.] thief; burglar,Type the reading!,Image
+長い間,ながいあいだ,(読L21-II) [adv.] long time,Type the reading!,Image
+殴る,なぐる,(会L21) [u-v.] to strike; to hit; to punch,Type the reading!,Image
+入院する,にゅういんする,(読L21-II) [irr-v.] to be hospitalized ,Type the reading!,Image
+盗む,ぬすむ,(会L21) [u-v.] to steal; to rob,Type the reading!,Image
+ばかにする,ばかにする,(会L21) [irr-v.] to insult; to make a fool of . . . ,Type the reading!,Image
+貼る,はる,(会L21) [u-v.] to post; to stick,Type the reading!,Image
+犯人,はんにん,(会L21) [n.] criminal,Type the reading!,Image
+ひどい,ひどい,(会L21) [い-adj.] awful,Type the reading!,Image
+昼寝をする,ひるねをする,(会L21) [irr-v.] to take a nap ,Type the reading!,Image
+不便,ふべん（な）,(読L21-II) [な-adj.] inconvenient,Type the reading!,Image
+踏む,ふむ,(会L21) [u-v.] to step on,Type the reading!,Image
+ふる,ふる,(会L21) [u-v.] to turn down (somebody); to reject; to jilt,Type the reading!,Image
+変,へん（な）,(会L21) [な-adj.] strange; unusual,Type the reading!,Image
+ポスター,ポスター,(会L21) [n.] poster,Type the reading!,Image
+ほめる,ほめる,(会L21) [ru-v.] to praise; to say nice things ,Type the reading!,Image
+間違える,まちがえる,(会L21) [ru-v.] to make a mistake ,Type the reading!,Image
+見つける,みつける,(会L21) [ru-v.] to find ,Type the reading!,Image
+昔,むかし,(会L21) [n.] old days; past,Type the reading!,Image
+迷信,めいしん,(読L21-II) [n.] superstition,Type the reading!,Image
+めちゃくちゃ（な）,めちゃくちゃ（な）,(会L21) [な-adj.] messy; disorganized,Type the reading!,Image
+めったに～ない,めったに～ない,(読L21-II) [adv.] seldom,Type the reading!,Image
+文句,もんく,(会L21) [n.] complaint,Type the reading!,Image
+文句を言う,もんくをいう,(会L21) [u-v.] to complain,Type the reading!,Image
+焼く,やく,(会L21) [u-v.] to bake; to burn; to grill,Type the reading!,Image
+留守,るす,(会L21) [n.] absence; not at home,Type the reading!,Image
+連絡する,れんらくする,(会L21) [irr-v.] to contact ,Type the reading!,Image
+相変わらず,あいかわらず,(読L22-II) [adv.] as usual,Type the reading!,Image
+相手,あいて,(会L22) [n.] partner; the other person,Type the reading!,Image
+受付,うけつけ,(会L22) [n.] reception desk,Type the reading!,Image
+うまく,うまく,(読L22-II) [adv.] well; successfully; skillfully,Type the reading!,Image
+うまくいく,うまくいく,(読L22-II) [u-v.] to go well,Type the reading!,Image
+うらやましがる,うらやましがる,(読L22-II) [u-v.] (somebody is) envious,Type the reading!,Image
+うるさい,うるさい,(会L22) [い-adj.] noisy; annoying,Type the reading!,Image
+英会話,えいかいわ,(会L22) [n.] English conversation,Type the reading!,Image
+お嬢さん,おじょうさん,(会L22) [n.] (someone’s) daughter (polite),Type the reading!,Image
+お願いする,おねがいする,(会L22) [irr-v.] to request help ,Type the reading!,Image
+家事,かじ,(会L22) [n.] housework,Type the reading!,Image
+風,かぜ,(会L22) [n.] wind,Type the reading!,Image
+風が吹く,かぜがふく,(会L22) [u-v.] the wind blows,Type the reading!,Image
+勝つ,かつ,(会L22) [u-v.] to win,Type the reading!,Image
+代わりに,かわりに,(読L22-II) [adv.] instead,Type the reading!,Image
+木,き,(会L22) [n.] tree,Type the reading!,Image
+計画を立てる,けいかくをたてる,(会L22) [ru-v.] to make a plan ,Type the reading!,Image
+後輩,こうはい,(会L22) [n.] junior member of a group,Type the reading!,Image
+コピーを取る,コピーをとる,(会L22) [u-v.] to make a photocopy,Type the reading!,Image
+こんなふう,こんなふう,(会L22) [exp.] like this,Type the reading!,Image
+猿,さる,(会L22) [n.] monkey,Type the reading!,Image
+賛成する,さんせいする,(会L22) [irr-v.] to agree ,Type the reading!,Image
+しかたがない,しかたがない,(読L22-II) [exp.] cannot be helped,Type the reading!,Image
+失敗する,しっぱいする,(会L22) [irr-v.] to fail; to be unsuccessful ,Type the reading!,Image
+自由,じゆう,(会L22) [n.] freedom,Type the reading!,Image
+自由に,じゆうに,(会L22) [adv.] freely,Type the reading!,Image
+書類,しょるい,(会L22) [n.] document,Type the reading!,Image
+親友,しんゆう,(読L22-II) [n.] best friend,Type the reading!,Image
+ずっと,ずっと,(会L22) [adv.] for a long time; all the time,Type the reading!,Image
+育てる,そだてる,(会L22) [ru-v.] to raise; to bring up ,Type the reading!,Image
+そんなこと（は）ない,そんなこと（は）ない,(会L22) [exp.] I don’t think so.,Type the reading!,Image
+タイプ,タイプ,(読L22-II) [n.] type,Type the reading!,Image
+楽しそうに,たのしそうに,(読L22-II) [adv.] joyfully,Type the reading!,Image
+～ちゃん,～ちゃん,(会L22) [suf.] suffix for names of children,Type the reading!,Image
+徹夜する,てつやする,(会L22) [irr-v.] to stay up all night ,Type the reading!,Image
+～とか,～とか,(会L22) [part.] . . . for example,Type the reading!,Image
+なんだか,なんだか,(読L22-II) [adv.] somehow,Type the reading!,Image
+逃げる,にげる,(読L22-II) [ru-v.] to run away; to escape ,Type the reading!,Image
+運ぶ,はこぶ,(会L22) [u-v.] to carry,Type the reading!,Image
+反対する,はんたいする,(会L22) [irr-v.] to oppose; to object to ,Type the reading!,Image
+一人暮らし,ひとりぐらし,(会L22) [n.] living alone,Type the reading!,Image
+拾う,ひろう,(会L22) [u-v.] to pick up (something),Type the reading!,Image
+貧乏,びんぼう（な）,(会L22) [な-adj.] poor,Type the reading!,Image
+部下,ぶか,(会L22) [n.] subordinate,Type the reading!,Image
+復習,ふくしゅう,(会L22) [n.] review of a lesson,Type the reading!,Image
+二日間,ふつかかん,(読L22-II) [adv.] for two days,Type the reading!,Image
+プロジェクト,プロジェクト,(会L22) [n.] project,Type the reading!,Image
+ぺらぺら（な）,ぺらぺら（な）,(会L22) [な-adj.] fluent,Type the reading!,Image
+放っておく,ほ（う）っておく,(会L22) [u-v.] to leave (someone/something) alone; to neglect,Type the reading!,Image
+ボール,ボール,(会L22) [n.] ball,Type the reading!,Image
+翻訳する,ほんやくする,(会L22) [irr-v.] to translate ,Type the reading!,Image
+負ける,まける,(会L22) [ru-v.] to lose (a match) ,Type the reading!,Image
+待ち遠しい,まちどおしい,(読L22-II) [い-adj.] to wait eagerly for . . .,Type the reading!,Image
+間に合う,まにあう,(会L22) [u-v.] to be in time,Type the reading!,Image
+無駄遣い,むだづかい,(会L22) [n.] waste (money),Type the reading!,Image
+メッセージ,メッセージ,"(読L22-II, 会L23) [n.] message; text",Type the reading!,Image
+免許,めんきょ,(会L22) [n.] license,Type the reading!,Image
+もう少し,もうすこし,(会L22) [adv.] a little more,Type the reading!,Image
+勇気,ゆうき,(読L22-II) [n.] courage,Type the reading!,Image
+ヨーロッパ,ヨーロッパ,(会L22) [n.] Europe,Type the reading!,Image
+予習,よしゅう,(会L22) [n.] preparation of a lesson,Type the reading!,Image
+楽,らく（な）,(会L22) [な-adj.] easy; comfortable,Type the reading!,Image
+あいさつ,あいさつ,(読L23-II) [n.] greetings,Type the reading!,Image
+雨がやむ,あめがやむ,(会L23) [u-v.] the rain stops,Type the reading!,Image
+表す,あらわす,(読L23-II) [u-v.] to express; to show,Type the reading!,Image
+言う（悪口を）,いう（わるぐちを）,(会L23) [u-v.] to talk behind someone’s back,Type the reading!,Image
+一方,いっぽう,(読L23-II) [adv.] on the other hand,Type the reading!,Image
+いなくなる,いなくなる,(会L23) [u-v.] (someone) is gone; to disappear,Type the reading!,Image
+SNS,エスエヌエス,(読L23-II) [n.] social media,Type the reading!,Image
+絵文字,えもじ,(読L23-II) [n.] emoji,Type the reading!,Image
+おなかをこわす,おなかをこわす,(会L23) [u-v.] to have a stomachache,Type the reading!,Image
+思い出,おもいで,(会L23) [n.] memory,Type the reading!,Image
+海外旅行,かいがいりょこう,(会L23) [n.] trip to a foreign country,Type the reading!,Image
+顔文字,かおもじ,(読L23-II) [n.] emoticon,Type the reading!,Image
+～顔をする,～かおをする,(会L23) [irr-v.] to look . . . (facial expression) ,Type the reading!,Image
+我慢する,がまんする,(会L23) [irr-v.] to be tolerant/patient ,Type the reading!,Image
+感情,かんじょう,(読L23-II) [n.] feeling; emotion,Type the reading!,Image
+カンニングする,カンニングする,(会L23) [irr-v.] to cheat in an exam ,Type the reading!,Image
+記号,きごう,(読L23-II) [n.] symbol,Type the reading!,Image
+キスをする,キスをする,(読L23-II) [irr-v.] to kiss ,Type the reading!,Image
+気に入る,きにいる,(会L23) [u-v.] to find something agreeable,Type the reading!,Image
+休講,きゅうこう,(会L23) [n.] class cancellation,Type the reading!,Image
+靴下,くつした,(会L23) [n.] socks,Type the reading!,Image
+結果,けっか,(会L23) [n.] result,Type the reading!,Image
+元気でね,げんきでね,(会L23) [exp.] Take care of yourself.,Type the reading!,Image
+健康,けんこう,(会L23) [n.] health,Type the reading!,Image
+ことわざ,ことわざ,(読L23-II) [n.] proverb,Type the reading!,Image
+このように,このように,(読L23-II) [adv.] like this; this way,Type the reading!,Image
+社会,しゃかい,(会L23) [n.] society,Type the reading!,Image
+小学校,しょうがっこう,(会L23) [n.] elementary school,Type the reading!,Image
+世界中,せかいじゅう,(読L23-II) [n.] all over the world,Type the reading!,Image
+世話をする,せわをする,(会L23) [irr-v.] to take care of . . . ,Type the reading!,Image
+そうそう,そうそう,(会L23) [exp.] You are right.,Type the reading!,Image
+そろそろ,そろそろ,(会L23) [adv.] it is about time to . . .,Type the reading!,Image
+ただ,ただ,(会L23) [n.] free of charge,Type the reading!,Image
+縦,たて,(読L23-II) [n.] vertical,Type the reading!,Image
+～ために,～ために,(会L23) [exp.] for . . . ; for the sake of . . .,Type the reading!,Image
+チェックする,チェックする,(会L23) [irr-v.] to check ,Type the reading!,Image
+調査,ちょうさ,(会L23) [n.] survey,Type the reading!,Image
+（～は）…という意味だ,（～は）…といういみだ,(読L23-II) [exp.] ～ means that . . .,Type the reading!,Image
+同情する,どうじょうする,(会L23) [irr-v.] to sympathize ,Type the reading!,Image
+なくなる,なくなる,(会L23) [u-v.] to be lost; to disappear,Type the reading!,Image
+～は…という意味だ,～は…といういみだ,(読L23-II) [exp.] ～ means that . . .,Type the reading!,Image
+離れる,はなれる,(会L23) [ru-v.] (something/someone) separates; parts from ,Type the reading!,Image
+表情,ひょうじょう,(読L23-II) [n.] expression,Type the reading!,Image
+盆踊り,ぼんおどり,(会L23) [n.] Bon dance (Japanese traditional dance),Type the reading!,Image
+まずい,まずい,(会L23) [い-adj.] (food is) terrible,Type the reading!,Image
+面接,めんせつ,(会L23) [n.] interview,Type the reading!,Image
+戻ってくる,もどってくる,(会L23) [irr-v.] (something/someone) comes back ,Type the reading!,Image
+ものすごく,ものすごく,(会L23) [adv.] extremely,Type the reading!,Image
+優勝する,ゆうしょうする,(会L23) [irr-v.] to win a championship ,Type the reading!,Image
+夕食,ゆうしょく,(会L23) [n.] dinner,Type the reading!,Image
+横,よこ,(読L23-II) [n.] side; horizontal,Type the reading!,Image
+理想,りそう,(会L23) [n.] ideal,Type the reading!,Image
+留守番,るすばん,(会L23) [n.] looking after a house during someone’s absence,Type the reading!,Image
+悪口を言う,わるぐちをいう,(会L23) [u-v.] to talk behind someone’s back,Type the reading!,Image
