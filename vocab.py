@@ -56,7 +56,7 @@ def excel_to_dict(
             vocab_dict[kanji] = (
                 [hiragana],
                 [part],
-                [meaning],
+                [meaning.strip()],
                 [num.strip() for num in lesson.split(",")],
             )
         else:
@@ -68,44 +68,44 @@ def excel_to_dict(
             if part not in part_list:
                 part_list.append(part)
             if meaning not in meaning_list:
-                meaning_list.append(meaning)
+                meaning_list.append(meaning.strip())
             if lesson not in lesson_list:
                 lesson_list.append(lesson)
-    # print(list(vocab_dict.items())[:5], len(vocab_dict))
-
-    # count = 0
-    # for word in vocab_dict.values():
-    # print(word)
-    # if len(word[0]) > 1:
-    #     print(word[0])
-    # if len(word[1]) > 1:
-    #     print(word[1])
-    # if len(word[2]) > 1:
-    #     print(word[2])
-    # if len(word[3]) > 1:
-    #     print(word[0], word[3])
-    #     count += 1
-    # print(count)
-    # print(all(len(word[0]) == 1 for word in vocab_dict))
-    # print(list(filter(lambda word: any("e" in lesson for lesson in word[3]), vocab_dict.values())))
 
     # sort by ascending lesson number (first in list)
     ordered = dict(
-        sorted(vocab_dict.items(), key=lambda item: _extract_num(item[1][3][0]))
+        sorted(vocab_dict.items(), key=lambda lesson: _lesson_sort_key(lesson[1][3][0]))
     )
     return ordered
 
 
-def _extract_num(lesson: str) -> int:
+def _lesson_sort_key(lesson: str) -> tuple[int, int]:
     """Lesson number can have the following forms:
     - 会L## (1-2 digits)
     - 会L##(e)
     - 読L##-I, 読L##-II, 読L##-III
     - 会G
-        - In this case, return -1 to put at top of csv
+        - Greetings lesson, we interpret this as lesson 0
+
+    We want to sort by ascending lesson number, but also need to account for 会L##(e) and 読L##-I.
+    For any number x, the sort order should look as below:
+        1. 会Lx
+        2. 会Lx(e)
+        3. 読Lx-I
+        4. 読Lx-II
+        5. 読Lx-III
     """
-    num = "".join(c for c in lesson[1:] if c.isdigit())
-    return int(num) if num else -1
+    num = "".join(c for c in lesson if c.isdigit())
+    num = int(num) if num else 0  # 0 if G
+
+    if "e" in lesson:
+        rank = 1
+    elif "I" in lesson:
+        rank = 1 + lesson.count("I")
+    else:
+        rank = 0
+
+    return num, rank
 
 
 def dict_to_csv(
