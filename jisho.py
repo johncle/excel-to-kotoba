@@ -1,36 +1,31 @@
 """Gets meanings and readings of kanji from jisho and writes to jisho.csv"""
-from jisho_api.kanji import Kanji
 import csv
+from jisho_api.kanji import Kanji
 
-kanjis = None
-with open("kotoba.csv", "r", encoding="utf-8") as file:
+kanji_dict = None
+with open("kotoba_kanji.csv", "r", encoding="utf-8") as file:
     reader = csv.reader(file)
-    kanjis = [row[0] for row in reader]
-    kanjis.pop(0)
+    kanji_dict = [row[0] for row in reader]
+    kanji_dict.pop(0)
 
 jisho_list = []
-for kanji in kanjis:
+for kanji in kanji_dict:
     r = Kanji.request(kanji)
-    # print(r)
     if not r:
         jisho_list.append(
             {"kanji": kanji, "meanings": "N/A", "kunyomi": "N/A", "onyomi": "N/A"}
         )
-        continue
-
-    meanings = r.data.main_meanings
-    kunyomi, onyomi = r.data.main_readings
-    # print(meanings, kunyomi, onyomi)
-
-    jisho_list.append(
-        {
-            "kanji": kanji,
-            "meanings": ", ".join(meanings),
-            "kunyomi": ", ".join(kunyomi[1] or ["N/A"]),
-            "onyomi": ", ".join(onyomi[1] or ["N/A"]),
-        }
-    )
-# print(jisho_list)
+    else:
+        meanings = r.data.main_meanings
+        kunyomi, onyomi = r.data.main_readings
+        jisho_list.append(
+            {
+                "kanji": kanji,
+                "meanings": ", ".join(meanings or ["N/A"]),
+                "kunyomi": ", ".join(kunyomi[1] or ["N/A"]),
+                "onyomi": ", ".join(onyomi[1] or ["N/A"]),
+            }
+        )
 
 with open("jisho.csv", "w", encoding="utf-8") as file:
     fieldnames = ["kanji", "meanings", "kunyomi", "onyomi"]

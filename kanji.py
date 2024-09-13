@@ -43,6 +43,8 @@ def excel_to_dict(filename: str) -> dict[str, (list[str], list[int], int)]:
     #   - len([hiragana]) == len([textbook order]) (1:1 mapping between specific hiragana and
     #     textbook order)
     #   - [<textbook order>] is sorted in ascending order and hiragana is inserted accordingly
+    #       - sorting upon each insertion rather than at the end makes it easy to couple specific
+    #         hiragana to textbook order
     kanji_dict = {}
     for row in sheet.iter_rows(min_row=4):
         _, text_order, hiragana, kanji, _, lesson = [cell.value for cell in row]
@@ -52,14 +54,25 @@ def excel_to_dict(filename: str) -> dict[str, (list[str], list[int], int)]:
             # if kanji already seen, add hiragana and textbook order to existing arrays
             # however, maintain sortedness of textbook order
             hiragana_list, order_list, _ = kanji_dict[kanji]
-            insert_idx = _get_idx(text_order, order_list)
-            hiragana_list.insert(insert_idx, hiragana)
-            order_list.insert(insert_idx, text_order)
-    # print(kanji_dict, len(kanji_dict))
+            i = _get_idx(text_order, order_list)
+            hiragana_list.insert(i, hiragana)
+            order_list.insert(i, text_order)
 
     # sort kanji by ascending textbook order (first in list)
     ordered = dict(sorted(kanji_dict.items(), key=lambda item: item[1][1][0]))
     return ordered
+
+
+def _get_idx(order: int, orders: list[int]) -> int:
+    """Gets index to insert current textbook order at, maintaining ascending order
+    Uses linear search because of small length of list (max 6)
+    """
+    for i, num in enumerate(orders):
+        # if current order < existing order, insert just before this
+        if order < num:
+            return i
+    # else current order > all orders, add to end
+    return len(orders)
 
 
 def dict_to_csv(
@@ -98,18 +111,6 @@ def dict_to_csv(
         writer = csv.DictWriter(csv_file, fieldnames)
         writer.writeheader()
         writer.writerows(kotoba_list)
-
-
-def _get_idx(order: int, orders: list[int]) -> int:
-    """Get index to insert current textbook order at, maintaining ascending order
-    Uses linear search because of small length of list (max 6)
-    """
-    for i, num in enumerate(orders):
-        # if current order < existing order, insert just before this
-        if order < num:
-            return i
-    # else current order > all orders, add to end
-    return len(orders)
 
 
 if __name__ == "__main__":
