@@ -95,6 +95,7 @@ def _sanitize_kana(kana: str) -> list[str]:
         - Tilde: 'ただの～', '～かな（あ）', 'もう～ない', '～か～'
         - Ellipse: '（～は）…といういみだ'
         - Alternatives: 'なん/なに'
+        - Negative: 'あまり ＋ negative'
         - ???: '～（ん）だろう'
     """
     sanitized_kana = kana
