@@ -173,8 +173,8 @@ def dict_to_csv(
 
 
 if __name__ == "__main__":
-    sheet_name = sys.argv[1] or "vocab.csv"
-    outfile_name = sys.argv[2] or "kotoba_vocab.csv"
+    sheet_name = "vocab.csv" if len(sys.argv) < 2 else sys.argv[1]
+    outfile_name = "kotoba_vocab.csv" if len(sys.argv) < 3 else sys.argv[2]
 
     vocab_dict = excel_to_dict(sheet_name)
     dict_to_csv(outfile_name, vocab_dict)
