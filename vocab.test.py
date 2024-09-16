@@ -15,11 +15,8 @@ For any number x, the sorted order should look as below:
     4. 読Lx-II
     5. 読Lx-III
 """
-import sys
 import csv
 
-last_num = 1
-count = 0
 with open("kotoba_vocab.csv", "r", encoding="utf-8") as file:
     reader = csv.reader(file)
     next(reader)  # skip header
@@ -44,10 +41,6 @@ with open("kotoba_vocab.csv", "r", encoding="utf-8") as file:
             running_reading_num = 0
             e_seen = False
 
-            # also get lesson number ranges
-            print(f"L{num}: {last_num}-{i}")
-            last_num = i + 1
-
         try:
             # num is monotonically non-decreasing
             assert num >= running_num
@@ -60,14 +53,11 @@ with open("kotoba_vocab.csv", "r", encoding="utf-8") as file:
             print(f"cur_num: {running_num} num: {num}")
             print(f"cur_reading_num: {reading_num} reading_num: {running_reading_num}")
             print(f"e_seen: {e_seen}")
-            sys.exit()
+            print()
 
         # update trackers
         running_reading_num = reading_num
         if "e" in lesson:
             e_seen = True
 
-        count += 1
-
-print(f"L24: {last_num}-{count}")
 print("All tests passed")
