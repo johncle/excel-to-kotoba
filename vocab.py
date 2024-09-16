@@ -140,9 +140,6 @@ def dict_to_csv(
 ) -> None:
     """Takes in vocab dictionary and writes to CSV file formatted for Kotoba
 
-    Notes:
-    - If a
-
     example csv structure:
         Question,Answers,Comment,Instructions,Render as
         明日,"あした,あす",Tomorrow,Type the reading!,Image

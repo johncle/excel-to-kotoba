@@ -33,7 +33,6 @@ def main(filename: str) -> None:
                 print(f"L{'G' if running_num == 0 else running_num}: {last_num}-{i}")
                 running_num = num
                 last_num = i + 1
-
             count += 1
 
         # last lesson
