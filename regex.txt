@@ -1,0 +1,174 @@
+Regex for matching ALL Japanese common & uncommon Kanji (4e00 – 9fcf) ~ The Big Kahuna!
+([一-龯])
+
+Regex for matching Hirgana or Katakana
+([ぁ-んァ-ン])
+
+Regex for matching Non-Hirgana or Non-Katakana
+([^ぁ-んァ-ン])
+
+Regex for matching Hirgana or Katakana or basic punctuation (、。’)
+([ぁ-んァ-ン\w])
+
+Regex for matching Hirgana or Katakana and random other characters
+([ぁ-んァ-ン！：／])
+
+Regex for matching Hirgana
+([ぁ-ん])
+
+Regex for matching full-width Katakana (zenkaku 全角)
+([ァ-ン])
+
+Regex for matching half-width Katakana (hankaku 半角)
+([ｧ-ﾝﾞﾟ])
+
+Regex for matching full-width Numbers (zenkaku 全角)
+([０-９])
+
+Regex for matching full-width Letters (zenkaku 全角)
+([Ａ-ｚ])
+
+Regex for matching Hiragana codespace characters (includes non phonetic characters)
+([ぁ-ゞ])
+
+Regex for matching full-width (zenkaku) Katakana codespace characters (includes non phonetic characters)
+([ァ-ヶ])
+
+Regex for matching half-width (hankaku)
+Katakana codespace characters (this is an old character set so the order is inconsistent with the hiragana)
+([ｦ-ﾟ])
+
+Regex for matching Japanese Post Codes
+/^¥d{3}¥-¥d{4}$/
+/^¥d{3}-¥d{4}$|^¥d{3}-¥d{2}$|^¥d{3}$/
+
+Regex for matching Japanese mobile phone numbers (keitai bangou)
+/^¥d{3}-¥d{4}-¥d{4}$|^¥d{11}$/
+/^0¥d0-¥d{4}-¥d{4}$/
+
+Regex for matching Japanese fixed line phone numbers
+/^[0-9-]{6,9}$|^[0-9-]{12}$/
+/^¥d{1,4}-¥d{4}$|^¥d{2,5}-¥d{1,4}-¥d{4}$/
+
+Match all English alphanumerics, Japanese katakana,hiragana,multibytes of alphanumerics [hankaku and zenkaku],dashes
+/[一-龠]+|[ぁ-ゔ]+|[ァ-ヴー]+|[a-zA-Z0-9]+|[ａ-ｚＡ-Ｚ０-９]+[々〆〤]+/u
+========================================================
+--------------------------------------------------------
+Half-width alphanumeric characters
+([!-~])
+
+!"#$%&'()*+,-./0123456789:;<=>?
+@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+`abcdefghijklmnopqrstuvwxyz{|}~
+
+--------------------------------------------------------
+Half-width KANA (hard)
+
+｡｢｣､･ｦｧｨｩｪｫｬｭｮｯｰｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿ
+ﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜﾝﾞﾟ
+
+--------------------------------------------------------
+Full-width alphanumeric characters
+
+０１２３４５６７８９
+ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰ
+ＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆ
+ｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖ
+ｗｘｙｚ
+
+--------------------------------------------------------
+full-width KANA (soft)
+
+ぁあぃいぅうぇえぉおかがきぎくぐ
+けげこごさざしじすずせぜそぞただ
+ちぢっつづてでとどなにぬねのはば
+ぱひびぴふぶぷへべぺほぼぽまみむ
+めもゃやゅゆょよらりるれろゎわゐ
+ゑをん
+
+--------------------------------------------------------
+full-width KANA (hard)
+
+ァアィイゥウェエォオカガキギクグ
+ケゲコゴサザシジスズセゼソゾタダ
+チヂッツヅテデトドナニヌネノハバ
+パヒビピフブプヘベペホボポマミム
+メモャヤュユョヨラリルレロヮワヰ
+ヱヲンヴヵヶ
+
+--------------------------------------------------------
+Symbol
+
+、。，．・：；？！゛゜´｀¨＾￣
+＿ヽヾゝゞ〃仝々〆〇ー―‐／＼～
+∥｜…‥‘’“”（）〔〕［］｛｝
+〈〉《》「」『』【】＋－±×÷＝
+≠＜＞≦≧∞∴♂♀°′″℃￥＄￠
+￡％＃＆＊＠§☆★○●◎◇◆□■
+△▲▽▼※〒→←↑↓〓∈∋⊆⊇⊂
+⊃∪∩∧∨￢⇒⇔∀∃∠⊥⌒∂∇≡
+≒≪≫√∽∝∵∫∬Å‰♯♭♪
+---------------------------------------------------------
+
+Hiragana
+Unicode code points regex: [\x3041-\x3096]
+Unicode block property regex: \p{Hiragana}
+Regex:  ([ぁ-ゟ])
+
+
+ぁ あ ぃ い ぅ う ぇ え ぉ お か が き ぎ く ぐ け げ こ ご さ ざ し じ す ず せ ぜ そ ぞ た だ ち ぢ っ つ づ て で と ど な に ぬ ね の は ば ぱ ひ び ぴ ふ ぶ ぷ へ べ ぺ ほ ぼ ぽ ま み む め も ゃ や ゅ ゆ ょ よ ら り る れ ろ ゎ わ ゐ ゑ を ん ゔ ゕ ゖ  ゙ ゚ ゛ ゜ ゝ ゞ ゟ
+---------------------------------------------------------
+Katakana (Full Width)
+Unicode code points regex: [\x30A0-\x30FF]
+Unicode block property regex: \p{Katakana}
+([ァ-ヿ])
+
+゠ ァ ア ィ イ ゥ ウ ェ エ ォ オ カ ガ キ ギ ク グ ケ ゲ コ ゴ サ ザ シ ジ ス ズ セ ゼ ソ ゾ タ ダ チ ヂ ッ ツ ヅ テ デ ト ド ナ ニ ヌ ネ ノ ハ バ パ ヒ ビ ピ フ ブ プ ヘ ベ ペ ホ ボ ポ マ ミ ム メ モ ャ ヤ ュ ユ ョ ヨ ラ リ ル レ ロ ヮ ワ ヰ ヱ ヲ ン ヴ ヵ ヶ ヷ ヸ ヹ ヺ ・ ー ヽ ヾ ヿ
+---------------------------------------------------------
+Kanji
+Unicode code points regex: [\x3400-\x4DB5\x4E00-\x9FCB\xF900-\xFA6A]
+Unicode block property regex: \p{Han}
+Regex: ([㐀-䶵一-鿋豈-頻])
+
+漢字 日本語 文字 言語 言葉 etc. Too many characters to list.
+
+This regular expression will match all the kanji, including those used in Chinese.
+---------------------------------------------------------
+Kanji Radicals
+Unicode code points regex: [\x2E80-\x2FD5]
+Regex: ([⺀-⿕])
+
+⺀ ⺁ ⺂ ⺃ ⺄ ⺅ ⺆ ⺇ ⺈ ⺉ ⺊ ⺋ ⺌ ⺍ ⺎ ⺏ ⺐ ⺑ ⺒ ⺓ ⺔ ⺕ ⺖ ⺗ ⺘ ⺙ ⺚ ⺛ ⺜ ⺝ ⺞ ⺟ ⺠ ⺡ ⺢ ⺣ ⺤ ⺥ ⺦ ⺧ ⺨ ⺩ ⺪ ⺫ ⺬ ⺭ ⺮ ⺯ ⺰ ⺱ ⺲ ⺳ ⺴ ⺵ ⺶ ⺷ ⺸ ⺹ ⺺ ⺻ ⺼ ⺽ ⺾ ⺿ ⻀ ⻁ ⻂ ⻃ ⻄ ⻅ ⻆ ⻇ ⻈ ⻉ ⻊ ⻋ ⻌ ⻍ ⻎ ⻏ ⻐ ⻑ ⻒ ⻓ ⻔ ⻕ ⻖ ⻗ ⻘ ⻙ ⻚ ⻛ ⻜ ⻝ ⻞ ⻟ ⻠ ⻡ ⻢ ⻣ ⻤ ⻥ ⻦ ⻧ ⻨ ⻩ ⻪ ⻫ ⻬ ⻭ ⻮ ⻯ ⻰ ⻱ ⻲ ⻳
+⼀ ⼁ ⼂ ⼃ ⼄ ⼅ ⼆ ⼇ ⼈ ⼉ ⼊ ⼋ ⼌ ⼍ ⼎ ⼏ ⼐ ⼑ ⼒ ⼓ ⼔ ⼕ ⼖ ⼗ ⼘ ⼙ ⼚ ⼛ ⼜ ⼝ ⼞ ⼟ ⼠ ⼡ ⼢ ⼣ ⼤ ⼥ ⼦ ⼧ ⼨ ⼩ ⼪ ⼫ ⼬ ⼭ ⼮ ⼯ ⼰ ⼱ ⼲ ⼳ ⼴ ⼵ ⼶ ⼷ ⼸ ⼹ ⼺ ⼻ ⼼ ⼽ ⼾ ⼿ ⽀ ⽁ ⽂ ⽃ ⽄ ⽅ ⽆ ⽇ ⽈ ⽉ ⽊ ⽋ ⽌ ⽍ ⽎ ⽏ ⽐ ⽑ ⽒ ⽓ ⽔ ⽕ ⽖ ⽗ ⽘ ⽙ ⽚ ⽛ ⽜ ⽝ ⽞ ⽟ ⽠ ⽡ ⽢ ⽣ ⽤ ⽥ ⽦ ⽧ ⽨ ⽩ ⽪ ⽫ ⽬ ⽭ ⽮ ⽯ ⽰ ⽱ ⽲ ⽳ ⽴ ⽵ ⽶ ⽷ ⽸ ⽹ ⽺ ⽻ ⽼ ⽽ ⽾ ⽿ ⾀ ⾁ ⾂ ⾃ ⾄ ⾅ ⾆ ⾇ ⾈ ⾉ ⾊ ⾋ ⾌ ⾍ ⾎ ⾏ ⾐ ⾑ ⾒ ⾓ ⾔ ⾕ ⾖ ⾗ ⾘ ⾙ ⾚ ⾛ ⾜ ⾝ ⾞ ⾟ ⾠ ⾡ ⾢ ⾣ ⾤ ⾥ ⾦ ⾧ ⾨ ⾩ ⾪ ⾫ ⾬ ⾭ ⾮ ⾯ ⾰ ⾱ ⾲ ⾳ ⾴ ⾵ ⾶ ⾷ ⾸ ⾹ ⾺ ⾻ ⾼ ⾽ ⾾ ⾿ ⿀ ⿁ ⿂ ⿃ ⿄ ⿅ ⿆ ⿇ ⿈ ⿉ ⿊ ⿋ ⿌ ⿍ ⿎ ⿏ ⿐ ⿑ ⿒ ⿓ ⿔ ⿕
+---------------------------------------------------------
+Katakana and Punctuation (Half Width)
+Unicode code points regex: [\xFF5F-\xFF9F]
+Regex: ([｟-ﾝ])
+
+｟ ｠ ｡ ｢ ｣ ､ ･ ｦ ｧ ｨ ｩ ｪ ｫ ｬ ｭ ｮ ｯ ｰ ｱ ｲ ｳ ｴ ｵ ｶ ｷ ｸ ｹ ｺ ｻ ｼ ｽ ｾ ｿ ﾀ ﾁ ﾂ ﾃ ﾄ ﾅ ﾆ ﾇ ﾈ ﾉ ﾊ ﾋ ﾌ ﾍ ﾎ ﾏ ﾐ ﾑ ﾒ ﾓ ﾔ ﾕ ﾖ ﾗ ﾘ ﾙ ﾚ ﾛ ﾜ ﾝ ﾞ
+---------------------------------------------------------
+Japanese Symbols and Punctuation
+Unicode code points regex: [\x3000-\x303F]
+Regex: ([、-〿])
+
+、 。 〃 〄 々 〆 〇 〈 〉 《 》 「 」 『 』 【 】 〒 〓 〔 〕 〖 〗 〘 〙 〚 〛 〜 〝 〞 〟 〠 〡 〢 〣 〤 〥 〦 〧 〨 〩 〪 〫 〬 〭 〮 〯 〰 〱 〲 〳 〴 〵 〶 〷 〸 〹 〺 〻 〼 〽 〾 〿
+---------------------------------------------------------
+Miscellaneous Japanese Symbols and Characters
+Unicode code points regex: ([\x31F0-\x31FF\x3220-\x3243\x3280-\x337F])
+Regex: ([ㇰ-ㇿ㈠-㉃㊀-㍿])
+
+ㇰ ㇱ ㇲ ㇳ ㇴ ㇵ ㇶ ㇷ ㇸ ㇹ ㇺ ㇻ ㇼ ㇽ ㇾ ㇿ
+㈠ ㈡ ㈢ ㈣ ㈤ ㈥ ㈦ ㈧ ㈨ ㈩ ㈪ ㈫ ㈬ ㈭ ㈮ ㈯ ㈰ ㈱ ㈲ ㈳ ㈴ ㈵ ㈶ ㈷ ㈸ ㈹ ㈺ ㈻ ㈼ ㈽ ㈾ ㈿ ㉀ ㉁ ㉂ ㉃
+㊀ ㊁ ㊂ ㊃ ㊄ ㊅ ㊆ ㊇ ㊈ ㊉ ㊊ ㊋ ㊌ ㊍ ㊎ ㊏ ㊐ ㊑ ㊒ ㊓ ㊔ ㊕ ㊖ ㊗ ㊘ ㊙ ㊚ ㊛ ㊜ ㊝ ㊞ ㊟ ㊠ ㊡ ㊢ ㊣ ㊤ ㊥ ㊦ ㊧ ㊨ ㊩ ㊪ ㊫ ㊬ ㊭ ㊮ ㊯ ㊰ ㊱ ㊲ ㊳ ㊴ ㊵ ㊶ ㊷ ㊸ ㊹ ㊺ ㊻ ㊼ ㊽ ㊾ ㊿
+㋀ ㋁ ㋂ ㋃ ㋄ ㋅ ㋆ ㋇ ㋈ ㋉ ㋊ ㋋  ㋐ ㋑ ㋒ ㋓ ㋔ ㋕ ㋖ ㋗ ㋘ ㋙ ㋚ ㋛ ㋜ ㋝ ㋞ ㋟ ㋠ ㋡ ㋢ ㋣ ㋤ ㋥ ㋦ ㋧ ㋨ ㋩ ㋪ ㋫ ㋬ ㋭ ㋮ ㋯ ㋰ ㋱ ㋲ ㋳ ㋴ ㋵ ㋶ ㋷ ㋸ ㋹ ㋺ ㋻ ㋼ ㋽ ㋾
+㌀ ㌁ ㌂ ㌃ ㌄ ㌅ ㌆ ㌇ ㌈ ㌉ ㌊ ㌋ ㌌ ㌍ ㌎ ㌏ ㌐ ㌑ ㌒ ㌓ ㌔ ㌕ ㌖ ㌗ ㌘ ㌙ ㌚ ㌛ ㌜ ㌝ ㌞ ㌟ ㌠ ㌡ ㌢ ㌣ ㌤ ㌥ ㌦ ㌧ ㌨ ㌩ ㌪ ㌫ ㌬ ㌭ ㌮ ㌯ ㌰ ㌱ ㌲ ㌳ ㌴ ㌵ ㌶ ㌷ ㌸ ㌹ ㌺ ㌻ ㌼ ㌽ ㌾ ㌿ ㍀ ㍁ ㍂ ㍃ ㍄ ㍅ ㍆ ㍇ ㍈ ㍉ ㍊ ㍋ ㍌ ㍍ ㍎ ㍏ ㍐ ㍑ ㍒ ㍓ ㍔ ㍕ ㍖ ㍗ ㍘ ㍙ ㍚ ㍛ ㍜ ㍝ ㍞ ㍟ ㍠ ㍡ ㍢ ㍣ ㍤ ㍥ ㍦ ㍧ ㍨ ㍩ ㍪ ㍫ ㍬ ㍭ ㍮ ㍯ ㍰ ㍱ ㍲ ㍳ ㍴ ㍵ ㍶  ㍻ ㍼ ㍽ ㍾ ㍿
+---------------------------------------------------------
+Alphanumeric and Punctuation (Full Width)
+Unicode code points regex: [\xFF01-\xFF5E]
+Regex: ([！-～])
+
+
+！ ＂ ＃ ＄ ％ ＆ ＇ （ ） ＊ ＋ ， － ． ／ ０ １ ２ ３ ４ ５ ６ ７ ８ ９ ： ； ＜ ＝ ＞ ？
+＠ Ａ Ｂ Ｃ Ｄ Ｅ Ｆ Ｇ Ｈ Ｉ Ｊ Ｋ Ｌ Ｍ Ｎ Ｏ Ｐ Ｑ Ｒ Ｓ Ｔ Ｕ Ｖ Ｗ Ｘ Ｙ Ｚ ［ ＼ ］ ＾ ＿
+｀ ａ ｂ ｃ ｄ ｅ ｆ ｇ ｈ ｉ ｊ ｋ ｌ ｍ ｎ ｏ ｐ ｑ ｒ ｓ ｔ ｕ ｖ ｗ ｘ ｙ ｚ ｛ ｜ ｝ ～
+---------------------------------------------------------

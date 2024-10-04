@@ -1,6 +1,16 @@
 """Takes an excel spreadsheet containing general vocab and converts it to a CSV file for use with
 Kotoba Discord Bot (https://kotobaweb.com/bot). Intended to be used with Genki sheets
 
+Script takes in 3 optional arguments:
+    1. Excel sheet file name (str, default 'vocab.xlsx')
+    2. Output csv file name (str, default 'kotoba_vocab.csv')
+    3. Duplicate (bool, default 'False')
+        - True: duplicates word in each associated lesson for more accurate ranges
+        - False: word appears in first associated lesson only
+    4. Reverse (bool, default 'False')
+        - True: Japanese to kana
+        - False: English meaning to kanji or kana
+
 Starting on row 11, the excel sheet used has the following columns in this specific order:
     - Word number (No.)
     - Word (単語) (in kana)
@@ -28,19 +38,19 @@ from openpyxl import load_workbook
 
 
 def excel_to_dict(
-    filename: str,
+    filename: str, duplicate: bool = False
 ) -> dict[str, (list[str], list[str], list[str], list[str])]:
     """Reads rows from excel sheet and returns a dictionary of kanji
 
     excel sheet structure (from row 11):
-        <word #> <kana> <kanji> <part of speech> <english meaning> <lesson #>
-        int      int        str     str              int                   str
+        <word #> <kana>   <kanji> <part of speech> <english meaning> <lesson #>
+        str(int) str(int) str     str              str(int)          str
         - Kanji notation may not exist for some words (purely kana)
         - Some words have multiple lesson numbers deliminated by a comma (,)
             - In this case, sort dict using the first number seen
     dict structure:
         { kanji: ( [<kana>], [<part of speech>], [<meaning>], [<lesson #>] ) }
-          str      list[str]     list[str]           list[str]    list[str]
+          str      list[str] list[str]           list[str]    list[str]
         - If no kanji exists, use kana for key instead, and kana in value stays the same
     """
     # load sheet as read only
@@ -75,7 +85,9 @@ def excel_to_dict(
             if lesson not in lesson_list:
                 lesson_list.append(lesson)
 
-    # sort by ascending lesson number (first in list)
+    # make manual adjustments
+    _make_adjustments(vocab_dict)
+    # sort by ascending lesson number (first in lesson list)
     ordered = dict(
         sorted(vocab_dict.items(), key=lambda lesson: _lesson_sort_key(lesson[1][3][0]))
     )
@@ -87,7 +99,7 @@ def _sanitize_kana(kana: str) -> list[str]:
     answer. Other times, words inside of parentheses are used for clarification which means they
     aren't even part of the reading. We remove all non-essential symbols for better user experience
 
-    Exception: '、' can stay
+    Note: '、' is interpreted by kotoba as a normal comma which separates an answer into multiple
 
     Examples:
         - Optional: 'おかえり（なさい）', 'ほ（う）っておく'
@@ -100,10 +112,61 @@ def _sanitize_kana(kana: str) -> list[str]:
     """
     sanitized_kana = kana
     # remove anything within parentheses, misc characters, and ' ＋ negative'
-    sanitized_kana = re.sub(r"（.*）|[～〜…！]| ＋ negative", "", sanitized_kana)
+    sanitized_kana = re.sub(r"（.*）|[～〜…！、]| ＋ negative", "", sanitized_kana)
     # split words separated by "/" (alternative readings)
     sanitized_kana = sanitized_kana.split("/")
     return sanitized_kana
+
+
+def _make_adjustments(
+    vocab_dict: dict[str, (list[str], list[str], list[str], list[str])],
+) -> dict[str, (list[str], list[str], list[str], list[str])]:
+    """Some entries have undesirable properties such as being in hiragana when there is a
+    commonly-used kanji for it. This makes opinionated manual adjustments to those entries (in
+    place).
+
+    - Rationale for uncommonly-used kanji: It would be better to learn the uncommon kanji reading
+      now than to see it and be confused later.
+
+    Pulls from an external file (adjustments.csv):
+        <kotoba line #> <original> <replacement> <answers> <comment> <split>
+        str(int)        str        str           str       str       str
+        - <answers>, <comment>, or <split> fields may be empty to indicate no change
+        - First char of comment is either 'A' (append) or 'W' (overwrite)
+        - Split means to split into different entries for different kanjis
+            - If not None, duplicates original to turn into different kanjis
+    """
+    with open("adjustments.csv", "r", encoding="utf-8") as file:
+        reader = csv.reader(file)
+        next(reader)  # skip header
+
+        for entry in reader:
+            _, original, replacement, answers, comment, split = entry
+            # print(entry)
+            # copy and remove original entry
+            kana, part, meaning, lesson = vocab_dict.pop(original)
+            # overwrite all answers if exist
+            new_answers = answers.split(",") if answers else kana
+            new_comment = ""
+            if comment:
+                # append to last comment
+                if comment[0] == "A":
+                    new_comment = meaning
+                    new_comment[-1] += comment[1:]
+                # overwrite all comments
+                if comment[0] == "W":
+                    new_comment = [comment[1:]]
+
+            # add updated entry
+            if replacement in vocab_dict:
+                print("already exists", vocab_dict[replacement])
+            vocab_dict[replacement] = (new_answers, part, new_comment, lesson)
+            # print(new_answers, new_comment)
+            # bring back original if splitting
+            if split:
+                vocab_dict[original] = (kana, part, meaning, lesson)
+
+    return vocab_dict
 
 
 def _lesson_sort_key(lesson: str) -> tuple[int, int]:
