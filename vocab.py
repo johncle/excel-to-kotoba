@@ -120,13 +120,13 @@ def _sanitize_kana(kana: str) -> list[str]:
 
 def _make_adjustments(
     vocab_dict: dict[str, (list[str], list[str], list[str], list[str])],
-) -> dict[str, (list[str], list[str], list[str], list[str])]:
+) -> None:
     """Some entries have undesirable properties such as being in hiragana when there is a
     commonly-used kanji for it. This makes opinionated manual adjustments to those entries (in
     place).
 
-    - Rationale for uncommonly-used kanji: It would be better to learn the uncommon kanji reading
-      now than to see it and be confused later.
+    - Rationale for displaying uncommonly-used kanji: It would be better to learn the uncommon kanji
+      reading now than to see it and be confused later.
 
     Pulls from an external file (adjustments.csv):
         <kotoba line #> <original> <replacement> <answers> <comment> <split>
@@ -142,7 +142,6 @@ def _make_adjustments(
 
         for entry in reader:
             _, original, replacement, answers, comment, split = entry
-            # print(entry)
             # copy and remove original entry
             kana, part, meaning, lesson = vocab_dict.pop(original)
             # overwrite all answers if exist
@@ -161,12 +160,9 @@ def _make_adjustments(
             if replacement in vocab_dict:
                 print("already exists", vocab_dict[replacement])
             vocab_dict[replacement] = (new_answers, part, new_comment, lesson)
-            # print(new_answers, new_comment)
             # bring back original if splitting
             if split:
                 vocab_dict[original] = (kana, part, meaning, lesson)
-
-    return vocab_dict
 
 
 def _lesson_sort_key(lesson: str) -> tuple[int, int]:

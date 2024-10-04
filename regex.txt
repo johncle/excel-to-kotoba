@@ -1,3 +1,5 @@
+Source: https://regex101.com/r/0LkDH8
+
 Regex for matching ALL Japanese common & uncommon Kanji (4e00 – 9fcf) ~ The Big Kahuna!
 ([一-龯])
 
