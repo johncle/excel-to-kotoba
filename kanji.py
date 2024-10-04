@@ -114,7 +114,7 @@ def dict_to_csv(
 
 
 if __name__ == "__main__":
-    sheet_name = "kanji.csv" if len(sys.argv) < 2 else sys.argv[1]
+    sheet_name = "kanji.xlsx" if len(sys.argv) < 2 else sys.argv[1]
     outfile_name = "kotoba_kanji.csv" if len(sys.argv) < 3 else sys.argv[2]
 
     kanji_dict = excel_to_dict(sheet_name)
