@@ -38,7 +38,9 @@ from openpyxl import load_workbook
 
 
 def excel_to_dict(
-    filename: str, duplicate: bool = False
+    filename: str,
+    duplicate: bool = False,
+    adjustments: bool = False,
 ) -> dict[str, (list[str], list[str], list[str], list[str])]:
     """Reads rows from excel sheet and returns a dictionary of kanji
 
@@ -85,7 +87,7 @@ def excel_to_dict(
             if lesson not in lesson_list:
                 lesson_list.append(lesson)
 
-    # make manual adjustments
+    # make manual adjustments in place
     _make_adjustments(vocab_dict)
     # sort by ascending lesson number (first in lesson list)
     ordered = dict(
@@ -122,8 +124,7 @@ def _make_adjustments(
     vocab_dict: dict[str, (list[str], list[str], list[str], list[str])],
 ) -> None:
     """Some entries have undesirable properties such as being in hiragana when there is a
-    commonly-used kanji for it. This makes opinionated manual adjustments to those entries (in
-    place).
+    commonly-used kanji for it. This makes opinionated manual adjustments to those entries in place.
 
     - Rationale for displaying uncommonly-used kanji: It would be better to learn the uncommon kanji
       reading now than to see it and be confused later.
@@ -131,38 +132,42 @@ def _make_adjustments(
     Pulls from an external file (adjustments.csv):
         <kotoba line #> <original> <replacement> <answers> <comment> <split>
         str(int)        str        str           str       str       str
-        - <answers>, <comment>, or <split> fields may be empty to indicate no change
+        - <answers>, <comment>, or <split> fields may be empty (None) to indicate no change
         - First char of comment is either 'A' (append) or 'W' (overwrite)
-        - Split means to split into different entries for different kanjis
-            - If not None, duplicates original to turn into different kanjis
+        - Split means to duplicate original into multiple entries for different kanjis
+            - E.g. はし -> 橋 (bridge), 箸 (chopsticks)
     """
-    with open("adjustments.csv", "r", encoding="utf-8") as file:
-        reader = csv.reader(file)
-        next(reader)  # skip header
+    try:
+        with open("adjustments.csv", "r", encoding="utf-8") as file:
+            reader = csv.reader(file)
+            next(reader)  # skip header
 
-        for entry in reader:
-            _, original, replacement, answers, comment, split = entry
-            # copy and remove original entry
-            kana, part, meaning, lesson = vocab_dict.pop(original)
-            # overwrite all answers if exist
-            new_answers = answers.split(",") if answers else kana
-            new_comment = ""
-            if comment:
-                # append to last comment
-                if comment[0] == "A":
-                    new_comment = meaning
-                    new_comment[-1] += comment[1:]
-                # overwrite all comments
-                if comment[0] == "W":
-                    new_comment = [comment[1:]]
+            for entry in reader:
+                _, original, replacement, answers, comment, split = entry
+                # copy and remove original entry
+                kana, part, meaning, lesson = vocab_dict.pop(original)
+                # overwrite all answers if exist
+                new_answers = answers.split(",") if answers else kana
+                new_comment = meaning
+                if comment:
+                    # append to last comment
+                    if comment[0] == "A":
+                        new_comment[-1] += comment[1:]
+                    # overwrite all comments
+                    elif comment[0] == "W":
+                        new_comment = [comment[1:]]
 
-            # add updated entry
-            if replacement in vocab_dict:
-                print("already exists", vocab_dict[replacement])
-            vocab_dict[replacement] = (new_answers, part, new_comment, lesson)
-            # bring back original if splitting
-            if split:
-                vocab_dict[original] = (kana, part, meaning, lesson)
+                # add updated entry
+                if replacement in vocab_dict:
+                    print(
+                        "\033[93mkanji already exists:\033[0m", vocab_dict[replacement]
+                    )
+                vocab_dict[replacement] = (new_answers, part, new_comment, lesson)
+                # bring back original if splitting
+                if split:
+                    vocab_dict[original] = (kana, part, meaning, lesson)
+    except FileNotFoundError:
+        print("\033[93madjustments.csv not found, no adjustments made\033[0m")
 
 
 def _lesson_sort_key(lesson: str) -> tuple[int, int]:
@@ -232,6 +237,7 @@ if __name__ == "__main__":
     sheet_name = "vocab.xlsx" if len(sys.argv) < 2 else sys.argv[1]
     outfile_name = "kotoba_vocab.csv" if len(sys.argv) < 3 else sys.argv[2]
     duplicate = len(sys.argv) > 3 and sys.argv[4].lower() == "true"
+    adjustments = len(sys.argv) > 4 and sys.argv[5].lower() == "true"
 
-    vocab = excel_to_dict(sheet_name, duplicate)
+    vocab = excel_to_dict(sheet_name, duplicate, adjustments)
     dict_to_csv(outfile_name, vocab)
