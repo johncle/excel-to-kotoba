@@ -8,8 +8,10 @@ Script takes in 3 optional arguments:
         - True: duplicates word in each associated lesson for more accurate ranges
         - False: word appears in first associated lesson only
     4. Reverse (bool, default 'False')
-        - True: Japanese to kana
-        - False: English meaning to kanji or kana
+        - True: English meaning to kanji or kana
+        - False: Japanese to kana
+    5. Adjustments (bool, default 'False')
+        - True: Make manual adjustments to entries based on adjustments.csv
 
 Starting on row 11, the excel sheet used has the following columns in this specific order:
     - Word number (No.)
@@ -88,7 +90,8 @@ def excel_to_dict(
                 lesson_list.append(lesson)
 
     # make manual adjustments in place
-    _make_adjustments(vocab_dict)
+    if adjustments:
+        _make_adjustments(vocab_dict)
     # sort by ascending lesson number (first in lesson list)
     ordered = dict(
         sorted(vocab_dict.items(), key=lambda lesson: _lesson_sort_key(lesson[1][3][0]))
@@ -156,6 +159,10 @@ def _make_adjustments(
                     # overwrite all comments
                     elif comment[0] == "W":
                         new_comment = [comment[1:]]
+
+                # if replacement not specified, keep original
+                if not replacement:
+                    replacement = original
 
                 # add updated entry
                 if replacement in vocab_dict:
@@ -236,8 +243,8 @@ def dict_to_csv(
 if __name__ == "__main__":
     sheet_name = "vocab.xlsx" if len(sys.argv) < 2 else sys.argv[1]
     outfile_name = "kotoba_vocab.csv" if len(sys.argv) < 3 else sys.argv[2]
-    duplicate = len(sys.argv) > 3 and sys.argv[4].lower() == "true"
-    adjustments = len(sys.argv) > 4 and sys.argv[5].lower() == "true"
+    duplicate = len(sys.argv) > 3 and sys.argv[3].lower() == "true"
+    adjustments = len(sys.argv) > 4 and sys.argv[4].lower() == "true"
 
     vocab = excel_to_dict(sheet_name, duplicate, adjustments)
     dict_to_csv(outfile_name, vocab)
