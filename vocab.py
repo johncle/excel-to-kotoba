@@ -33,17 +33,15 @@ The resulting Kotoba CSV file has the following columns:
 
 The Kotoba CSV file is sorted by ascending lesson number
 """
-import sys
 import csv
 import re
 from collections import defaultdict
+import argparse
 from openpyxl import load_workbook
 
 
 def excel_to_dict(
-    filename: str,
-    duplicate: bool = False,
-    adjustments: bool = False,
+    filename: str, adjustments_file: str, duplicate: bool
 ) -> dict[str, (list[str], list[str], list[str], list[str])]:
     """Reads rows from excel sheet and returns a dictionary of kanji
 
@@ -276,10 +274,67 @@ def split_lessons(
 
 
 if __name__ == "__main__":
-    sheet_name = "vocab.xlsx" if len(sys.argv) < 2 else sys.argv[1]
-    outfile_name = "kotoba_vocab.csv" if len(sys.argv) < 3 else sys.argv[2]
-    duplicate = len(sys.argv) > 3 and sys.argv[3].lower() == "true"
-    adjustments = len(sys.argv) > 4 and sys.argv[4].lower() == "true"
+    parser = argparse.ArgumentParser(
+        description="Converts excel sheet to kotoba-formatted CSV(s)"
+    )
+    # dont use type=argparse.FileType for files because we load them manually
+    parser.add_argument(
+        "sheet_name",
+        type=str,
+        nargs="?",
+        default="vocab.xlsx",
+        help="excel sheet file name",
+    )
+    parser.add_argument(
+        "outfile_name",
+        type=str,
+        nargs="?",
+        default="kotoba_vocab.csv",
+        help="output csv file name",
+    )
+    parser.add_argument(
+        "-a",
+        "--adjustments",
+        action="store_true",
+        default=False,
+        help="make manual adjustments to entries based on the adjustments file",
+    )
+    parser.add_argument(
+        "-A",
+        "--adjustments-file",
+        type=str,
+        default="adjustments.csv",
+        help="path to adjustments file (default 'adjustments.csv')",
+    )
+    parser.add_argument(
+        "-s",
+        "--split",
+        action="store_true",
+        default=False,
+        help="split csv into separate csvs for each lesson and store in the output dir",
+    )
+    parser.add_argument(
+        "-o",
+        "--output-dir",
+        type=str,
+        default="out",
+        help="path to output dir (default 'out/' or 'out')",
+    )
+    parser.add_argument(
+        "-d",
+        "--duplicate",
+        action="store_true",
+        help="duplicate already-seen word in each associated lesson for more accurate ranges",
+    )
 
-    vocab = excel_to_dict(sheet_name, duplicate, adjustments)
-    dict_to_csv(outfile_name, vocab)
+    args = parser.parse_args()
+    # print(*args._get_kwargs(), "", sep="\n")
+    # unset adjustments file if -a not set
+    if not args.adjustments:
+        args.adjustments_file = ""
+    # strip leading and trailing whitespace and slashes
+    args.output_dir = args.output_dir.strip().strip("/\\")
+    # print(*args._get_kwargs(), sep="\n")
+
+    vocab = excel_to_dict(args.sheet_name, args.adjustments_file, args.duplicate)
+    dict_to_csv(args.outfile_name, vocab)
