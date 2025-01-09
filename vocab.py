@@ -36,6 +36,7 @@ The Kotoba CSV file is sorted by ascending lesson number
 import sys
 import csv
 import re
+from collections import defaultdict
 from openpyxl import load_workbook
 
 
@@ -238,6 +239,40 @@ def dict_to_csv(
         writer = csv.DictWriter(csv_file, fieldnames)
         writer.writeheader()
         writer.writerows(kotoba_list)
+
+
+def split_lessons(
+    vocab_dict: dict[str, (list[str], list[str], list[str], list[str])],
+) -> dict[str, dict[str, (list[str], list[str], list[str], list[str])]]:
+    """Takes in vocab dict and splits it into multiple dicts for each lesson. Some entries have
+    multiple lessons, so we leave those in each lesson.
+
+    dict structure:
+        { kanji: ( [<kana>], [<part of speech>], [<meaning>], [<lesson #>] ) }
+          str      list[str] list[str]           list[str]    list[str]
+    """
+
+    def lesson_factory():
+        return defaultdict(lambda: ([], [], [], []))
+
+    # split dict into dict of lessons: {lesson #, vocab dict}
+    lesson_dicts: dict[
+        str, dict[str, (list[str], list[str], list[str], list[str])]
+    ] = defaultdict(lesson_factory)
+    for kanji, (kana_list, parts, meanings, lessons) in vocab_dict.items():
+        for lesson in lessons:
+            # extract each lesson number without sections, may also be G
+            num = "".join(c for c in lesson if c.isdigit()) or "G"
+            # add entry to dict but with only this lesson in lesson list
+            lesson_dicts[num][kanji] = (kana_list, parts, meanings, [lesson])
+
+    # count = 0
+    # for lesson_num, lesson_dict in lesson_dicts.items():
+    #     print(lesson_num, len(lesson_dict), *lesson_dict, "\n", sep="\n")
+    #     count += len(lesson_dict)
+    # print(count)
+
+    return lesson_dicts
 
 
 if __name__ == "__main__":
