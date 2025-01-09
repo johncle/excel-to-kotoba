@@ -337,4 +337,11 @@ if __name__ == "__main__":
     # print(*args._get_kwargs(), sep="\n")
 
     vocab = excel_to_dict(args.sheet_name, args.adjustments_file, args.duplicate)
-    dict_to_csv(args.outfile_name, vocab)
+    if args.split:
+        for lesson_num, lesson_dict in split_lessons(vocab).items():
+            dict_to_csv(
+                f"{args.output_dir}/{args.outfile_name.removesuffix('.csv')}_{lesson_num}.csv",
+                lesson_dict,
+            )
+    else:
+        dict_to_csv(f"{args.output_dir}/{args.outfile_name}", vocab)
