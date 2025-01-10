@@ -56,37 +56,37 @@ def excel_to_dict(
           str      list[str] list[str]           list[str]    list[str]
         - If no kanji exists, use kana for key instead, and kana in value stays the same
     """
-    # load sheet as read only
+    # load sheet as read only, will throw error on invalid file
     workbook = load_workbook(filename, read_only=True)
     sheet = workbook.active
 
-    vocab_dict = {}
-    for row in sheet.iter_rows(min_row=11):
-        _, kana, kanji, part, meaning, lesson = [cell.value for cell in row]
+    vocab_dict = defaultdict(lambda: ([], [], [], []))
+    for row in sheet.iter_rows(min_row=11, values_only=True):
+        # stop when reached end of sheet (for some reason doesn't stop automatically)
+        if all(cell is None for cell in row):
+            break
+
+        # currently extracting data specific to the sheet I'm using
+        kana, kanji, part, meaning, lesson = row[1:6]
         sanitized_kana = _sanitize_kana(kana)  # list
-        # if word is purely kana, use that (original kana) instead of kanji for key
+        # if word is purely kana (no kanji), use it for both key and value[0]
         if not kanji:
             kanji = kana
-        if kanji not in vocab_dict:
-            vocab_dict[kanji] = (
-                sanitized_kana,
-                [part],
-                [meaning.strip()],
-                [num.strip() for num in lesson.split(",")],
-            )
-        else:
-            # if kanji already seen, append to existing arrays
-            kana_list, part_list, meaning_list, lesson_list = vocab_dict[kanji]
-            # ignore duplicates
-            for sanitized in sanitized_kana:
-                if sanitized not in kana_list:
-                    kana_list.append(sanitized.strip())
-            if part not in part_list:
-                part_list.append(part)
-            if meaning not in meaning_list:
-                meaning_list.append(meaning.strip())
-            if lesson not in lesson_list:
-                lesson_list.append(lesson)
+
+        # if kanji already seen, append to existing arrays
+        kana_list, part_list, meaning_list, lesson_list = vocab_dict[kanji]
+        # ignore duplicates
+        for sanitized in sanitized_kana:
+            if sanitized not in kana_list:
+                kana_list.append(sanitized.strip())
+        if part not in part_list:
+            part_list.append(part.strip())
+        if meaning not in meaning_list:
+            meaning_list.append(meaning.strip())
+        # entry may be in multiple lessons that might not have been split yet
+        for num in lesson.split(","):
+            if num not in lesson_list:
+                lesson_list.append(num.strip())
 
     # make manual adjustments in place
     if adjustments_file:
@@ -224,12 +224,7 @@ def dict_to_csv(
             "Instructions": "Type the reading!",
             "Render as": "Image",
         }
-        for kanji, (
-            kana_list,
-            parts,
-            meanings,
-            lessons,
-        ) in vocab_dict.items()
+        for kanji, (kana_list, parts, meanings, lessons) in vocab_dict.items()
     ]
 
     # write to csv
