@@ -89,8 +89,8 @@ def excel_to_dict(
                 lesson_list.append(lesson)
 
     # make manual adjustments in place
-    if adjustments:
-        _make_adjustments(vocab_dict)
+    if adjustments_file:
+        _make_adjustments(vocab_dict, adjustments_file)
     # sort by ascending lesson number (first in lesson list)
     ordered = dict(
         sorted(vocab_dict.items(), key=lambda lesson: _lesson_sort_key(lesson[1][3][0]))
@@ -124,6 +124,7 @@ def _sanitize_kana(kana: str) -> list[str]:
 
 def _make_adjustments(
     vocab_dict: dict[str, (list[str], list[str], list[str], list[str])],
+    adjustments_file: str,
 ) -> None:
     """Some entries have undesirable properties such as being in hiragana when there is a
     commonly-used kanji for it. This makes opinionated manual adjustments to those entries in place.
@@ -140,7 +141,7 @@ def _make_adjustments(
             - E.g. はし -> 橋 (bridge), 箸 (chopsticks)
     """
     try:
-        with open("adjustments.csv", "r", encoding="utf-8") as file:
+        with open(adjustments_file, "r", encoding="utf-8") as file:
             reader = csv.reader(file)
             next(reader)  # skip header
 
@@ -173,7 +174,7 @@ def _make_adjustments(
                 if split:
                     vocab_dict[original] = (kana, part, meaning, lesson)
     except FileNotFoundError:
-        print("\033[93madjustments.csv not found, no adjustments made\033[0m")
+        print(f"\033[93m'{adjustments_file}' not found, no adjustments made\033[0m")
 
 
 def _lesson_sort_key(lesson: str) -> tuple[int, int]:
