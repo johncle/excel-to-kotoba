@@ -4,7 +4,7 @@ import csv
 import re
 
 
-def main(filename: str) -> None:
+def print_ranges(filename: str) -> None:
     """Lesson numbers are contained in comments, but format varies slightly between kanji and vocab
     csvs
 
@@ -21,6 +21,7 @@ def main(filename: str) -> None:
     with open(filename, "r", encoding="utf-8") as file:
         reader = csv.reader(file)
         next(reader)  # skip header
+        print("lesson ranges:")
 
         for i, (_, _, comment, _, _) in enumerate(reader):
             # extract first lesson
@@ -41,4 +42,4 @@ def main(filename: str) -> None:
 
 if __name__ == "__main__":
     sheet_name = "kotoba_vocab.csv" if len(sys.argv) < 2 else sys.argv[1]
-    main(sheet_name)
+    print_ranges(sheet_name)

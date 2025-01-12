@@ -38,6 +38,7 @@ import re
 from collections import defaultdict
 import argparse
 from openpyxl import load_workbook
+from get_ranges import print_ranges
 
 
 def excel_to_dict(
@@ -339,5 +340,8 @@ if __name__ == "__main__":
                 f"{args.output_dir}/{args.outfile_name.removesuffix('.csv')}_{lesson_num}.csv",
                 lesson_dict,
             )
+        print(f"saved csvs to '{args.output_dir}/'")
     else:
         dict_to_csv(f"{args.output_dir}/{args.outfile_name}", vocab)
+        print(f"saved csv to '{args.output_dir}/{args.outfile_name}'\n")
+        print_ranges(args.outfile_name)
