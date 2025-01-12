@@ -1,17 +1,25 @@
 """Takes an excel spreadsheet containing general vocab and converts it to a CSV file for use with
 Kotoba Discord Bot (https://kotobaweb.com/bot). Intended to be used with Genki sheets
 
-Script takes in 3 optional arguments:
+Script takes in 2 (optional) positional arguments:
     1. Excel sheet file name (str, default 'vocab.xlsx')
     2. Output csv file name (str, default 'kotoba_vocab.csv')
+
+Also has flag options:
+    1. Adjustments (str, default 'adjustments.csv')
+        - Not empty: make manual adjustments to entries based on the adjustments csv file
+        - Empty: leave entries as original
+    2. Split (bool, default 'False')
+        - True: split csv into separate csvs for each lesson
+        - False: keep entries as one large csv
+
+    TODO:
     3. Duplicate (bool, default 'False')
         - True: duplicates word in each associated lesson for more accurate ranges
         - False: word appears in first associated lesson only
     4. Reverse (bool, default 'False')
-        - True: English meaning to kanji or kana
-        - False: Japanese to kana
-    5. Adjustments (bool, default 'False')
-        - True: Make manual adjustments to entries based on adjustments.csv
+        - True: english meaning to kanji or kana
+        - False: japanese to kana
 
 Starting on row 11, the excel sheet used has the following columns in this specific order:
     - Word number (No.)
@@ -55,7 +63,7 @@ def excel_to_dict(
     dict structure:
         { kanji: ( [<kana>], [<part of speech>], [<meaning>], [<lesson #>] ) }
           str      list[str] list[str]           list[str]    list[str]
-        - If no kanji exists, use kana for key instead, and kana in value stays the same
+        - If no kanji exists, use kana for key instead, and kana in value[0] stays the same
     """
     # load sheet as read only, will throw error on invalid file
     workbook = load_workbook(filename, read_only=True)
@@ -140,6 +148,10 @@ def _make_adjustments(
         - First char of comment is either 'A' (append) or 'W' (overwrite)
         - Split means to duplicate original into multiple entries for different kanjis
             - E.g. はし -> 橋 (bridge), 箸 (chopsticks)
+
+    dict structure:
+    { kanji: ( [<kana>], [<part of speech>], [<meaning>], [<lesson #>] ) }
+        str      list[str] list[str]           list[str]    list[str]
     """
     try:
         with open(adjustments_file, "r", encoding="utf-8") as file:
@@ -194,9 +206,11 @@ def _lesson_sort_key(lesson: str) -> tuple[int, int]:
         4. 読Lx-II
         5. 読Lx-III
     """
+    # extract each lesson number without sections
     num = "".join(c for c in lesson if c.isdigit())
     num = int(num) if num else 0  # 0 if G
 
+    # sections
     if "e" in lesson:
         rank = 1
     elif "I" in lesson:
@@ -211,6 +225,10 @@ def dict_to_csv(
     filename: str, vocab_dict: dict[str, (list[str], list[str], list[str], list[str])]
 ) -> None:
     """Takes in vocab dictionary and writes to CSV file formatted for Kotoba
+
+    dict structure:
+        { kanji: ( [<kana>], [<part of speech>], [<meaning>], [<lesson #>] ) }
+          str      list[str] list[str]           list[str]    list[str]
 
     example csv structure:
         Question,Answers,Comment,Instructions,Render as
