@@ -50,7 +50,7 @@ from get_ranges import print_ranges
 
 
 def excel_to_dict(
-    filename: str, adjustments_file: str, duplicate: bool
+    filename: str, adjustments_file: str, reverse: bool
 ) -> dict[str, (list[str], list[str], list[str], list[str])]:
     """Reads rows from excel sheet and returns a dictionary of kanji
 
@@ -336,11 +336,17 @@ if __name__ == "__main__":
         help="path to output dir (default 'out/' or 'out')",
     )
     parser.add_argument(
-        "-d",
-        "--duplicate",
+        "-r",
+        "--reverse",
         action="store_true",
-        help="duplicate already-seen word in each associated lesson for more accurate ranges",
+        help="create english to japanese decks instead of the default kanji to kana decks (default False)",
     )
+    # parser.add_argument(
+    #     "-d",
+    #     "--duplicate",
+    #     action="store_true",
+    #     help="duplicate already-seen word in each associated lesson for more accurate ranges (default False)",
+    # )
 
     args = parser.parse_args()
     # print(*args._get_kwargs(), "", sep="\n")
@@ -351,7 +357,7 @@ if __name__ == "__main__":
     args.output_dir = args.output_dir.strip().strip("/\\")
     # print(*args._get_kwargs(), sep="\n")
 
-    vocab = excel_to_dict(args.sheet_name, args.adjustments_file, args.duplicate)
+    vocab = excel_to_dict(args.sheet_name, args.adjustments_file, args.reverse)
     if args.split:
         for lesson_num, lesson_dict in split_lessons(vocab).items():
             dict_to_csv(
