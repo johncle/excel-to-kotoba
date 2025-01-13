@@ -1,0 +1,70 @@
+"""Miscellaneous utility functions"""
+import sys
+import csv
+import re
+
+
+def get_ranges(filename: str) -> dict[str, str]:
+    """Gets ranges of lesson numbers to use with Kotoba bot
+    Lesson numbers are contained in comments, but format varies slightly between kanji and vocab
+    csvs
+    Prints the first lesson found
+
+    Example kanji comment (always 1 lesson):
+        "(L3) one, one radical (no.1)
+        kunyomi: ひと-, ひと.つ
+        onyomi: イチ, イツ"
+    Example vocab comment (may contain multiple lessons, including "G"):
+        "(読L9-II, 会L17) [n.] dormitory"
+    """
+    ranges: dict[str, str] = {}
+    running_num = 0
+    last_num = 1
+    count = 0
+    with open(filename, "r", encoding="utf-8") as file:
+        reader = csv.reader(file)
+        next(reader)  # skip header
+
+        for i, (_, _, comment, _, _) in enumerate(reader):
+            # extract first lesson
+            lesson = re.search(r"[G\d]+", comment).group()
+            num = int(lesson) if str.isdigit(lesson) else 0  # 0 if G
+
+            # next lesson number
+            if num > running_num:
+                ranges["G" if running_num == 0 else running_num] = f"{last_num}-{i}"
+                # print(f"L{'G' if running_num == 0 else running_num}: {last_num}-{i}")
+                running_num = num
+                last_num = i + 1
+            count += 1
+
+        # last lesson
+        ranges[running_num] = f"{last_num}-{count}"
+        # print(f"L{running_num}: {last_num}-{count}")
+
+    return ranges
+
+
+def convert_to_en2jp(filename: str) -> None:
+    """Converts vocab csv from kanji -> kana to english -> kanji/kana
+    TODO: do it
+    """
+    with open(filename, "r", encoding="utf-8") as file:
+        reader = csv.reader(file)
+        next(reader)  # skip header
+
+        for i, (question, answers, comment, _, _) in enumerate(reader):
+            pass
+
+
+def get_hiragana_entries(filename: str) -> None:
+    """Gets the hiragana only entries from kotoba_vocab.csv file for finding entries to make manual
+    adjustments on
+    TODO: do it
+    """
+    with open(filename, "r", encoding="utf-8") as file:
+        reader = csv.reader(file)
+        next(reader)  # skip header
+
+        for i, (question, answers, comment, _, _) in enumerate(reader):
+            pass

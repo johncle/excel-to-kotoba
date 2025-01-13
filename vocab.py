@@ -46,7 +46,7 @@ import re
 from collections import defaultdict
 import argparse
 from openpyxl import load_workbook
-from get_ranges import print_ranges
+from utils import get_ranges
 
 
 def excel_to_dict(
@@ -354,7 +354,7 @@ if __name__ == "__main__":
     if not args.adjustments:
         args.adjustments_file = ""
     # strip leading and trailing whitespace and slashes
-    args.output_dir = args.output_dir.strip().strip("/\\")
+    args.output_dir = args.output_dir.strip(" \t\n\r\v\f/\\")
     # print(*args._get_kwargs(), sep="\n")
 
     vocab = excel_to_dict(args.sheet_name, args.adjustments_file, args.reverse)
@@ -364,8 +364,12 @@ if __name__ == "__main__":
                 f"{args.output_dir}/{args.outfile_name.removesuffix('.csv')}_{lesson_num}.csv",
                 lesson_dict,
             )
-        print(f"saved csvs to '{args.output_dir}/'")
+        print(
+            f"saved csvs to '{args.output_dir}/{args.outfile_name.removesuffix('.csv')}_#.csv'"
+        )
     else:
         dict_to_csv(f"{args.output_dir}/{args.outfile_name}", vocab)
         print(f"saved csv to '{args.output_dir}/{args.outfile_name}'\n")
-        print_ranges(args.outfile_name)
+        print("lesson ranges:")
+        for lesson, lrange in get_ranges(args.outfile_name).items():
+            print(f"{lesson}: {lrange}")
