@@ -14,12 +14,12 @@ Also has flag options:
         - False: keep entries as one large csv
 
     TODO:
-    3. Duplicate (bool, default 'False')
-        - True: duplicates word in each associated lesson for more accurate ranges
-        - False: word appears in first associated lesson only
-    4. Reverse (bool, default 'False')
+    3. Reverse (bool, default 'False')
         - True: english meaning to kanji or kana
         - False: japanese to kana
+    4. Duplicate (bool, default 'False')
+        - True: duplicates word in each associated lesson for more accurate ranges
+        - False: word appears in first associated lesson only
 
 Starting on row 11, the excel sheet used has the following columns in this specific order:
     - Word number (No.)
@@ -141,7 +141,7 @@ def _make_adjustments(
     - Rationale for displaying uncommonly-used kanji: It would be better to learn the uncommon kanji
       reading now than to see it and be confused later.
 
-    Pulls from an external file (adjustments.csv):
+    Pulls from an external file (default 'adjustments.csv'):
         <kotoba line #> <original> <replacement> <answers> <comment> <split>
         str(int)        str        str           str       str       str
         - <answers>, <comment>, or <split> fields may be empty (None) to indicate no change
@@ -298,21 +298,21 @@ if __name__ == "__main__":
         type=str,
         nargs="?",
         default="vocab.xlsx",
-        help="excel sheet file name",
+        help="excel sheet file name (default vocab.xlsx)",
     )
     parser.add_argument(
         "outfile_name",
         type=str,
         nargs="?",
         default="kotoba_vocab.csv",
-        help="output csv file name",
+        help="output csv file name (default kotoba_vocab.csv)",
     )
     parser.add_argument(
         "-a",
         "--adjustments",
         action="store_true",
         default=False,
-        help="make manual adjustments to entries based on the adjustments file",
+        help="make manual adjustments to entries based on the adjustments file (default False)",
     )
     parser.add_argument(
         "-A",
@@ -326,7 +326,7 @@ if __name__ == "__main__":
         "--split",
         action="store_true",
         default=False,
-        help="split csv into separate csvs for each lesson and store in the output dir",
+        help="split csv into separate csvs for each lesson and store in the output dir (default False)",
     )
     parser.add_argument(
         "-o",
@@ -350,7 +350,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     # print(*args._get_kwargs(), "", sep="\n")
-    # unset adjustments file if -a not set
+    # excel_to_dict() checks if adjustments_file is set as the condition for making adjustments
     if not args.adjustments:
         args.adjustments_file = ""
     # strip leading and trailing whitespace and slashes
