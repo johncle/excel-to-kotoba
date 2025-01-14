@@ -57,14 +57,30 @@ def convert_to_en2jp(filename: str) -> None:
             pass
 
 
-def get_hiragana_entries(filename: str) -> None:
-    """Gets the hiragana only entries from kotoba_vocab.csv file for finding entries to make manual
-    adjustments on
-    TODO: do it
+def get_hiragana_entries(filename: str, start: int = 2) -> None:
+    """Gets the hiragana only entries from kotoba_vocab_original.csv file for finding entries to
+    make manual adjustments on (see vocab.py -> _make_adjustments())
+
+    Writes to 'hiragana_entries.csv':
+        <kotoba line #> <question> <comment>
+        str             str        str
     """
+    out = "index,question,comment\n"
     with open(filename, "r", encoding="utf-8") as file:
         reader = csv.reader(file)
         next(reader)  # skip header
 
-        for i, (question, answers, comment, _, _) in enumerate(reader):
-            pass
+        for i, (question, _, comment, _, _) in enumerate(reader):
+            # if entire question is in hiragana, add to file
+            # also skip entries before start line number
+            # use i + 2 bc 1-based index and skipping header
+            if i + 2 >= start and re.fullmatch(r"[ぁ-ん]+", question):
+                out += f"{i + 2},{question},{comment}\n"
+
+    with open("hiragana_entries.csv", "w", encoding="utf-8") as file:
+        file.write(out)
+
+
+if __name__ == "__main__":
+    pass
+    # get_hiragana_entries("kotoba_vocab_original.csv", 607)
