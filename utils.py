@@ -5,7 +5,7 @@ import re
 from jisho_api.kanji import Kanji
 
 
-def get_ranges(filename: str) -> dict[str, str]:
+def get_ranges(filename: str, printing: bool = False) -> dict[str, str]:
     """Gets ranges of lesson numbers to use with Kotoba bot
     Lesson numbers are contained in comments, but format varies slightly between kanji and vocab
     csvs
@@ -34,14 +34,18 @@ def get_ranges(filename: str) -> dict[str, str]:
             # next lesson number
             if num > running_num:
                 ranges["G" if running_num == 0 else running_num] = f"{last_num}-{i}"
-                # print(f"L{'G' if running_num == 0 else running_num}: {last_num}-{i}")
+                if printing:
+                    print(
+                        f"L{'G' if running_num == 0 else running_num}: {last_num}-{i}"
+                    )
                 running_num = num
                 last_num = i + 1
             count += 1
 
         # last lesson
         ranges[running_num] = f"{last_num}-{count}"
-        # print(f"L{running_num}: {last_num}-{count}")
+        if printing:
+            print(f"L{running_num}: {last_num}-{count}")
 
     return ranges
 

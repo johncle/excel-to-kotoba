@@ -371,5 +371,4 @@ if __name__ == "__main__":
         dict_to_csv(f"{args.output_dir}/{args.outfile_name}", vocab)
         print(f"saved csv to '{args.output_dir}/{args.outfile_name}'\n")
         print("lesson ranges:")
-        for lesson, lrange in get_ranges(args.outfile_name).items():
-            print(f"{lesson}: {lrange}")
+        get_ranges(args.outfile_name, True)
