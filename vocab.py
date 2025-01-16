@@ -142,16 +142,21 @@ def _make_adjustments(
       reading now than to see it and be confused later.
 
     Pulls from an external file (default 'adjustments.csv'):
-        <kotoba line #> <original> <replacement> <answers> <comment> <split>
-        str(int)        str        str           str       str       str
+        <kotoba line #> <original> <replacement> <answers> <comment> <split> <lesson>
+        str(int)        str        str           str       str       str     str
         - <answers>, <comment>, or <split> fields may be empty (None) to indicate no change
-        - First char of comment is either 'A' (append) or 'W' (overwrite)
+        - First char of comment is one of:
+            - 'a' (append to last comment)
+            - 'A' (append to comments list)
+            - 'W' (overwrite)
         - Split means to duplicate original into multiple entries for different kanjis
             - E.g. はし -> 橋 (bridge), 箸 (chopsticks)
 
     dict structure:
     { kanji: ( [<kana>], [<part of speech>], [<meaning>], [<lesson #>] ) }
         str      list[str] list[str]           list[str]    list[str]
+
+    TODO:
     """
     try:
         with open(adjustments_file, "r", encoding="utf-8") as file:
@@ -159,19 +164,36 @@ def _make_adjustments(
             next(reader)  # skip header
 
             for entry in reader:
-                _, original, replacement, answers, comment, split = entry
+                # print(entry)
+                (
+                    _,
+                    original,
+                    replacement,
+                    answers,
+                    comment,
+                    split,
+                    new_lessons,
+                    new_parts,
+                ) = entry
                 # copy and remove original entry
-                kana, part, meaning, lesson = vocab_dict.pop(original)
+                kana, parts, meanings, lessons = vocab_dict.pop(original)
                 # overwrite all answers if exist
-                new_answers = answers.split(",") if answers else kana
-                new_comment = meaning
+                new_answers = (
+                    [answer.strip() for answer in answers.split(",")]
+                    if answers
+                    else kana
+                )
+                new_comments: list[str] = meanings
                 if comment:
                     # append to last comment
-                    if comment[0] == "A":
-                        new_comment[-1] += comment[1:]
+                    if comment[0] == "a":
+                        new_comments[-1] += comment[1:]
+                    # append to comments list
+                    elif comment[0] == "A":
+                        new_comments.append(comment[1:])
                     # overwrite all comments
                     elif comment[0] == "W":
-                        new_comment = [comment[1:]]
+                        new_comments = [cmt.strip() for cmt in comment[1:].split(";")]
 
                 # if replacement not specified, keep original
                 if not replacement:
@@ -179,13 +201,43 @@ def _make_adjustments(
 
                 # add updated entry
                 if replacement in vocab_dict:
+                    # merge with existing entry
                     print(
-                        "\033[93mkanji already exists:\033[0m", vocab_dict[replacement]
+                        "\033[93mkanji already exists, merging with:\033[0m",
+                        replacement,
+                        vocab_dict[replacement],
                     )
-                vocab_dict[replacement] = (new_answers, part, new_comment, lesson)
+                    # tuple: (answers/kana, parts, meanings/comments, lessons)
+                    existing_entry = vocab_dict[replacement]
+                    for answer in new_answers:
+                        if answer not in existing_entry[0]:
+                            existing_entry[0].append(answer)
+                    for part in new_parts.split(","):
+                        if part and part not in existing_entry[1]:
+                            existing_entry[1].append(part)
+                    for cmt in new_comments:
+                        if cmt not in existing_entry[2]:
+                            existing_entry[2].append(cmt)
+                    for num in new_lessons.split(","):
+                        if num and num not in existing_entry[3]:
+                            existing_entry[3].append(num)
+                    # adding lesson may have caused lessons to be out of order
+                    existing_entry[3].sort(key=_lesson_sort_key)
+                    print(
+                        "\033[93mupdated:\033[0m", replacement, vocab_dict[replacement]
+                    )
+                else:
+                    # create new entry
+                    vocab_dict[replacement] = (
+                        new_answers,
+                        parts,
+                        new_comments,
+                        lessons,
+                    )
+
                 # bring back original if splitting
                 if split:
-                    vocab_dict[original] = (kana, part, meaning, lesson)
+                    vocab_dict[original] = (kana, parts, meanings, lessons)
     except FileNotFoundError:
         print(f"\033[93m'{adjustments_file}' not found, no adjustments made\033[0m")
 
