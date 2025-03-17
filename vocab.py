@@ -41,9 +41,10 @@ The resulting Kotoba CSV file has the following columns:
 
 The Kotoba CSV file is sorted by ascending lesson number
 """
+
 import csv
 import re
-from collections import defaultdict, OrderedDict
+from collections import defaultdict
 import bisect
 import argparse
 from openpyxl import load_workbook
@@ -54,37 +55,63 @@ class VocabEntries:
     """Abstraction to make modifying the entries dict easier with less code duplication, but
     is probably slower
 
-    Main reason is that lessons are automatically sorted upon insertion
+    - Lessons are automatically sorted upon insertion
+    - English meanings/translations are categorized by lesson (stripped to number)
+        - e.g. {"5": ["to take"], "6": ["to remove"]}
+        - This makes it easier to create csvs per lesson and to create EN->JP csvs
+    - Kana (readings) are also categorized by lesson
+    - Note that the dict is a defaultdict so there is no explicit check if entry exists before
+      adding
+
+    dict structure: dict[ str, dict[ str, list[str] ] ]
+    { kanji: { lesson: { kanas[],   meanings[], parts(of speech)[] } } }
+      str      str       list[str]  list[str]   list[str]
+    - If no kanji exists, use kana for key instead, and kana in value[0] stays the same
+
+    Example dict:
+    {
+        "食べる": {
+            "G": {"kanas": ["たべる"], "meanings": ["to eat"], "parts": ["ru-v."]},
+            "1": {"kanas": ["たべる"], "meanings": ["to consume"], "parts": ["ru-v."]},
+        },
+        "見る": {
+            "2": {"kanas": ["みる"], "meanings": ["to see"], "parts": ["ru-v."]},
+            "3": {"kanas": ["みる"], "meanings": ["to watch"], "parts": ["ru-v."]},
+        },
+    }
     """
 
     def __init__(self):
-        """
-        dict structure:
-        { kanji: ( [<kana>], [<part of speech>], [<meaning>], [<lesson #>] ) }
-          str      list[str] list[str]           list[str]    list[str]
-        - If no kanji exists, use kana for key instead, and kana in value[0] stays the same
-        """
-        self._dict = defaultdict(lambda: ([], [], [], self.LessonList()))
+        self.__dict = defaultdict(
+            lambda: defaultdict(lambda: {"kanas": [], "meanings": [], "parts": []})
+        )
 
-    def get_entries(self) -> dict[str, (list[str], list[str], list[str], list[str])]:
-        return self._dict
+    def get_entries(
+        self,
+    ) -> dict[str, dict[str, list[str]]]:
+        return self.__dict
 
     def add_entry(
         self,
         kanji: str,
         kanas: list[str] | str,
-        parts: list[str] | str,
         meanings: list[str] | str,
+        parts: list[str] | str,
         lessons: list[str] | str,
-    ) -> None:
+    ) -> dict[str, dict[str, list[str]]]:
+        """
+        If given multiple lessons, assumes that each lesson provided gives the same kanas, meanings,
+        and parts for this kanji
+        - i.e. kanas, meanings, and parts are copied for each lesson
+        """
         assert kanas  # should never be None or empty
         # allow inputting single str for ease of use, and convert to list
         if isinstance(kanas, str):
             kanas = [kanas]
-        if isinstance(parts, str):
-            parts = [parts]
         if isinstance(meanings, str):
             meanings = [meanings]
+        if isinstance(parts, str):
+            parts = [parts]
         if isinstance(lessons, str):
             lessons = [lessons]
 
@@ -93,10 +120,19 @@ class VocabEntries:
         if not kanji:
             kanji = kanas[0]
 
-        self.__add_kanas(kanji, kanas)
-        self.__add_parts(kanji, parts)
-        self.__add_meanings(kanji, meanings)
-        self.__add_lessons(kanji, lessons)
+        # prepare lesson data
+        lesson_nums = [extract_lesson_num(lesson, True) for lesson in lessons]
+        lesson_data = dict.fromkeys(
+            lesson_nums,
+            {
+                "kanas": self.__sanitize_kanas(kanas),
+                "meanings": meanings,
+                "parts": parts,
+            },
+        )
+
+        return self.add_entry_from_dict(kanji, lesson_data)
+
 
         # print(kanji, self._dict[kanji])
 
